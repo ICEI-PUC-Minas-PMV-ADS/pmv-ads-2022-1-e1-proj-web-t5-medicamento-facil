@@ -14,7 +14,7 @@ Suas principais dificuldades são:
 - Alterações recorrentes de responsáveis, cada vez que vai buscar o medicamento é com uma pessoa e com isso as orientações também mudam; 
 - Não há data certa para buscar, entrega não ocorre no prazo.
 
-Ao ser questionado acerca da falta de medicamentos responder: Não falta, mas também não há data certa para retirada. Ocorre de em um mês vir quantidade a mais do que o necessário, o que compensa a falta do mês seguinte.|
+Acerca da falta de medicamentos, para ele, não falta, mas também não há data certa para retirada. Ocorre de em um mês vir quantidade a mais do que o necessário, o que compensa a falta do mês seguinte.
 
 Apesar de ter alguma dificuldade com uso de recursos tecnológicos, mas acha que seria relevante um site sobre a disponibilidade dos medicamentos.
 
@@ -23,13 +23,38 @@ Apesar de ter alguma dificuldade com uso de recursos tecnológicos, mas acha que
 |---------|--------------|-------------------------|-----------------------|-------------------------------|
 | 43 anos | Até R$ 1.254 | Ensino Médio incompleto |       Insulina        |             Mensal            |
 
-
+### Maria da Silva 
                                       
+Maria trabalha como auxiliar de limpeza em um condomínio. Seu filho, Luiz, de 5 anos é autista e seu acompanhamento médico é feito no Centro de Saúde perto de sua casa. O Centro de Saúde também é responsável por referenciar Luiz para os atendimentos de tratamentos terapêuticos e de fonoaudiologia. Mensalmente busca a Risperidona na farmácia da unidade. 
+
+Suas principais dificuldades são:
+- Falta de disponibilidade do medicamento. 
+
+Acerca da falta de medicamentos, para ela, frequentemente vai ao Centro de Saúde e não encontra o medicamento. Acaba comprando na farmácia particular. 
+
+Acha que seria relevante um site sobre a disponibilidade dos medicamentos.
 
 
- 
+|  Idade  |     Renda    |       Escolaridade      | Medicamento utilizado | Periodicidade do fornecimento |
+|---------|--------------|-------------------------|-----------------------|-------------------------------|
+| 27 anos | Até R$ 1.254 |  Ensino Médio completo  |     Risperidona       |             Mensal            |
 
- 
+ ### Maria Rosineide 
+
+ Maria Rosineide tem 65 anos é aposentada e complementa sua renda com alugueis. Sua mãe, Maria do Carmo, de 100 anos é acometida por doenças, tais como, colesterol alto, glaucoma e pressão alta. Seus medicamentos são disponibilizados na UBS mais próxima de sua casa. 
+
+ Suas principais dificuldades são:
+ - Alguns medicamentos não estão disponíveis e precisam ser comprados. 
+
+Acerca da falta de medicamentos, para ela não é comum faltar.
+
+Acha que seria relevante um site sobre a disponibilidade dos medicamentos, desde que todos os remédios que utiliza estejam em um só local. Acha a aplicação relevante embora não tenha muita prática se tivesse algo no WhatsApp seria o mundo ideal. 
+
+|  Idade  |     Renda    |       Escolaridade      |                                    Medicamento utilizado                                                | Periodicidade do fornecimento |
+|---------|--------------|-------------------------|---------------------------------------------------------------------------------------------------------|-------------------------------|
+| 65 anos | Até R$ 2.254 |  Ensino Médio completo  | Losartana, Hidroclorotiazida, Sivastantina, AAS Infantil, Systane, Tartarato de Brimonidina, Clonazepam |           Bimestral           |
+
+### José Antônio Rocha 
 
 
 ## Histórias de Usuários
