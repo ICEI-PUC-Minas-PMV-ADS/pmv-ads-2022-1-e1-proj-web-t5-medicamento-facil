@@ -6,10 +6,12 @@ A fim de definir de maneira minuciosa a especificação do problema e os pontos 
 
 As personas levantadas durante o processo de entendimento do problema são apresentadas nas tabelas a seguir, sendo três usuários da farmácia dos Centros de Saúde e um farmacêutico da Unidade Básica de Saúde. 
 
-|    João Santos    |
-|-------------------|
+João Santos 
+
 |Idade|Renda|Escolaridade|Medicamento utilizado|Periodicidade do fornecimento|
+|----------------------------------------------------------------------------|
 |43 anos|Até R$ 1.254|Ensino Médio incompleto|Insulina|Mensal|
+|------------------------------------------------------------|
 |Principais características|João trabalha como servente de pedreiro, é diabético e faz uso de insulina diariamente. Realiza seus exames de controle e acompanhamento médico no Centro de Saúde perto de sua casa. Mensalmente busca a insulina na farmácia da unidade, devendo mantê-la refrigerada.|
 |Principais dificuldades|- Alterações recorrentes de responsáveis, cada vez que vai buscar o medicamento é com uma pessoa e com isso as orientações também mudam; - Não há data certa para buscar, entrega não ocorre no prazo.|
 |É frequente a falta do medicamento?|Não falta, mas também não há data certa para retirada. Ocorre de em um mês vir quantidade a mais do que o necessário, o que compensa a falta do mês seguinte.|
