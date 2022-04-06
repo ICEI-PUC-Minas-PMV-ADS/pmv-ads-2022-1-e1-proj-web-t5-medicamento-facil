@@ -56,71 +56,95 @@ Acha que seria relevante um site sobre a disponibilidade dos medicamentos, desde
 
 ### José Antônio Rocha 
 
+José é aposentado e precisa comparecer mensalmente à UBS próxima de sua casa para buscar seus medicamentos, além dos exames e consultas de controle. Para isso, ele pede ajuda da filha, Mariana, que se encarrega de levá-lo à UBS. Além de ser hipertenso, também apresentou colesterol LDL e triglicerídeos altos em seus últimos exames. Por isso, faz uso diário de Enalapril e Sinvastatina. 
+
+Suas principais dificuldades são:
+- Longas filas de espera. 
+- Possível indisponibilidade de medicamentos. 
+
+Acerca da falta de medicamentos, para ele a falta ocorre esporadicamente. 
+
+Acha que seria relevante um site sobre a disponibilidade dos medicamentos, com ajuda da filha utilizaria o site para saber da disponibilidade da medicação e acharia prático pra evitar ir à UBS nos dias em que o medicamento não estiver disponível. 
+
+|  Idade  |     Renda    |        Escolaridade       |  Medicamento utilizado   | Periodicidade do fornecimento |
+|---------|--------------|---------------------------|--------------------------|-------------------------------|
+| 80 anos | Até R$ 1.254 |  Ensino Médio incompleto  | Enalapril e Sinvastatina |             Mensal            |
+
+### Carlos da Cruz
+
+Carlos tem 33 anos e é farmacêutico no Centro de Saúde em Belo Horizonte há 7 anos. Ele é responsável por monitorar os estoques de medicamentos disponíveis no sistema SISREDE e fazer a dispensação para os usuários da unidade. Neste software do SUS, ele tem acesso à validade das medicações, consulta a disponibilidade, realiza a dispensação, bloqueio e o desbloqueio de lotes de medicamentos e também e realiza o ressuprimento. 
+
+Descrição do procedimento de entrega dos medicamentos: A reposição dos medicamentos nas unidades de saúde é realizada pela Farmácia Regional, que reabastece mensalmente os estoques das unidades de saúde.  
+Só há falta na unidade quando o medicamento está em falta no município.  
+
+Procedimento realizado em caso de indisponibilidade de medicamento na unidade: É realizada a comunicação com a Farmácia Regional (responsável pela gestão de abastecimento das unidades de saúde), a qual avalia se há possibilidade de remanejamento de medicamentos.  
+
+Acredita que um site com os dados sobre a disponibilidade dos medicamentos na Unidade Básica é relevante?  É relevante sim, porém, importante discutir como será feito esse tipo de abastecimento de dados. Caso a disponibilidade desses medicamentos seja feita em tempo real nas unidades de saúde, considerar que nesse processo pode haver erros que geram um transtorno para o usuário. 
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários. 
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|       EU COMO... `PERSONA`        |                    QUERO/PRECISO ... `FUNCIONALIDADE`                             |                                    PARA ... `MOTIVO/VALOR`                                               |
+|-----------------------------------|-----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+|    João Santos (usuário do SUS)   |       Saber a disponibilidade do medicamento antes de me deslocar até a UBS       |                           Não precisar me deslocar caso não estejam disponíveis                          |
+|    João Santos (usuário do SUS)   |                 Conhecer os responsáveis pelo fornecimento da medicação           |                                     Receber as orientações adequadas                                     |
+|    João Santos (usuário do SUS)   |               Saber previamente o prazo de entrega dos medicamentos               |                                Me organizar quanto à data de ida à UBS                                   | 
+|  Maria da Silva (usuário do SUS)  |        Saber a disponibilidade do medicamento antes de me deslocar até a UBS      | Não precisar me deslocar caso não estejam disponíveis e se organizar para comprar na farmácia particular |
+|  Maria da Silva (usuário do SUS)  |           Ser notificada quando o meu medicamento estiver disponível na UBS       |                          Organizar para ir buscar o medicamento assim que ele esteja disponível          |
+|  Maria Rosineide (usuário do SUS) |                Unificar a busca de todos os remédios em um só local               |                         Por ser uma pessoa idosa, não consigo me deslocar com facilidade                 | 
+|  Maria Rosineide (usuário do SUS) |     Receber pelo WhatsApp sobre a disponibilidade dos meus medicamentos           |                        Como não tenho conhecimento tecnológico, no WhatsApp é mais fácil                 |
+|José Antônio Rocha (usuário do SUS)| Não precisar me deslocar até a UBS quando os medicamentos estiverem indisponíveis |             Evitar os transtornos para se locomover até a UBS, com ajuda da filha                        |
+|José Antônio Rocha (usuário do SUS)|     Receber notificações informando quando meu medicamento estiver disponível     |        Por ser idoso e minha filha ter a vida corrida podemos acabar esquecendo de buscar a medicação    | 
+|  Carlos da Cruz (farmacêutico)    | Facilitar a comunicação para os usuários acerca da disponibilidade de medicamentos|                                    Evitar transtornos para o usuário                                     | 
+|  Carlos da Cruz (farmacêutico)    |      Que os próprios usuários possam notificar a falta de algum medicamento       |                   Agilizar a notificação para recebimento de mais medicamentos                           |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades de interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir. 
 
 ### Requisitos Funcionais
 
+A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que devem ser entregues. 
+
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+|RF-01| O site deve apresentar na página principal um buscador no qual o usuário irá digitar o(s) medicamento(s) que quer consultar | ALTA | 
+|RF-02| O site deve oferecer como resultado da busca o status de disponibilidade do(s) medicamento(s), além de um mapa localizando em qual Unidade Básica de Saúde mais próxima o(s) medicamento(s) está disponível, integrando a geolocalização do Google Maps  | ALTA |
+|RF-03| O site deve permitir a atualização do estoque de medicamentos disponíveis pela farmácia da UBS | ALTA |
+|RF-04| O site deve ter uma área personalizada, na qual o usuário deverá acessar com login e senha. Nesta área, o usuário irá cadastrar seu e-mail, celular e os medicamentos que utiliza, sendo notificado assim que os medicamentos estiverem disponíveis | ALTA |
+|RF-05| O site deve fornecer o prazo de entrega dos medicamentos | ALTA |
+|RF-06| O site deve informar o(s) responsável(is) pelo fornecimento da medicação | ALTA |
+|RF-07| O site deve permitir que o próprio usuário notifique a falta de um determinado medicamento | ALTA |
+|RF-08| O site deve permitir ao usuário visualizar as dosagens disponíveis do(s) medicamento(s) buscado | MÉDIA | 
+|RF-09| O site deve permitir visualizar as informações de contatos das Unidades Básicas de Saúde | BAIXA | 
+|RF-10| O site deve permitir salvar o resultado da busca | BAIXA |
+|RF-11| O site deve permitir o compartilhamento da busca no WhatsApp | BAIXA |
 
 ### Requisitos não Funcionais
 
+A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender. 
+
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-01| O site deve estar disponível 24 horas por dia, todos os dias da semana  | ALTA | 
+|RNF-02| O site deverá permitir a visualização em um celular de forma responsiva | ALTA | 
+|RNF-03| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge, Safari ou Ópera) | ALTA | 
+|RNF-04| O site deve ter uma linguagem simples e de fácil entendimento | ALTA | 
+|RNF-05| O site deve ter uma boa navegabilidade e usabilidade, facilitando a experiência do usuário | ALTA | 
+|RNF-06| Por se tratar de um site com abrangência nacional o site deve comportar grandes acessos simultâneos | ALTA |
+|RNF-07| Pelo fato de armazenar dados sensíveis e capturar a geolocalização dos usuários o site deve seguir a LGPD (Lei Geral de Proteção de Dados Pessoais) vigente e armazenar de forma segura os dados de acesso e informações de contato | ALTA | 
+|RNF-08| O site deve ter uma área de ajuda com vídeo didático com foco para ajudar pessoas idosas | MÉDIO | 
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir. 
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 26/06/2022 |
+|02| O aplicativo deve se restringir às tecnologias básicas da Web no Front end       |
+|03| A equipe não pode subcontratar o desenvolvimento do trabalho  |
 
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
