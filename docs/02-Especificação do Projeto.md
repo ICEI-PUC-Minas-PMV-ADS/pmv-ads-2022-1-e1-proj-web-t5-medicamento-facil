@@ -1,26 +1,26 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A fim de definir de maneira minuciosa a especificação do problema e os pontos mais relevantes a serem tratados neste projeto, foram realizadas entrevistas com usuários, bem como farmacêuticos dos Centros de Saúde de Belo Horizonte. As entrevistas objetivaram identificar o perfil socioeconômico dos usuários e as principais dificuldades tanto dos usuários quanto dos profissionais responsáveis pela entrega dos medicamentos. 
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+As personas levantadas durante o processo de entendimento do problema são apresentadas nas tabelas a seguir, sendo três usuários da farmácia dos Centros de Saúde e um farmacêutico da Unidade Básica de Saúde. 
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+|    João Santos    |
+|-------------------|
+|Idade|Renda|Escolaridade|Medicamento utilizado|Periodicidade do fornecimento|
+|43 anos|Até R$ 1.254|Ensino Médio incompleto|Insulina|Mensal|
+|Principais características|João trabalha como servente de pedreiro, é diabético e faz uso de insulina diariamente. Realiza seus exames de controle e acompanhamento médico no Centro de Saúde perto de sua casa. Mensalmente busca a insulina na farmácia da unidade, devendo mantê-la refrigerada.|
+|Principais dificuldades|- Alterações recorrentes de responsáveis, cada vez que vai buscar o medicamento é com uma pessoa e com isso as orientações também mudam; - Não há data certa para buscar, entrega não ocorre no prazo.|
+|É frequente a falta do medicamento?|Não falta, mas também não há data certa para retirada. Ocorre de em um mês vir quantidade a mais do que o necessário, o que compensa a falta do mês seguinte.|
+|Utilizaria um site com dados sobre a disponibilidade dos medicamentos na Unidade Básica? Acha que é relevante?|Tem alguma dificuldade com uso de recursos tecnológicos, mas acha que seria relevante sim.|
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+
+
+ 
+
+ 
+
 
 ## Histórias de Usuários
 
