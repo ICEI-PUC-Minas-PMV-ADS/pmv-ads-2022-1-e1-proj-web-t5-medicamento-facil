@@ -20,6 +20,8 @@ A relação dos ambientes com seu respectivo propósito e link de acesso é apre
  
 ## Gestão do código fonte
 
+Para gestão do código fonte a equipe utiliza um processo baseado no Git Flow, que é um fluxo de trabalho que consiste no uso de ramificações de recursos e várias ramificações primárias, sendo uma das interpretações do uso do Git.
+
 ## Gerenciamento do Projeto
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. 
 
