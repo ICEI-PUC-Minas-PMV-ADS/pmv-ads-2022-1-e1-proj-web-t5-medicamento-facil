@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# Medicamento fácil
 
-`CURSO`
+Análise e Desenvolvimento de Sistemas
 
-`DISCIPLINA`
+Projetos
 
-`SEMESTRE`
+Eixo 1
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Solução Web para que os usuários das Unidades Básicas de Saúde do Sistema Único de Saúde (SUS) possam saber previamente da disponibilidade dos medicamentos que utilizam, sem precisar se deslocar desnecessáriamente até a unidade para obter esta informação.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Carolina Felipe Alvves de Oliveira
+* Fabiana Alkmim Avelar
+* Fagner Vieira Pereira 
+* Rafael Penido de Souza 
+* Ríder R. Cantuária 
+* Tauan Gonçalves Silva
 
 ## Orientador
 
-* Nome completo do professor 1
+* Simone Alves Nogueira
 
 ## Instruções de utilização
 

@@ -1,46 +1,28 @@
-# Introdução
+PROJETO MEDICAMENTO FÁCIL 
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Introdução 
 
-## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+No Brasil, o direito à saúde universal e gratuita é assegurado pela Constituição Federal (BRASIL, 1988), a qual determina em seu artigo 196: “A saúde é direito de todos e dever do Estado”. A Constituição ainda previu a criação de um Sistema Único de Saúde (SUS), com a diretriz de atendimento integral e gratuito para toda a população brasileira. Assim, o SUS é o único sistema de saúde pública do mundo que atende mais de 190 milhões de pessoas, sendo que 80% delas dependem exclusivamente dele para qualquer atendimento de saúde (UNASUS, 2021). 
+Ademais, a lei orgânica da saúde, Lei 8080/90, prevê que, dentre o campo de atuação do SUS está a assistência terapêutica Integral, inclusive a farmacêutica (BRASIL, 1990). Desta forma, cabe ao SUS, fornecer, gratuitamente, não apenas o atendimento à saúde, como também o acesso aos medicamentos para o tratamento das doenças. 
+Ainda, segundo a Lei 8080/90, o SUS deve se organizar de maneira descentralizada e regionalizada, com ênfase na municipalização dos serviços de saúde (BRASIL, 1990). Assim, cabe aos municípios a distribuição dos medicamentos da atenção básica, realizada pelas farmácias presentes nas Unidades Básicas de Saúde (UBS), de maneira regionalizada. Cada município apresenta uma relação própria de medicamentos cuja distribuição é de sua responsabilidade (Relação Municipal de Medicamentos essenciais - REMUME). 
+O Ministério da Saúde disponibiliza no seu portal na Internet todos os medicamentos incorporados ao SUS, bem como os protocolos clínicos e diretrizes terapêuticas criados para orientar o diagnóstico e tratamento de determinadas doenças (ONCOGUIA, 2020), porém não informa em qual Unidade de Saúde a população pode encontrar determinado medicamento, sendo possível obter essa informação apenas no próprio estabelecimento. Portanto, o SUS não fornece uma plataforma de consulta para que os usuários possam se informar previamente acerca da disponibilidade de seus medicamentos.  
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Problema 
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Conforme exposto, o problema que se busca resolver com este projeto é a dificuldade de acesso à informação acerca da disponibilidade de medicamentos pelos usuários de Unidades Básicas de Saúde do SUS. 
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Justificativa 
 
-## Objetivos
+Apesar de ser um dever do Estado, a assistência farmacêutica é dificultada pela frequente indisponibilidade de medicamentos para a população assistida (CRISTINE & POLITI, 2022; ALMEIDA 2021; MATTOS, 2019). Assim, é necessário que os usuários do SUS compareçam pessoalmente às Unidades Básicas para verificar a disponibilidade da medicação receitada pelo médico. Entretanto, frequentemente, deparam-se com a falta de medicamentos, o que gera diversos transtornos, como gasto financeiro para o deslocamento e aglomerações de pessoas nos Centros de Saúde, além do prejuízo da aquisição do medicamento por conta própria. Portanto, para mitigar este problema, este projeto prevê a criação de uma aplicação Web, na qual o usuário poderá ter acesso à disponibilidade de medicamentos em todas as farmácias do município e assim, se deslocar de maneira assertiva para o seu recebimento. 
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Objetivos 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Criar uma aplicação Web que permita que usuários do SUS saibam da disponibilidade de medicamentos sem que precisem comparecer pessoalmente na UBS. 
+Como objetivos específicos, podemos ressaltar: 
+- Permitir a busca, tanto individualizada, quanto por lista, do(s) medicamento(s) de interesse do usuário; 
+- Permitir que o usuário localize a UBS mais próxima que possui o medicamento desejado; 
+- Fornecer uma ferramenta de notificação para que os usuários saibam quando seu medicamento estiver disponível. 
 
-## Justificativa
+Público alvo 
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
-## Público-Alvo
-
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O público alvo deste projeto são os usuários das Unidades Básicas de Saúde do Brasil, que recebem medicamentos da atenção básica cadastrados no Sistema Único de Saúde.  
