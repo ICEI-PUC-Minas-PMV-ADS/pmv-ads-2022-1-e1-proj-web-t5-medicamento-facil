@@ -9,13 +9,16 @@ As personas levantadas durante o processo de entendimento do problema são apres
 João Santos 
 
 João trabalha como servente de pedreiro, é diabético e faz uso de insulina diariamente. Realiza seus exames de controle e acompanhamento médico no Centro de Saúde perto de sua casa. Mensalmente busca a insulina na farmácia da unidade, devendo mantê-la refrigerada. 
+
 Suas principais dificuldades são:
 - Alterações recorrentes de responsáveis, cada vez que vai buscar o medicamento é com uma pessoa e com isso as orientações também mudam; 
 - Não há data certa para buscar, entrega não ocorre no prazo.
+
 Ao ser questionado acerca da falta de medicamentos responder: Não falta, mas também não há data certa para retirada. Ocorre de em um mês vir quantidade a mais do que o necessário, o que compensa a falta do mês seguinte.|
+
 Apesar de ter alguma dificuldade com uso de recursos tecnológicos, mas acha que seria relevante um site sobre a disponibilidade dos medicamentos.
 
-|                                            João Santos                                                   |
+
 |----------------------------------------------------------------------------------------------------------|
 |  Idade  |     Renda    |       Escolaridade      | Medicamento utilizado | Periodicidade do fornecimento |
 |----------------------------------------------------------------------------------------------------------|
