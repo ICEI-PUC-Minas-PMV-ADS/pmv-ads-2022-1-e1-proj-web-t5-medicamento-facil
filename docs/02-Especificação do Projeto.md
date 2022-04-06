@@ -19,7 +19,6 @@ Ao ser questionado acerca da falta de medicamentos responder: Não falta, mas ta
 Apesar de ter alguma dificuldade com uso de recursos tecnológicos, mas acha que seria relevante um site sobre a disponibilidade dos medicamentos.
 
 
-|----------------------------------------------------------------------------------------------------------|
 |  Idade  |     Renda    |       Escolaridade      | Medicamento utilizado | Periodicidade do fornecimento |
 |----------------------------------------------------------------------------------------------------------|
 | 43 anos | Até R$ 1.254 | Ensino Médio incompleto |       Insulina        |             Mensal            |
