@@ -6,7 +6,7 @@ Projetos
 
 Eixo 1
 
-Solução Web para que os usuários das Unidades Básicas de Saúde do Sistema Único de Saúde (SUS) possam saber previamente da disponibilidade dos medicamentos que utilizam, sem precisar se deslocar desnecessáriamente até a unidade para obter esta informação.
+Solução Web para que os usuários das Unidades Básicas de Saúde do Sistema Único de Saúde (SUS) possam saber previamente da disponibilidade dos medicamentos que utilizam, sem precisar se deslocar desnecessariamente até a unidade para obter esta informação.
 
 ## Integrantes
 
