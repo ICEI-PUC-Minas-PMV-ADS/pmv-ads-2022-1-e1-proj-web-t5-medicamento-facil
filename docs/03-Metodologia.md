@@ -5,7 +5,7 @@ A metodologia contempla as definições das ferramentas utilizadas pela equipe t
 
 ## Relação de Ambientes de Trabalho 
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas. Para o repositório de código fonte, bem como para armazenamento e alteração dos documentos do projeto será utilizado o GitHub, instrumento robusto e amplamente usado no mercado. Para o projeto de interface e Wireframes, será utilizado o Figma, um editor online de gráficos com ênfase em prototipagem. Para o gerenciamento do projeto e acompanhamento das sprints, será utilizado o Trello, ferramenta online para organização de Kanban. Além disso, a comunicação ágil do grupo para acompanhamento diário das atividades se dará pelo uso da rede WhatsApp, enquanto as reuniões de discussão serão pelo Microsoft Teams. 
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas. Para o repositório de código fonte, gerenciamento do projeto, bem como para armazenamento e alteração dos documentos do projeto será utilizado o GitHub, instrumento robusto e amplamente usado no mercado. Para o projeto de interface e Wireframes, será utilizado o Figma, um editor online de gráficos com ênfase em prototipagem. Além disso, a comunicação ágil do grupo para acompanhamento diário das atividades se dará pelo uso da rede WhatsApp, enquanto as reuniões de discussão serão pelo Microsoft Teams. 
 
 A relação dos ambientes com seu respectivo propósito e link de acesso é apresentada na tabela que se segue. 
 
@@ -14,7 +14,7 @@ A relação dos ambientes com seu respectivo propósito e link de acesso é apre
 | Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t5-medicamento-facil.git |
 | Documentos do projeto | GitHub |  https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t5-medicamento-facil.git |
 | Projeto de Interface e  Wireframes | Figma  | https://www.figma.com/file/oKoR0QvGVRU6R26v3ubK1l/Untitled?node-id=0%3A1  |
-| Gerenciamento do Projeto | Trello | https://trello.com/invite/b/9mS5sYRq/f03de167ec0b7ebf7c506abfdc585f2e/medicamento-facil |
+| Gerenciamento do Projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t5-medicamento-facil.git |
 | Acompanhamentos diários do andamento de atividades | WhatsApp | Grupo do projeto no WhatsApp |
 | Reuniões de discussão | Microsoft Teams | https://teams.microsoft.com/_#/school/conversations/Grupo%20Problema%2004%20-%20Ter%C3%A7a-feira%2020h30?threadId=19:0340ad02bf694120b94041a8bcbbf1e2@thread.tacv2&ctx=channel  |
  
@@ -28,22 +28,22 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 A equipe está organizada da seguinte maneira: 
 - Scrum Master: Carolina  
 - Product Owner: Fabiana 
-- Equipe de Desenvolvimento 
-Rafael 
-Fagner 
-Ríder 
-Tauan 
-Carolina 
+- Equipe de Desenvolvimento: 
+Rafael, 
+Fagner, 
+Ríder, 
+Taua, 
+Carolina, 
 Fabiana 
-- Equipe de Design 
-Rafael 
-Fagner 
-Ríder 
-Tauan 
-Carolina 
+- Equipe de Design: 
+Rafael,  
+Fagner, 
+Ríder, 
+Tauan, 
+Carolina,  
 Fabiana 
 
-Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas:  
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Github estruturado com as seguintes listas:  
 - Recursos: esta lista mantém template de tarefas recorrentes com as configurações padronizadas que todos devem seguir. O objetivo é permitir a cópia destes templates para agilizar a criação de novos cartões. 
 - Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
 - To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
@@ -51,8 +51,6 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 - Test: Checagem de Qualidade. Quando as tarefas são concluídas, eles são movidas para o “CQ”. No final da semana, eu revejo essa lista para garantir que tudo saiu perfeito. 
 - Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação. 
 - Locked: Quando alguma coisa impede a conclusão da tarefa, ela é movida para esta lista juntamente com um comentário sobre o que está travando a tarefa. 
-
-O quadro kanban do grupo no Trello está disponível através da URL https://trello.com/invite/b/9mS5sYRq/f03de167ec0b7ebf7c506abfdc585f2e/medicamento-facil e é apresentado, no estado atual, na Figura 1. 
 
 A tarefas são, ainda, etiquetadas em função da urgência da atividade e seguem o seguinte esquema de cores/categorias: 
 
