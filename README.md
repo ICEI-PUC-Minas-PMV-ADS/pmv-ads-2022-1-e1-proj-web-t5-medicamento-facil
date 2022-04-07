@@ -10,7 +10,7 @@ Solução Web para que os usuários das Unidades Básicas de Saúde do Sistema �
 
 ## Integrantes
 
-* Carolina Felipe Alvves de Oliveira
+* Carolina Felipe Alves de Oliveira
 * Fabiana Alkmim Avelar
 * Fagner Vieira Pereira 
 * Rafael Penido de Souza 
