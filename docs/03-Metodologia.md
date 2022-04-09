@@ -19,8 +19,16 @@ A relação dos ambientes com seu respectivo propósito e link de acesso é apre
 | Reuniões de discussão | Microsoft Teams | https://teams.microsoft.com/_#/school/conversations/Grupo%20Problema%2004%20-%20Ter%C3%A7a-feira%2020h30?threadId=19:0340ad02bf694120b94041a8bcbbf1e2@thread.tacv2&ctx=channel  |
  
 ## Gestão do código fonte
+Para gestão do código fonte a equipe utiliza um processo baseado no Git Flow, que é um fluxo de trabalho que consiste no uso de ramificações de recursos e várias ramificações primárias, sendo uma das interpretações de uso do Git. O Git é um sistema de controle de versão amplamente utilizado atualmente, criado por Linus Torvalds e é um código open-source.
 
-Para gestão do código fonte a equipe utiliza um processo baseado no Git Flow, que é um fluxo de trabalho que consiste no uso de ramificações de recursos e várias ramificações primárias, sendo uma das interpretações do uso do Git.
+O projeto segue o fluxo padrão do GitFlow que possui as ramificações Main, HotFix, Release, Develop, Feature. 
+
+![](/docs/img/fluxo.png)
+###### Fluxo padrão GitFlow
+
+- Main ou Principal: Armazena o o histórico oficial de lançamento do sistema, é o código mais estável e que melhor atende a demanda no momento.
+- HotFix ou de Manutenção: São utilizadas para corrigir rapidamente erros do sistema e devem ser evitada ao máximo, elas derivam diretamenta da ramificação main para agilizar o processo de correção e não interromper o restante do fluxo de trabalho. 
+
 
 ## Gerenciamento do Projeto
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. 
