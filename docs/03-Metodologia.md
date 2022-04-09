@@ -24,7 +24,6 @@ Para gestão do código fonte a equipe utiliza um processo baseado no Git Flow, 
 O projeto segue o fluxo padrão do GitFlow que possui as ramificações Main, HotFix, Release, Develop, Feature. 
 
 ![](/docs/img/fluxo.png)
-###### Fluxo padrão GitFlow
 
 - Main ou Principal: Armazena o o histórico oficial de lançamento do sistema, é o código mais estável e que melhor atende a demanda no momento.
 - HotFix ou de Manutenção: São utilizadas para corrigir rapidamente erros do sistema e devem ser evitada ao máximo, elas derivam diretamenta da ramificação main para agilizar o processo de correção e não interromper o restante do fluxo de trabalho. 
