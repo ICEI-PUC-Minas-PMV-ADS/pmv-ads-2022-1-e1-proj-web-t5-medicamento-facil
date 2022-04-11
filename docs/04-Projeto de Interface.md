@@ -49,3 +49,9 @@ Ao clicar em “fazer login” na tela de home-page, o usuário será redirecion
  A tela oferece ao usuário a possibilidade de escolher entre as duas funcionalidade do "Medicamento Fácil": 1) Notificar falta de medicamento ou 2) Pesquisar medicamento;
 
 ![Wireframe12](img/wireframe12.jpg)
+
+### Tela - Login do Farmacêutivo
+
+O usuário farmacêutico, responsável pelo controle de medicamentos da UBS - Unidade Básica de saúde, fará o login nessa tela, na qual será necessário informar e-mail e senha cadastrados. 
+
+![Wireframe13](img/wireframe13.jpg)
