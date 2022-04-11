@@ -21,16 +21,20 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ## Wireframes
 
+Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são discutidas em detalhes nos itens que se seguem. 
+
+### Tela - Home-Page 
+
+A tela de home-page mostra, em destaque, o logo de identidade visual do Medicamento Fácil. Abaixo, há uma linha de pesquisa, na qual o usuário deve digitar o seu endereço, para que a busca mostre os resultados mais próximos de sua localização. 
+
+No bloco superior esquerdo, o usuário pode acessar a área do farmacêutico, cujo acesso estará disponível apenas para estes profissionais. Já o bloco superior direito é para acesso dos usuários finais, tanto para fazer login, quanto para criarem uma conta. 
+
 ![Exemplo de Wireframe](img/wireframe-example.png)
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
-aaaaaaaaa
+### Tela – Cadastre-se 
+
+Ao clicar em “criar conta” na tela de home-page, o usuário será redirecionado a esta tela, na qual deverá preencher seus dados pessoais, criar uma senha e adicionar os medicamentos que utilizar. 
+
+### Tela - Faça login 
+
+Ao clicar em “fazer login” na tela de home-page, o usuário será redirecionado a esta tela, na qual deverá inserir seu e-mail cadastrado e senha, para acessar a área do usuário. Esta tela também apresenta o botão “esqueceu sua senha?” para o caso em que o usuário necessite recuperar o acesso. 
