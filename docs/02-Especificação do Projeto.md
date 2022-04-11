@@ -25,7 +25,8 @@ Apesar de ter alguma dificuldade com uso de recursos tecnológicos, mas acha que
 | 43 anos | Até R$ 1.254 | Ensino Médio incompleto |       Insulina        |             Mensal            |
 
 ### Maria da Silva 
-                                      
+![Maria](img/maria da silva.jpg)
+
 Maria trabalha como auxiliar de limpeza em um condomínio. Seu filho, Luiz, de 5 anos é autista e seu acompanhamento médico é feito no Centro de Saúde perto de sua casa. O Centro de Saúde também é responsável por referenciar Luiz para os atendimentos de tratamentos terapêuticos e de fonoaudiologia. Mensalmente busca a Risperidona na farmácia da unidade. 
 
 Suas principais dificuldades são:
@@ -41,6 +42,7 @@ Acha que seria relevante um site sobre a disponibilidade dos medicamentos.
 | 27 anos | Até R$ 1.254 |  Ensino Médio completo  |     Risperidona       |             Mensal            |
 
  ### Maria Rosineide 
+![Maria](img/maria rosineide.png)
 
  Maria Rosineide tem 65 anos é aposentada e complementa sua renda com alugueis. Sua mãe, Maria do Carmo, de 100 anos é acometida por doenças, tais como, colesterol alto, glaucoma e pressão alta. Seus medicamentos são disponibilizados na UBS mais próxima de sua casa. 
 
@@ -56,6 +58,7 @@ Acha que seria relevante um site sobre a disponibilidade dos medicamentos, desde
 | 65 anos | Até R$ 2.254 |  Ensino Médio completo  | Losartana, Hidroclorotiazida, Sivastantina, AAS Infantil, Systane, Tartarato de Brimonidina, Clonazepam |           Bimestral           |
 
 ### José Antônio Rocha 
+![Jose](img/jose.jpg)
 
 José é aposentado e precisa comparecer mensalmente à UBS próxima de sua casa para buscar seus medicamentos, além dos exames e consultas de controle. Para isso, ele pede ajuda da filha, Mariana, que se encarrega de levá-lo à UBS. Além de ser hipertenso, também apresentou colesterol LDL e triglicerídeos altos em seus últimos exames. Por isso, faz uso diário de Enalapril e Sinvastatina. 
 
@@ -72,6 +75,7 @@ Acha que seria relevante um site sobre a disponibilidade dos medicamentos, com a
 | 80 anos | Até R$ 1.254 |  Ensino Médio incompleto  | Enalapril e Sinvastatina |             Mensal            |
 
 ### Carlos da Cruz
+![Carlos](img/carlos.png)
 
 Carlos tem 33 anos e é farmacêutico no Centro de Saúde em Belo Horizonte há 7 anos. Ele é responsável por monitorar os estoques de medicamentos disponíveis no sistema SISREDE e fazer a dispensação para os usuários da unidade. Neste software do SUS, ele tem acesso à validade das medicações, consulta a disponibilidade, realiza a dispensação, bloqueio e o desbloqueio de lotes de medicamentos e também e realiza o ressuprimento. 
 
