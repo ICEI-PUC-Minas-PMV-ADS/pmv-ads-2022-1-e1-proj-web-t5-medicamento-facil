@@ -50,7 +50,7 @@ Ao clicar em “fazer login” na tela de home-page, o usuário será redirecion
 
 ![Wireframe12](img/wireframe12.jpg)
 
-### Tela - Login do Farmacêutivo
+### Tela - Login do Farmacêutico
 
 O usuário farmacêutico, responsável pelo controle de medicamentos da UBS - Unidade Básica de saúde, fará o login nessa tela, na qual será necessário informar e-mail e senha cadastrados. 
 
