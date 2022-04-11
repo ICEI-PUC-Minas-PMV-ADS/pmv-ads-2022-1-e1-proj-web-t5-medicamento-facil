@@ -29,12 +29,16 @@ A tela de home-page mostra, em destaque, o logo de identidade visual do Medicame
 
 No bloco superior esquerdo, o usuário pode acessar a área do farmacêutico, cujo acesso estará disponível apenas para estes profissionais. Já o bloco superior direito é para acesso dos usuários finais, tanto para fazer login, quanto para criarem uma conta. 
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+![Wireframe1](img/wireframe1.jpg)
 
 ### Tela – Cadastre-se 
 
 Ao clicar em “criar conta” na tela de home-page, o usuário será redirecionado a esta tela, na qual deverá preencher seus dados pessoais, criar uma senha e adicionar os medicamentos que utilizar. 
 
+![Wireframe2](img/wireframe2.jpg)
+
 ### Tela - Faça login 
 
 Ao clicar em “fazer login” na tela de home-page, o usuário será redirecionado a esta tela, na qual deverá inserir seu e-mail cadastrado e senha, para acessar a área do usuário. Esta tela também apresenta o botão “esqueceu sua senha?” para o caso em que o usuário necessite recuperar o acesso. 
+
+![Wireframe3](img/wireframe3.jpg)
