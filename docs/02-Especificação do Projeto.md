@@ -7,6 +7,7 @@ A fim de definir de maneira minuciosa a especificação do problema e os pontos 
 As personas levantadas durante o processo de entendimento do problema são apresentadas nas tabelas a seguir, sendo três usuários da farmácia dos Centros de Saúde e um farmacêutico da Unidade Básica de Saúde. 
 
 ### João Santos 
+![Joao](img/joao.jpg)
 
 João trabalha como servente de pedreiro, é diabético e faz uso de insulina diariamente. Realiza seus exames de controle e acompanhamento médico no Centro de Saúde perto de sua casa. Mensalmente busca a insulina na farmácia da unidade, devendo mantê-la refrigerada. 
 
