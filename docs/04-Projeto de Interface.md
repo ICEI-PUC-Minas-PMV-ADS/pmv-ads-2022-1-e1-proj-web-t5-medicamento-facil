@@ -42,3 +42,10 @@ Ao clicar em “criar conta” na tela de home-page, o usuário será redirecion
 Ao clicar em “fazer login” na tela de home-page, o usuário será redirecionado a esta tela, na qual deverá inserir seu e-mail cadastrado e senha, para acessar a área do usuário. Esta tela também apresenta o botão “esqueceu sua senha?” para o caso em que o usuário necessite recuperar o acesso. 
 
 ![Wireframe3](img/wireframe3.jpg)
+
+
+ ### Tela - Seleção de função pelo usuário
+ 
+ A tela oferece ao usuário a possibilidade de escolher entre as duas funcionalidade do "Medicamento Fácil": 1) Notificar falta de medicamento ou 2) Pesquisar medicamento;
+
+![Wireframe12](img/wireframe12.jpg)
