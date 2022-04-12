@@ -43,6 +43,24 @@ Ao clicar em “fazer login” na tela de home-page, o usuário será redirecion
 
 ![Wireframe3](img/wireframe3.jpg)
 
+### Tela - Esqueceu sua senha 
+
+Ao clicar em “Esqueceu sua senha” na tela "faça login", o usuário será redirecionado a esta tela, na qual deverá inserir seu e-mail cadastrado para que o código de recuperação de senha lhe seja enviado. Caso o e-mail esteja correto e cadastrado, a tela apresenta a mensagem de confirmação de envio e o botão "recebi meu código" que redireciona o usuário à página "Código de recuperação". 
+
+![Wireframe8](img/Wireframe8.jpg)
+
+### Tela - Código de recuperação 
+
+Ao clicar em “recebi meu código” na tela "Esqueceu sua senha", o usuário será redirecionado a esta tela, na qual deverá inserir o código de recuperação de senha recebido no campo disponível. A página apresenta o botão "enviar" que irá verificar se o código está correto, caso sim, o usuário será direcionado à pagina "Altere a senha".
+
+![Wireframe7](img/Wireframe7.jpg)
+
+### Tela - Altere a senha 
+
+Ao clicar em “enviar” na tela de "código de recuperação" e após verificação, o usuário será redirecionado a esta tela na qual deverá inserir a sua nova senha de acesso e confirmá-la novamente nos campos disponíveis.
+
+![Wireframe9](img/Wireframe9.jpg)
+
 
  ### Tela - Seleção de função pelo usuário
  
