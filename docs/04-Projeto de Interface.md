@@ -87,3 +87,9 @@ Após realizar o login, o profissional da farmácia visualizará as listas de me
 Caso um usuário tenha verificado a indisponibilidade de um determinado medicamento, ele poderá notificar a falta através de uma requisição no sistema. 
 
 ![wireframe 4](img/wireframe1.png)
+
+### Tela - Resultado da Pesquisa 
+
+Assim que o usuário realiza a busca de um medicamento no tópico de pesquisa, ao clicar no botão “Ok”, ele é direcionado para uma tela que traz a relação dos medicamentos, as dosagens, o responsável pelo fornecimento, o prazo de entrega e o mapa com a localização da UBS mais próxima que possui o medicamento procurado. 
+O usuário poderá compartilhar o resultado da busca e ver as informações de contato da UBS.
+
