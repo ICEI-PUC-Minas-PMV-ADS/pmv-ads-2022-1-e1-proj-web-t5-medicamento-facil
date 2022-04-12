@@ -86,3 +86,4 @@ Após realizar o login, o profissional da farmácia visualizará as listas de me
 
 Caso um usuário tenha verificado a indisponibilidade de um determinado medicamento, ele poderá notificar a falta através de uma requisição no sistema. 
 
+[wireframe 4](https://user-images.githubusercontent.com/103083210/162865863-b2e544ed-995b-4d48-b41c-fe4c0519dff2.png)
