@@ -80,3 +80,9 @@ O (a) usuário (a) farmacêutico (a), responsável pelo controle de medicamentos
 Após realizar o login, o profissional da farmácia visualizará as listas de medicamentos e doses para filtro, além da seção para mrcação de SIM ou NÃO, para indicar se o medicamento está ou não disponível na UBS.
 
 ![Wireframe14](img/wireframe14.jpg)
+
+
+Tela – Notificar a falta de medicamentos
+
+Caso um usuário tenha verificado a indisponibilidade de um determinado medicamento, ele poderá notificar a falta através de uma requisição no sistema. 
+
