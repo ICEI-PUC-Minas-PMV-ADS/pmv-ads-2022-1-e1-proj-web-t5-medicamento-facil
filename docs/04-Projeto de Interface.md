@@ -63,7 +63,7 @@ Ao clicar em “enviar” na tela de "código de recuperação" e após verifica
 
 ### Tela - Buscar medicamentos
 
-Após escolher a opção "Pesquisar medicamentos" na tela "Seleção de função pelo usuário" o usuário será redirecionado para esta página onde poderá fazer a busca pelo medicamento clicando no botão "Buscar medicamentos" e poderá também notificar a falta de algum medicamento clicando no botão "Notificar falta de medicamento".
+Após escolher a opção "Pesquisar medicamentos" na tela "Seleção de função pelo usuário" o usuário será redirecionado para esta página na qual poderá fazer a busca pelo medicamento clicando no botão "Buscar medicamentos" e também notificar a falta de algum medicamento clicando no botão "Notificar falta de medicamento".
 
 ![Wireframe10](img/wireframe10.jpg)
 
