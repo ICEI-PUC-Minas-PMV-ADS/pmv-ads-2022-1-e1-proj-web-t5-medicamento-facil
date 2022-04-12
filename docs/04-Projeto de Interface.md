@@ -61,6 +61,18 @@ Ao clicar em “enviar” na tela de "código de recuperação" e após verifica
 
 ![Wireframe9](img/Wireframe9.jpg)
 
+### Tela - Buscar medicamentos
+
+Após escolher a opção "Pesquisar medicamentos" na tela "Seleção de função pelo usuário" o usuário será redirecionado para esta página onde poderá fazer a busca pelo medicamento clicando no botão "Buscar medicamentos" e poderá também notificar a falta de algum medicamento clicando no botão "Notificar falta de medicamento".
+
+![Wireframe10](img/wireframe10.jpg)
+
+### Tela - Localização do usuário
+
+Ao fazer a busca do seu endereço na tela "Home Page" o usuário será redirecionado a esta tela, na qual visualizará o mapa com o resultado da busca da sua localização e poderá confirmar o endereço no botão "Confirmar localização".
+
+![Wireframe11](img/wireframe11.jpg)
+
 
  ### Tela - Seleção de função pelo usuário
  
