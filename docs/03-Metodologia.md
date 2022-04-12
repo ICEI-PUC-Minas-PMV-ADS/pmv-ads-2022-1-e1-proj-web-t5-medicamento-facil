@@ -58,6 +58,10 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 - Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação. 
 - Locked: Quando alguma coisa impede a conclusão da tarefa, ela é movida para esta lista juntamente com um comentário sobre o que está travando a tarefa. 
 
+O quadro kanban do grupo no Github está disponível através da URL https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t5-medicamento-facil.git  e é apresentado, na Figura abaixo. 
+
+![](/docs/img/Github-gerenciamento.png)
+
 A tarefas são, ainda, etiquetadas em função da urgência da atividade e seguem o seguinte esquema de cores/categorias: 
 
 - Vermelha: prioridade alta 
