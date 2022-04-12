@@ -82,7 +82,7 @@ Após realizar o login, o profissional da farmácia visualizará as listas de me
 ![Wireframe14](img/wireframe14.jpg)
 
 
-Tela – Notificar a falta de medicamentos
+### Tela – Notificar a falta de medicamentos
 
 Caso um usuário tenha verificado a indisponibilidade de um determinado medicamento, ele poderá notificar a falta através de uma requisição no sistema. 
 
