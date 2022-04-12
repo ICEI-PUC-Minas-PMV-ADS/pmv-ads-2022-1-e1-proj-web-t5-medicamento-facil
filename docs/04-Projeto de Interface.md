@@ -98,3 +98,5 @@ O usuário poderá compartilhar o resultado da busca e ver as informações de c
 ### Tela – Esqueceu a senha
 
 Caso o usuário esqueça a senha,  ele poderá recuperá-la preenchendo o campo e-mail e clicar no botão “enviar”, em seguida será aberta uma caixa de diálogo informando que o código de recuperação foi enviado ao e-mail do usuário, assim que receber o código o usuário deverá clicar no botão “Recebi o código de recuperação” e será redirecionado a outra página em que poderá realizar a redefinição da senha.
+
+![Wireframe6](img/wireframe6.png)
