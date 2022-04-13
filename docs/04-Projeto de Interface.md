@@ -21,6 +21,19 @@ No bloco superior esquerdo, o usuário pode acessar a área do farmacêutico, cu
 
 ![Wireframe1](img/wireframe1.jpg)
 
+### Tela - Localização do usuário
+
+Ao fazer a busca do seu endereço na tela "Home Page" o usuário será redirecionado a esta tela, na qual visualizará o mapa com o resultado da busca da sua localização e poderá confirmar o endereço no botão "Confirmar localização".
+
+![Wireframe11](img/wireframe11.jpg)
+
+### Tela - Resultado da Pesquisa 
+
+Assim que o usuário realiza a busca de um medicamento no tópico de pesquisa, ao clicar no botão “Ok”, ele é direcionado para uma tela que traz a relação dos medicamentos, as dosagens, o responsável pelo fornecimento, o prazo de entrega e o mapa com a localização da UBS mais próxima que possui o medicamento procurado. 
+O usuário poderá compartilhar o resultado da busca e ver as informações de contato da UBS.
+
+![Wireframe5](img/wireframe5.png)
+
 ### Tela – Cadastre-se 
 
 Ao clicar em “criar conta” na tela de home-page, o usuário será redirecionado a esta tela, na qual deverá preencher seus dados pessoais, criar uma senha e adicionar os medicamentos que utilizar. 
@@ -33,9 +46,27 @@ Ao clicar em “fazer login” na tela de home-page, o usuário será redirecion
 
 ![Wireframe3](img/wireframe3.jpg)
 
+ ### Tela - Seleção de função pelo usuário
+ 
+ A tela oferece ao usuário a possibilidade de escolher entre as duas funcionalidade do "Medicamento Fácil": 1) Notificar falta de medicamento ou 2) Pesquisar medicamento;
+
+![Wireframe12](img/wireframe12.jpg)
+
+### Tela – Notificar a falta de medicamentos
+
+Caso um usuário tenha verificado a indisponibilidade de um determinado medicamento, ele poderá notificar a falta através de uma requisição no sistema. 
+
+![Wireframe4](img/wireframe4.png)
+
+### Tela - Buscar medicamentos
+
+Após escolher a opção "Pesquisar medicamentos" na tela "Seleção de função pelo usuário" o usuário será redirecionado para esta página na qual poderá fazer a busca pelo medicamento clicando no botão "Buscar medicamentos" e também notificar a falta de algum medicamento clicando no botão "Notificar falta de medicamento".
+
+![Wireframe10](img/wireframe10.jpg)
+
 ### Tela - Esqueceu sua senha 
 
-Ao clicar em “Esqueceu sua senha” na tela "faça login", o usuário será redirecionado a esta tela, na qual deverá inserir seu e-mail cadastrado para que o código de recuperação de senha lhe seja enviado. Caso o e-mail esteja correto e cadastrado, a tela apresenta a mensagem de confirmação de envio e o botão "recebi meu código" que redireciona o usuário à página "Código de recuperação". 
+Ao clicar em “Esqueceu sua senha” na tela "Faça login", o usuário será redirecionado a esta tela, na qual deverá inserir seu e-mail cadastrado para que o código de recuperação de senha lhe seja enviado. Caso o e-mail esteja correto e cadastrado, a tela apresenta a mensagem de confirmação de envio e o botão "recebi meu código" que redireciona o usuário à página "Código de recuperação". 
 
 ![Wireframe8](img/Wireframe8.jpg)
 
@@ -51,54 +82,15 @@ Ao clicar em “enviar” na tela de "código de recuperação" e após verifica
 
 ![Wireframe9](img/Wireframe9.jpg)
 
-### Tela - Buscar medicamentos
+### Tela - Login do(a) Farmacêutico(a)
 
-Após escolher a opção "Pesquisar medicamentos" na tela "Seleção de função pelo usuário" o usuário será redirecionado para esta página na qual poderá fazer a busca pelo medicamento clicando no botão "Buscar medicamentos" e também notificar a falta de algum medicamento clicando no botão "Notificar falta de medicamento".
-
-![Wireframe10](img/wireframe10.jpg)
-
-### Tela - Localização do usuário
-
-Ao fazer a busca do seu endereço na tela "Home Page" o usuário será redirecionado a esta tela, na qual visualizará o mapa com o resultado da busca da sua localização e poderá confirmar o endereço no botão "Confirmar localização".
-
-![Wireframe11](img/wireframe11.jpg)
-
-
- ### Tela - Seleção de função pelo usuário
- 
- A tela oferece ao usuário a possibilidade de escolher entre as duas funcionalidade do "Medicamento Fácil": 1) Notificar falta de medicamento ou 2) Pesquisar medicamento;
-
-![Wireframe12](img/wireframe12.jpg)
-
-### Tela - Login do (a) Farmacêutico (a)
-
-O (a) usuário (a) farmacêutico (a), responsável pelo controle de medicamentos da UBS - Unidade Básica de saúde, fará o login nessa tela, na qual será necessário informar e-mail e senha cadastrados. 
+O(a) usuário(a) farmacêutico(a), responsável pelo controle de medicamentos da UBS - Unidade Básica de saúde, fará o login nessa tela, na qual será necessário informar e-mail e senha cadastrados. 
 
 ![Wireframe13](img/wireframe13.jpg)
 
 
-### Tela - Área do  (a) Farmacêutico (a)
+### Tela - Área do(a) Farmacêutico(a)
 
 Após realizar o login, o profissional da farmácia visualizará as listas de medicamentos e doses para filtro, além da seção para mrcação de SIM ou NÃO, para indicar se o medicamento está ou não disponível na UBS.
 
 ![Wireframe14](img/wireframe14.jpg)
-
-
-### Tela – Notificar a falta de medicamentos
-
-Caso um usuário tenha verificado a indisponibilidade de um determinado medicamento, ele poderá notificar a falta através de uma requisição no sistema. 
-
-![Wireframe4](img/wireframe4.png)
-
-### Tela - Resultado da Pesquisa 
-
-Assim que o usuário realiza a busca de um medicamento no tópico de pesquisa, ao clicar no botão “Ok”, ele é direcionado para uma tela que traz a relação dos medicamentos, as dosagens, o responsável pelo fornecimento, o prazo de entrega e o mapa com a localização da UBS mais próxima que possui o medicamento procurado. 
-O usuário poderá compartilhar o resultado da busca e ver as informações de contato da UBS.
-
-![Wireframe5](img/wireframe5.png)
-
-### Tela – Esqueceu a senha
-
-Caso o usuário esqueça a senha,  ele poderá recuperá-la preenchendo o campo e-mail e clicar no botão “enviar”, em seguida será aberta uma caixa de diálogo informando que o código de recuperação foi enviado ao e-mail do usuário, assim que receber o código o usuário deverá clicar no botão “Recebi o código de recuperação” e será redirecionado a outra página em que poderá realizar a redefinição da senha.
-
-![Wireframe6](img/wireframe6.png)
