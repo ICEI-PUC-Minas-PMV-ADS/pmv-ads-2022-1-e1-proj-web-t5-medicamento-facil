@@ -68,19 +68,19 @@ Após escolher a opção "Pesquisar medicamentos" na tela "Seleção de função
 
 Ao clicar em “Esqueceu sua senha” na tela "Faça login", o usuário será redirecionado a esta tela, na qual deverá inserir seu e-mail cadastrado para que o código de recuperação de senha lhe seja enviado. Caso o e-mail esteja correto e cadastrado, a tela apresenta a mensagem de confirmação de envio e o botão "recebi meu código" que redireciona o usuário à página "Código de recuperação". 
 
-![Wireframe9](img/Wireframe9.png)
+![Wireframe9](img/wireframe9.png)
 
 ### Tela - Código de recuperação 
 
 Ao clicar em “recebi meu código” na tela "Esqueceu sua senha", o usuário será redirecionado a esta tela, na qual deverá inserir o código de recuperação de senha recebido no campo disponível. A página apresenta o botão "enviar" que irá verificar se o código está correto, caso sim, o usuário será direcionado à pagina "Altere a senha".
 
-![Wireframe10](img/Wireframe10.png)
+![Wireframe10](img/wireframe10.png)
 
 ### Tela - Altere a senha 
 
 Ao clicar em “enviar” na tela de "código de recuperação" e após verificação, o usuário será redirecionado a esta tela na qual deverá inserir a sua nova senha de acesso e confirmá-la novamente nos campos disponíveis.
 
-![Wireframe11](img/Wireframe11.png)
+![Wireframe11](img/wireframe11.png)
 
 ### Tela - Login do(a) Farmacêutico(a)
 
