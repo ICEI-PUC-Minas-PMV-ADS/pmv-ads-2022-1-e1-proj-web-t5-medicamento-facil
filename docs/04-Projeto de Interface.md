@@ -25,72 +25,72 @@ No bloco superior esquerdo, o usuário pode acessar a área do farmacêutico, cu
 
 Ao fazer a busca do seu endereço na tela "Home Page" o usuário será redirecionado a esta tela, na qual visualizará o mapa com o resultado da busca da sua localização e poderá confirmar o endereço no botão "Confirmar localização".
 
-![Wireframe11](img/wireframe11.jpg)
+![Wireframe2](img/wireframe2.jpg)
 
 ### Tela - Resultado da Pesquisa 
 
 Assim que o usuário realiza a busca de um medicamento no tópico de pesquisa, ao clicar no botão “Ok”, ele é direcionado para uma tela que traz a relação dos medicamentos, as dosagens, o responsável pelo fornecimento, o prazo de entrega e o mapa com a localização da UBS mais próxima que possui o medicamento procurado. 
 O usuário poderá compartilhar o resultado da busca e ver as informações de contato da UBS.
 
-![Wireframe5](img/wireframe5.png)
+![Wireframe3](img/wireframe3.png)
 
 ### Tela – Cadastre-se 
 
 Ao clicar em “criar conta” na tela de home-page, o usuário será redirecionado a esta tela, na qual deverá preencher seus dados pessoais, criar uma senha e adicionar os medicamentos que utilizar. 
 
-![Wireframe2](img/wireframe2.jpg)
+![Wireframe4](img/wireframe4.png)
 
 ### Tela - Faça login 
 
 Ao clicar em “fazer login” na tela de home-page, o usuário será redirecionado a esta tela, na qual deverá inserir seu e-mail cadastrado e senha, para acessar a área do usuário. Esta tela também apresenta o botão “esqueceu sua senha?” para o caso em que o usuário necessite recuperar o acesso. 
 
-![Wireframe3](img/wireframe3.jpg)
+![Wireframe5](img/wireframe5.png)
 
  ### Tela - Seleção de função pelo usuário
  
  A tela oferece ao usuário a possibilidade de escolher entre as duas funcionalidade do "Medicamento Fácil": 1) Notificar falta de medicamento ou 2) Pesquisar medicamento;
 
-![Wireframe12](img/wireframe12.jpg)
+![Wireframe6](img/wireframe6.png)
 
 ### Tela – Notificar a falta de medicamentos
 
 Caso um usuário tenha verificado a indisponibilidade de um determinado medicamento, ele poderá notificar a falta através de uma requisição no sistema. 
 
-![Wireframe4](img/wireframe4.png)
+![Wireframe7](img/wireframe7.png)
 
 ### Tela - Buscar medicamentos
 
 Após escolher a opção "Pesquisar medicamentos" na tela "Seleção de função pelo usuário" o usuário será redirecionado para esta página na qual poderá fazer a busca pelo medicamento clicando no botão "Buscar medicamentos" e também notificar a falta de algum medicamento clicando no botão "Notificar falta de medicamento".
 
-![Wireframe10](img/wireframe10.jpg)
+![Wireframe8](img/wireframe8.jpg)
 
 ### Tela - Esqueceu sua senha 
 
 Ao clicar em “Esqueceu sua senha” na tela "Faça login", o usuário será redirecionado a esta tela, na qual deverá inserir seu e-mail cadastrado para que o código de recuperação de senha lhe seja enviado. Caso o e-mail esteja correto e cadastrado, a tela apresenta a mensagem de confirmação de envio e o botão "recebi meu código" que redireciona o usuário à página "Código de recuperação". 
 
-![Wireframe8](img/Wireframe8.jpg)
+![Wireframe9](img/Wireframe9.png)
 
 ### Tela - Código de recuperação 
 
 Ao clicar em “recebi meu código” na tela "Esqueceu sua senha", o usuário será redirecionado a esta tela, na qual deverá inserir o código de recuperação de senha recebido no campo disponível. A página apresenta o botão "enviar" que irá verificar se o código está correto, caso sim, o usuário será direcionado à pagina "Altere a senha".
 
-![Wireframe7](img/Wireframe7.jpg)
+![Wireframe10](img/Wireframe10.png)
 
 ### Tela - Altere a senha 
 
 Ao clicar em “enviar” na tela de "código de recuperação" e após verificação, o usuário será redirecionado a esta tela na qual deverá inserir a sua nova senha de acesso e confirmá-la novamente nos campos disponíveis.
 
-![Wireframe9](img/Wireframe9.jpg)
+![Wireframe11](img/Wireframe11.png)
 
 ### Tela - Login do(a) Farmacêutico(a)
 
 O(a) usuário(a) farmacêutico(a), responsável pelo controle de medicamentos da UBS - Unidade Básica de saúde, fará o login nessa tela, na qual será necessário informar e-mail e senha cadastrados. 
 
-![Wireframe13](img/wireframe13.jpg)
+![Wireframe12](img/wireframe12.png)
 
 
 ### Tela - Área do(a) Farmacêutico(a)
 
 Após realizar o login, o profissional da farmácia visualizará as listas de medicamentos e doses para filtro, além da seção para mrcação de SIM ou NÃO, para indicar se o medicamento está ou não disponível na UBS.
 
-![Wireframe14](img/wireframe14.jpg)
+![Wireframe13](img/wireframe13.png)
