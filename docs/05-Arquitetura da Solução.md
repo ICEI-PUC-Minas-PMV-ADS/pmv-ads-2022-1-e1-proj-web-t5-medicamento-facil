@@ -16,7 +16,7 @@ A solução implementada conta com os seguintes módulos:
      - **Medicamentos** - nome do medicamento, dosagem e disponibilidade.
      - **Usuários** - cadastro dos dados pessoais dos usuários do SUS e do farmacêutico de cada UBS.
      - **UBS** - lista das UBS e dos responsáveis pelo fornecimento dos medicamentos.
- - **News API** - plataforma que permite o acesso às notícias exibidas no site.
+ 
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
 > **Links Úteis**:
