@@ -15,7 +15,7 @@ A solução implementada conta com os seguintes módulos:
    - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
      - **Medicamentos** - cadastro dos medicamentos, contendo o nome, dosagem e disponibilidade.
      - **Usuários** - cadastro dos dados pessoais dos usuários do SUS e do farmacêutico de cada UBS.
-     - **UBS** - cadastro de todas as UBS do país contendo o nome, a localização, as informações de contato e os responsáveis pelo fornecimento dos medicamentos.
+     - **UBS** - cadastro de todas as UBS do país, contendo o nome, a localização, as informações de contato e os responsáveis pelo fornecimento dos medicamentos.
  
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
