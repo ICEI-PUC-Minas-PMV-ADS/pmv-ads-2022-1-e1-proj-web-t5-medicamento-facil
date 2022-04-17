@@ -13,9 +13,9 @@ A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
   - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
    - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
-     - **Canais** - seções de notícias apresentadas 
-     - **Comentários** - registro de opiniões dos usuários sobre as notícias
-     - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
+     - **Medicamentos** - nome do medicamento, dosagem e disponibilidade.
+     - **Usuários** - cadastro dos dados pessoais dos usuários do SUS e do farmacêutico de cada UBS.
+     - **UBS** - lista das UBS e dos responsáveis pelo fornecimento dos medicamentos.
  - **News API** - plataforma que permite o acesso às notícias exibidas no site.
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
