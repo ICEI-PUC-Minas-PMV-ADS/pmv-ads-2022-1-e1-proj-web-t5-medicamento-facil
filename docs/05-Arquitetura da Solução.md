@@ -30,6 +30,8 @@ A solução implementada conta com os seguintes módulos:
 
 - Para hospedagem da documentação e arquivos do projeto: Github.
 
+- Plataforma de hospedagem em nuvem: Heroku.
+
 ## Hospedagem
 
 Explique como a hospedagem e o lançamento da plataforma foi feita.
