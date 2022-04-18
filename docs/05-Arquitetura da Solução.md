@@ -22,10 +22,13 @@ A solução implementada conta com os seguintes módulos:
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+- As linguagens utilizadas para a base do desenvolvimento web do projeto: HTML, CSS e JavaScript. 
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+- IDEs de desenvolvimento: Visual Studio Code.
 
+- Como editor gráfico de vetor e prototipagem de projetos de design: Figma.
+
+- Para hospedagem da documentação e arquivos do projeto: Github.
 
 ## Hospedagem
 
