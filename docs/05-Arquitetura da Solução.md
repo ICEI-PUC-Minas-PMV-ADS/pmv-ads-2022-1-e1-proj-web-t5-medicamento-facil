@@ -30,7 +30,7 @@ A solução implementada conta com os seguintes módulos:
 
 - Hospedagem da documentação e arquivos do projeto: Github.
 
-- Plataforma de hospedagem em nuvem: Heroku.
+- Plataforma de hospedagem em nuvem: AWS Amplify.
 
 ## Hospedagem
 
@@ -40,5 +40,4 @@ Explique como a hospedagem e o lançamento da plataforma foi feita.
 >
 > - [Website com GitHub Pages](https://pages.github.com/)
 > - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+> - [Hospede um site estático](https://aws.amazon.com/pt/getting-started/hands-on/host-static-website/)
