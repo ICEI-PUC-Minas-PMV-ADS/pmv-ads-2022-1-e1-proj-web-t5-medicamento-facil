@@ -22,13 +22,13 @@ A solução implementada conta com os seguintes módulos:
 
 ## Tecnologias Utilizadas
 
-- As linguagens utilizadas para a base do desenvolvimento web do projeto: HTML, CSS e JavaScript. 
+- Linguagens utilizadas para a base do desenvolvimento web do projeto: HTML, CSS e JavaScript. 
 
 - IDEs de desenvolvimento: Visual Studio Code.
 
-- Como editor gráfico de vetor e prototipagem de projetos de design: Figma.
+- Editor gráfico de vetor e prototipagem de projetos de design: Figma.
 
-- Para hospedagem da documentação e arquivos do projeto: Github.
+- Hospedagem da documentação e arquivos do projeto: Github.
 
 - Plataforma de hospedagem em nuvem: Heroku.
 
