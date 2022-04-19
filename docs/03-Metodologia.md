@@ -14,19 +14,21 @@ A relação dos ambientes com seu respectivo propósito e link de acesso é apre
 | Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t5-medicamento-facil.git |
 | Documentos do projeto | GitHub |  https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t5-medicamento-facil.git |
 | Projeto de Interface e  Wireframes | Figma  | https://www.figma.com/file/oKoR0QvGVRU6R26v3ubK1l/Untitled?node-id=0%3A1  |
-| Gerenciamento do Projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t5-medicamento-facil.git |
+| Gerenciamento do Projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t5-medicamento-facil/projects |
 | Acompanhamentos diários do andamento de atividades | WhatsApp | Grupo do projeto no WhatsApp |
 | Reuniões de discussão | Microsoft Teams | https://teams.microsoft.com/_#/school/conversations/Grupo%20Problema%2004%20-%20Ter%C3%A7a-feira%2020h30?threadId=19:0340ad02bf694120b94041a8bcbbf1e2@thread.tacv2&ctx=channel  |
  
 ## Gestão do código fonte
 Para gestão do código fonte a equipe utiliza um processo baseado no Git Flow, que é um fluxo de trabalho que consiste no uso de ramificações de recursos e várias ramificações primárias, sendo uma das interpretações de uso do Git. O Git é um sistema de controle de versão amplamente utilizado atualmente, criado por Linus Torvalds e é um código open-source.
 
-O projeto segue o fluxo padrão do GitFlow que possui as ramificações Main, HotFix, Release, Develop, Feature. 
+O projeto segue o fluxo padrão do GitFlow e possui as seguintes ramificações: Main, HotFix, Release, Develop e Feature. 
 
 ![](/docs/img/fluxo.png)
 
-- Main ou Principal: Armazena o o histórico oficial de lançamento do sistema, é o código mais estável e que melhor atende a demanda no momento.
-- HotFix ou de Manutenção: São utilizadas para corrigir rapidamente erros do sistema e devem ser evitada ao máximo, elas derivam diretamenta da ramificação main para agilizar o processo de correção e não interromper o restante do fluxo de trabalho. 
+- **Main ou Principal**: Armazena o histórico oficial de lançamento do sistema, é o código mais estável e que melhor atende a demanda no momento. Esta ramificação deve ser marcada com um número de versão atualizado.
+- **HotFix ou Manutenção Urgente**: São utilizadas para corrigir rapidamente erros do sistema e devem ser evitada ao máximo, elas derivam diretamenta da ramificação main para agilizar o processo de correção e não interromper o restante do fluxo de trabalho. Depois que o hotfix é concluído, ele passa por merge para a ramificação develop e à main
+- **Feature**: Ramificação dedicada para criar novos recursos, geralmente tem como pai a ramificação **develop**. Os recursos não devem nunca interagir direto com a ramificação main. Ao concluir o recurso a ramificação é revisada, integrada com a ramificação de origem (develop) e removida, assim cada recurso deve ser entregue na ramificação pai..
+- **Develop**: Serve para integração dos recursos concluídos pelos membros ou sub equipes.
 
 
 ## Gerenciamento do Projeto
@@ -69,4 +71,3 @@ A tarefas são, ainda, etiquetadas em função da urgência da atividade e segue
 - Verde: prioridade baixa  
 
 As tarefas poderão ser escolhidas por qualquer membro do time ou então serão direcionadas a um membro específico, caso ele possua experiencia em determinada área de conhecimento. Em relação a livre escolha das tarefas, obrigatoriamente, deverá ser seguida a hierarquia de prioridades, da mais alta para a mais baixa. A prioridade padrão a ser considerada é a amarela, devendo manter a vermelha para as demandas urgentes que surgirem ao longo do projeto. 
-
