@@ -34,10 +34,12 @@ A solução implementada conta com os seguintes módulos:
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+O site utiliza a plataforma Amazon Web Services - AWS como ambiente de hospedagem da aplicação. O site é mantido no ambiente da URL: 
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Hospede um site estático](https://aws.amazon.com/pt/getting-started/hands-on/host-static-website/)
+[Site do Projeto Medicamento Fácil](https://main.d3hwghqgn7vvmi.amplifyapp.com/)
+
+A publicação na plataforma AWS é feita via git para o repositório remoto que se encontra no endereço: 
+
+[Repositório Remoto](XXXXXXXXX)
+
+
