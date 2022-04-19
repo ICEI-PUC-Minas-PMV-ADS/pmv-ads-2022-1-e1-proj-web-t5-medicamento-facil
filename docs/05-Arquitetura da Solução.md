@@ -34,11 +34,11 @@ A solução implementada conta com os seguintes módulos:
 
 ## Hospedagem
 
-O site utiliza a plataforma Amazon Web Services - AWS como ambiente de hospedagem da aplicação. O site é mantido no ambiente da URL: 
+O site utiliza a plataforma Amazon Web Services - AWS como ambiente de hospedagem da aplicação. O site é mantido no ambiente do link: 
 
 [Site do Projeto Medicamento Fácil](https://main.d3hwghqgn7vvmi.amplifyapp.com/)
 
-A publicação na plataforma AWS é feita via git para o repositório remoto que se encontra no endereço: 
+A publicação na plataforma AWS é feita via git para o repositório remoto que se encontra no link: 
 
 [Repositório Remoto](XXXXXXXXX)
 
