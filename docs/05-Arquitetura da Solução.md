@@ -32,6 +32,8 @@ A solução implementada conta com os seguintes módulos:
 
 - Plataforma de hospedagem em nuvem: AWS Amplify.
 
+- Serviço de pesquisa e visualização de mapas e imagens de satélite para localização do usuário e da UBS: Google Mapas.
+
 ## Hospedagem
 
 O site utiliza a plataforma Amazon Web Services - AWS como ambiente de hospedagem da aplicação. O site é mantido no ambiente do link: 
