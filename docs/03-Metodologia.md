@@ -29,7 +29,7 @@ O projeto segue o fluxo padrão do GitFlow e possui as seguintes ramificações:
 - **HotFix ou Manutenção Urgente**: São utilizadas para corrigir rapidamente erros do sistema e devem ser evitada ao máximo, elas derivam diretamenta da ramificação main para agilizar o processo de correção e não interromper o restante do fluxo de trabalho. Depois que o hotfix é concluído, ele passa por merge para a ramificação develop e à main
 - **Feature**: Ramificação dedicada para criar novos recursos, geralmente tem como pai a ramificação **develop**. Os recursos não devem nunca interagir direto com a ramificação main. Ao concluir o recurso a ramificação é revisada, integrada com a ramificação de origem (develop) e removida, assim cada recurso deve ser entregue na ramificação pai..
 - **Develop**: Serve para integração dos recursos concluídos pelos membros ou sub equipes.
-
+- **Release**: Ramificação responsável para entrega de recursos para o **main**, age como um intermediário entre **develop** e **main**, nesse intervalo pode ser feito pequenos ajustes, nele é versionado o código. Nesta ramificação a revisão é mais rígida, tendo em vista que ao finalizar ele vai mesclar com o **main** e **develop**.
 
 ## Gerenciamento do Projeto
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. 
