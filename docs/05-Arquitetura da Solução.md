@@ -42,16 +42,6 @@ O site utiliza a plataforma Amazon Web Services - AWS como ambiente de hospedage
 
 A publicação na plataforma AWS é feita via git para o repositório remoto que se encontra no link: 
 
-[Repositório Remoto](XXXXXXXXX)
+[Repositório Remoto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t5-medicamento-facil.git)
 
-## Hospedagem - b
 
-Considerando o escopo e a complexidade do projeto no eixo 1, vamos hospedar no Github Pages devido aos seguintes benefícios:
-- Serviço gratuito e totalmente integrado com o GitHub
-- Não precisa conhecimento prévio em hospedagem de sistemas e sites
-- Personalização de domínio
-- HTTPS configurável para conexões seguras com SSL
-
-Vale ressaltar que há limites para o uso do GitHub Pages conforme os [termos de serviço](https://docs.github.com/pt/free-pro-team@latest/github/site-policy/github-terms-of-service), mas o principal limite é quantidade de dados, a saber, 1 GB de dados.
-
-Há três tipos de site do GitHub Pages: projeto, usuário e organização. Decidimos utilizar o tipo de site projeto.
