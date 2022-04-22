@@ -6,8 +6,7 @@ Nesta seção são apresentados os detalhes técnicos da solução criada pela e
 
 Os componentes que fazem parte da solução são apresentados no diagrama da Figura abaixo. 
 
-![Diagrama de Componentes](img/componentes.png)
-<center>Figura - Arquitetura da Solução</center>
+![Diagrama de Componentes](img/diagrama_novo.jpg)
 
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
