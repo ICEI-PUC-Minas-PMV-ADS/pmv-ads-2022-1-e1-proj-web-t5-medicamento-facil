@@ -25,9 +25,9 @@ O projeto segue o fluxo padrão do GitFlow e possui as seguintes ramificações:
 
 ![](/docs/img/fluxo.png)
 
-- **Main ou Principal**: Armazena o histórico oficial de lançamento do sistema, é o código mais estável e que melhor atende a demanda no momento. Esta ramificação deve ser marcada com um número de versão atualizado.
-- **HotFix ou Manutenção Urgente**: São utilizadas para corrigir rapidamente erros do sistema e devem ser evitada ao máximo, elas derivam diretamenta da ramificação main para agilizar o processo de correção e não interromper o restante do fluxo de trabalho. Depois que o hotfix é concluído, ele passa por merge para a ramificação develop e à main
-- **Feature**: Ramificação dedicada para criar novos recursos, geralmente tem como pai a ramificação **develop**. Os recursos não devem nunca interagir direto com a ramificação main. Ao concluir o recurso a ramificação é revisada, integrada com a ramificação de origem (develop) e removida, assim cada recurso deve ser entregue na ramificação pai..
+- **Main ou Principal**: Armazena o histórico oficial de lançamento do sistema, é o código mais estável e que melhor atende à demanda no momento. Esta ramificação deve ser marcada com um número de versão atualizado.
+- **HotFix ou Manutenção Urgente**: São utilizadas para corrigir rapidamente erros do sistema e devem ser evitada ao máximo, elas derivam diretamente da ramificação main para agilizar o processo de correção e não interromper o restante do fluxo de trabalho. Depois que o hotfix é concluído, ele passa por merge para a ramificação develop e a main
+- **Feature**: Ramificação dedicada para criar novos recursos, geralmente tem como pai a ramificação **develop**. Os recursos não devem nunca interagir direto com a ramificação main. Ao concluir o recurso, a ramificação é revisada, integrada com a ramificação de origem (develop) e removida, assim cada recurso deve ser entregue na ramificação pai.
 - **Develop**: Serve para integração dos recursos concluídos pelos membros ou sub equipes.
 - **Release**: Ramificação responsável para entrega de recursos para o **main**, age como um intermediário entre **develop** e **main**, nesse intervalo pode ser feito pequenos ajustes, nele é versionado o código. Nesta ramificação a revisão é mais rígida, tendo em vista que ao finalizar ele vai mesclar com o **main** e **develop**.
 
@@ -45,12 +45,12 @@ Taua,
 Carolina, 
 Fabiana 
 - Equipe de Design: 
-Rafael,  
-Fagner, 
-Ríder, 
-Tauan, 
-Carolina,  
-Fabiana 
+Rafael, 
+Fagner,
+Ríder,
+Tauan,
+Carolina, 
+Fabiana
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Github estruturado com as seguintes listas:   
 - Product Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
