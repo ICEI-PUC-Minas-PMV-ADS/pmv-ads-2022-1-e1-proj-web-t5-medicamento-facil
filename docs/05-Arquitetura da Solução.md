@@ -11,13 +11,13 @@ Os componentes que fazem parte da solução são apresentados no diagrama da Fig
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
   - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
-   - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
-     - **Medicamentos** - cadastro dos medicamentos, contendo o nome, dosagem e disponibilidade.
-     - **Usuários** - cadastro dos usuários do SUS, contendo nome, sobrenome, celular, e-mail e a senha; cadastro do farmacêutico de cada UBS.
-     - **UBS** - cadastro de todas as UBS do país, contendo o nome, a localização, as informações de contato e os responsáveis pelo fornecimento dos medicamentos.
-     - **Medicamentos por usuário** - cadastro da relação dos medicamentos de cada usuário.
- - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
- - **API Mapas** - plataforma que permite o acesso à localização e aos mapas do Google Maps.
+   - **Local Storage** - Armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
+     - **Medicamentos** - Cadastro dos medicamentos, contendo o nome, dosagem e disponibilidade.
+     - **Usuários** - Cadastro dos usuários do SUS, contendo nome, sobrenome, celular, e-mail e a senha; cadastro do farmacêutico de cada UBS.
+     - **UBS** - Cadastro de todas as UBS do país, contendo o nome, a localização, as informações de contato e os responsáveis pelo fornecimento dos medicamentos.
+     - **Medicamentos por usuário** - Cadastro da relação dos medicamentos de cada usuário.
+ - **Hospedagem** - Local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
+ - **API Mapas** - Plataforma que permite o acesso à localização e aos mapas do Google Maps.
   
 ## Tecnologias Utilizadas
 
