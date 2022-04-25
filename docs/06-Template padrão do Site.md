@@ -8,8 +8,12 @@ Com poucos elementos e focada na busca do usuário pela localidade, a Tela Inici
 
 ![Inicial](img/Inicial.jpg)
 
-## Tela de Confimarção da Localização
+## Tela de Confirmação da Localização
 
 Na tela de confirmação da localização mantem-se a mesma cor de fundo, o mesmo esquema de fontes, além do rodapá e do botão de acesso à "Área do Farmacêutico". A logo, em tamanho reduzido passa para o canto direito superior e servirá como direcionador para página inicial. As demais páginas da aplicação seguirão este padrão.
 
 ![Localizacao](img/Localizacao.jpg)
+
+## Tela de Busca do Medicamento
+
+![Busca](img/Busca.jpg)
