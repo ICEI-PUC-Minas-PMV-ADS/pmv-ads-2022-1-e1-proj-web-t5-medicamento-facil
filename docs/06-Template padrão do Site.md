@@ -2,4 +2,4 @@
 
 A construção do design a ser utilizado na aplicação Medicamento Fácil foi feita através do Figma e tem como base o protótipo e o projeto de interface já apresentados.
 
-![Diagrama de Componentes](img/diagrama_novo.jpg)
+![Tela Inicial](img/Tela Inicial.jpg)
