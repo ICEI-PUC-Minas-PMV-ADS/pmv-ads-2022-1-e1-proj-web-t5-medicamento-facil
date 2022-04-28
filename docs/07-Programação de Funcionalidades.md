@@ -14,8 +14,8 @@ RF-01 -  O site deve apresentar na página principal um buscador no qual o usuá
 
 ### Artefatos da funcionalidade 
 
-index.html 
-base.css 
+index.html
+base.css
 logo.png
 
 ### Estrutura de Dados 
