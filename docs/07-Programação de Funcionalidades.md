@@ -20,7 +20,6 @@ RF-01 -  O site deve apresentar na página principal um buscador no qual o usuá
 
 ### Estrutura de Dados 
 
-<!DOCTYPE html>
 <html>
 <head>
     <link href="css/bootstrap.min.css" rel="stylesheet" />   
