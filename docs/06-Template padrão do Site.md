@@ -14,6 +14,6 @@ Na tela de confirmação da localização mantém-se a mesma cor de fundo, o mes
 
 ![Localizacao](img/Localizacao.jpg)
 
-## Tela de Busca do Medicamento
+## Tela de Resultado da Busca do Medicamento
 
 ![Busca](img/Busca.jpg)
