@@ -20,7 +20,65 @@ RF-01 -  O site deve apresentar na página principal um buscador no qual o usuá
 
 ### Estrutura de Dados 
 
-Codigo??
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    
+    <link href="css/base.css" rel="stylesheet" />
+    
+    <meta charset="UTF-8">
+    <title>Medicamento Fácil. Simples. Rápido.</title>
+</head>
+
+<body>
+    <header class="row">
+        <div class="col-md-3">
+            <button class="btn btn-info">Área do Farmacêutico</button>
+        </div>
+        <div class="col-md-6"></div>
+        <div class="col-md-3 text-end">
+            <button type="button" class="btn btn-info">Faça seu Login</button>
+            <button type="button" class="btn btn-info">Crie sua conta</button>
+        </div>
+    </header>
+    <main>
+        <div class="row separador"></div>        
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <img src="imagens/logo.png" class="img-fluid"/>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+        <div class="row separador"></div>
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <input class='buscador' type="text" placeholder="Digite seu endereço" />
+            </div>
+            <div class="col-sm-2"></div>
+        </div>        
+    </main>
+    <footer class="row">
+        <div class="col-md-12">
+            <nav>
+                <ul>
+                    <li>Sobre</li>
+                    <li>Como funciona o Medicamento Fácil!</li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="js/bootstrap.min.js" type="javascript"></script>
+</body>
+
+</html>
 
 ### Instruções de acesso 
 
