@@ -24,7 +24,7 @@ Codigo??
 
 ### Instruções de acesso 
 
-Abra um navegador de Internet e informe a seguinte URL: XXXXX 
+Abra um navegador de Internet e informe a seguinte URL: XXXXX
 A Tela Inicial é a primeira funcionalidade exibida pelo aplicativo. 
 
 
