@@ -1,7 +1,71 @@
+/*/////FAMÍLIA DE CORES //////*/
+.cor-vermelha {
+    color: #c1272d
+}
+
+.botao-busca .lupa,
+.cor-azul {
+    color: #1070ae
+}
+
+.cor-azul-claro {
+    color: #DEEFF1;
+}
+
+.cor-cinza {
+    color: #b8cbd9; 
+}
+
+.botao-padrao,
+.cor-escura {
+    color: #333333 !important; 
+}
+
+.botao-secundario,
+.fundo-vermelha {
+    background-color: #c1272d
+}
+
+.botao-principal,
+.fundo-azul {
+    background-color: #1070ae
+}
+
+
+.fundo-azul-claro {
+    background-color: #DEEFF1;
+}
+
+.botao-padrao,
+.fundo-cinza {
+    background-color: #b8cbd9; 
+}
+
+.fundo-escuro {
+    color: #333333; 
+}
+
+
+
+/*/////FAMÍLIA DE BOTOES //////*/
+
+.botao-secundario,
+.botao-principal,
+.botao-padrao,
+.botao{
+    font-size: 14px;
+    height: 45px;
+    border:none;
+    border-radius:45px;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
 body {
     margin: 0px;
     width: 100%;
-    background-color: #DEEFF1;
     overflow: hidden;
     font-family: 'Nunito', sans-serif;
 }
@@ -23,45 +87,23 @@ footer {
 main{
     height: 80vh;
 }
-#button1{
-    color: white;
-    font-size: 14px;
-    width: 167px;
-    height: 45px;
-    background-color: #1070ad;
-    border:none;
-    border-radius:37px;
-    }
- #button2{
-    font-size: 16px;
-    width: 167px;
-    height: 45px;
-    background-color: #b8cbd9;
-    border:none;
-    border-radius:  37px;  
- }
- #button3{
-    font-size: 16px;
-    width: 167px;
-    height: 45px;
-    background-color: #b8cbd9;
-    border:none;
-    border-radius:37px;
-     }
+
 
 #v-line{
         border-right: 2px solid #1070ad;
         height:45px;
         left: 3px;
                }
+
+
 input.buscador {
     width: 100%;
-    border-radius: 37px;
-    height: 75px;
+    border-radius: 25px;
+    height: 60px;
     border: solid #1070AE 3px;
     padding-left: 39px;
     color: #1070AE;
-    font-size: 26px;
+    font-size: 20px;
         
 }
 input.buscador::-webkit-input-placeholder {
@@ -70,12 +112,35 @@ input.buscador::-webkit-input-placeholder {
 }
   
 .separador{
-    height: 10vh;
+    height: 15vh;
 }
-#textfooter{
-    font-size: 26px;
-    color: #C4C4C4;
+
+footer{
+    font-size: 16px;
+    color: #3a3a3a;
 }
-nav li {
+
+.lista-horizontal ul{
+    list-style-type: none;
+}
+
+.lista-horizontal li {
     display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.lista-horizontal li:not(:last-child) {    
+    border-right: #1070ad solid 2px;
+}
+
+
+.botao-busca .lupa {
+    position: relative;
+    top: -48px;
+    right: 15px;
+    float: right;
+    background: none;
+    font-size: 25px;
+    border: none;
 }
