@@ -63,6 +63,8 @@
 }
 
 
+/*///// ESTRUTURA //////*/
+
 body {
     margin: 0px;
     width: 100%;
@@ -72,6 +74,7 @@ body {
 
 header, footer {
     height: 12vh;
+    margin-bottom: 30px;
 }
 
 header {
@@ -87,6 +90,9 @@ footer {
 main{
     height: 80vh;
 }
+
+
+/*///// @TODO organizar //////*/
 
 
 #v-line{
