@@ -12,21 +12,23 @@
     <link href="css/template.css" rel="stylesheet" />
     <link href="css/mapa.css" rel="stylesheet" />
 
-    <script src="js/mapa.js" type="javascript"></script>
-
     <meta charset="UTF-8">
     <title>Medicamento Fácil. Simples. Rápido.</title>
 </head>
 
 <body>
-    <header class="row">
-        <div class="col-sm-6">
-            <button id="button1" class="btn botao-principal">Área do Farmacêutico</button>
-        </div>
-        <div class="col-sm-6 text-end">
-            <img src="imagens/logo.png" width="150" />
-        </div>
+    <header>
         <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <button id="button1" class="btn botao-principal">Área do Farmacêutico</button>
+            </div>
+            <div class="col-sm-6 text-end">
+                <a href="index.html">
+                    <img src="imagens/logo.png" width="150" />
+                </a>
+            </div>
+        </div>
     </header>
     <main class="text-center">
         <div id="mapa-medicamento" class="mapa" style="background-color: rgb(156, 156, 156);"></div>
@@ -43,22 +45,9 @@
             </nav>
         </div>
     </footer>
-    <script src="js/bootstrap.min.js" type="javascript"></script>
-    <script>
-        const itemMapa = document.getElementById("mapa-medicamento");
-        let mapa = null;
-
-        function iniciarMapa() {
-            mapa = new google.maps.Map(itemMapa, {
-                center: { lat: -19.912998, lng: -43.940933 },
-                zoom: 8,
-            });
-        }
-
-        window.initMap = iniciarMapa;
-    </script>
-    <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzAA6TeMnG_qi6_mu0KyMVD63tH05mtjw&callback=iniciarMapa"
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mapa.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzAA6TeMnG_qi6_mu0KyMVD63tH05mtjw&callback=initMap"
         defer></script>
 </body>
 

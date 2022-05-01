@@ -8,17 +8,18 @@
     color: #1070ae
 }
 
+
 .cor-azul-claro {
     color: #DEEFF1;
 }
 
 .cor-cinza {
-    color: #b8cbd9; 
+    color: #b8cbd9;
 }
 
 .botao-padrao,
 .cor-escura {
-    color: #333333 !important; 
+    color: #333333 !important;
 }
 
 .botao-secundario,
@@ -31,20 +32,29 @@
     background-color: #1070ae
 }
 
-
+body,
 .fundo-azul-claro {
     background-color: #DEEFF1;
 }
 
 .botao-padrao,
 .fundo-cinza {
-    background-color: #b8cbd9; 
+    background-color: #b8cbd9;
 }
 
 .fundo-escuro {
-    color: #333333; 
+    color: #333333;
+}
+/*/////FAMÍLIA DE TEXTOS //////*/
+h1 {
+    font-size: 30px;
+    font-weight: bold;
 }
 
+h2 {
+    font-size: 15px;
+    font-weight: 400;
+}
 
 
 /*/////FAMÍLIA DE BOTOES //////*/
@@ -52,11 +62,12 @@
 .botao-secundario,
 .botao-principal,
 .botao-padrao,
-.botao{
+.botao {
+    position: relative;
     font-size: 14px;
     height: 45px;
-    border:none;
-    border-radius:45px;
+    border: none;
+    border-radius: 45px;
     color: white;
     padding-left: 15px;
     padding-right: 15px;
@@ -64,6 +75,10 @@
 
 
 /*///// ESTRUTURA //////*/
+
+body.ativar-rolamento {
+    overflow-y: visible;
+}
 
 body {
     margin: 0px;
@@ -73,33 +88,50 @@ body {
 }
 
 header, footer {
-    height: 12vh;
-    margin-bottom: 30px;
+    height: 15vh;
 }
 
 header {
-    padding-top: 5vh;
     padding-left: 5vh;
     padding-right: 5vh;
 }
 
 footer {
-    margin-bottom: 1vh;
+    align-items: flex-end;
 }
 
-main{
-    height: 80vh;
+main {
+    height: 70vh;
+}
+
+body.ativar-rolamento main {
+    height: auto;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
+
+
+body.ativar-rolamento footer,
+body.ativar-rolamento header{
+    position: fixed;
+    z-index: 99;
+    right: 0;
+    left: 0;      
+}
+
+body.ativar-rolamento footer{
+    bottom: 0px;
 }
 
 
 /*///// @TODO organizar //////*/
 
 
-#v-line{
-        border-right: 2px solid #1070ad;
-        height:45px;
-        left: 3px;
-               }
+#v-line {
+    border-right: 2px solid #1070ad;
+    height: 45px;
+    left: 3px;
+}
 
 
 input.buscador {
@@ -110,23 +142,24 @@ input.buscador {
     padding-left: 39px;
     color: #1070AE;
     font-size: 20px;
-        
+
 }
+
 input.buscador::-webkit-input-placeholder {
     font-style: italic;
     color: #1070AE;
 }
-  
-.separador{
+
+.separador {
     height: 15vh;
 }
 
-footer{
+footer {
     font-size: 16px;
     color: #3a3a3a;
 }
 
-.lista-horizontal ul{
+.lista-horizontal ul {
     list-style-type: none;
 }
 
@@ -136,7 +169,7 @@ footer{
     padding-right: 10px;
 }
 
-.lista-horizontal li:not(:last-child) {    
+.lista-horizontal li:not(:last-child) {
     border-right: #1070ad solid 2px;
 }
 

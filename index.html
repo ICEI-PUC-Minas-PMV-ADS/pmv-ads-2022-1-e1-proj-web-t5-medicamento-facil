@@ -16,16 +16,24 @@
 </head>
 
 <body>
-    <header class="row">
-        <div class="col-sm-4">
-            <button id="button1" class="btn botao-principal">Área do Farmacêutico</button>
-        </div>
-        <div class="col-sm-8 text-end">
-            <ul class="lista-horizontal">
-                <li><button type="button" class="btn botao-padrao">Faça seu Login</button></li>
-                <li><button type="button" class="btn botao-padrao">Crie sua conta</button></li>
-            </ul>
-        </div>
+    <header>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <button id="button1" class="btn botao-principal">Área do Farmacêutico</button>
+            </div>
+            <div class="col-sm-8 text-end">
+                <ul class="lista-horizontal">
+                    <li>
+                        <button type="button" class="btn botao-padrao">Faça seu Login</button>
+                    </li>
+                    <li>
+                        <a href="cadastro.html">
+                            <button type="button" class="btn botao-padrao">Crie sua conta</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
     <main>
@@ -43,10 +51,12 @@
             <div class="col-sm-3"></div>
             <div class="col-sm-6">
                 <div class="botao-busca">
-                    <input class='form-control buscador' type="text" placeholder="Digite seu endereço" />
-                    <button class="lupa">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </button>
+                    <form method="get" action="mapa.html">
+                        <input class='form-control buscador' type="text" placeholder="Digite seu endereço" />
+                        <button type="submit" class="lupa">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
                 </div>
             </div>
             <div class="col-sm-3"></div>

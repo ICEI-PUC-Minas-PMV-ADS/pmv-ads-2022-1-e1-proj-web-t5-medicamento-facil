@@ -1,8 +1,7 @@
 .mapa{
-    height: 80%;
-    width: 70%;
     position: relative;
+    height: 80%;
+    width: 70%;    
     left: 15%;
     top: 10%;
-    z-index: -1;
 }
