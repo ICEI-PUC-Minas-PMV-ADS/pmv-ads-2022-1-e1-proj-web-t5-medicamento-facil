@@ -43,9 +43,22 @@
             </nav>
         </div>
     </footer>
-    <script src="js/bootstrap.min.js" type="javascript"></script>    
+    <script src="js/bootstrap.min.js" type="javascript"></script>
+    <script>
+        const itemMapa = document.getElementById("mapa-medicamento");
+        let mapa = null;
+
+        function iniciarMapa() {
+            mapa = new google.maps.Map(itemMapa, {
+                center: { lat: -19.912998, lng: -43.940933 },
+                zoom: 8,
+            });
+        }
+
+        window.initMap = iniciarMapa;
+    </script>
     <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjQsU2GZCjZH1HpWTiF4oo_jvUzpG4jv8&callback=initMap&v=weekly"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzAA6TeMnG_qi6_mu0KyMVD63tH05mtjw&callback=iniciarMapa"
         defer></script>
 </body>
 
