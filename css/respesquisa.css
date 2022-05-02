@@ -1,0 +1,43 @@
+.mapa{
+    position: relative;
+    height: 50%;
+    width: 46%;    
+    top: 5%;
+    left: 3%;
+}
+h1{
+    font-size: 20px;
+}
+h2{
+    position:relative;
+    top: 8px;
+    padding: auto;
+}
+
+/*/////FAMÍLIA DE FORMULÁRIOS //////*/
+.form-control-plaintext{
+    padding-right: auto;
+    padding-left: 10px;
+    background-color: #FFFFFF99;
+    font-size: 15px;
+    border-radius: 45px;
+      
+}
+.resultado{
+    
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+#informacao{
+    position:relative;
+    height: 50%;
+    width: 46%;  
+    border-radius: 0px;
+    top: -45%;
+    left: 51%;
+}
+
+
+
+
