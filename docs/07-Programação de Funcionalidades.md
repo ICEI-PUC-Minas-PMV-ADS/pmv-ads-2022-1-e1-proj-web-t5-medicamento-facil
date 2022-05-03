@@ -22,21 +22,16 @@ RF-01 -  O site deve apresentar na página principal um buscador no qual o usuá
 
 <!DOCTYPE html>
 <html>
-
 <head>
     <link href="css/bootstrap.min.css" rel="stylesheet" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
-
     <link href="css/template.css" rel="stylesheet" />
-
     <meta charset="UTF-8">
     <title>Medicamento Fácil. Simples. Rápido.</title>
 </head>
-
 <body>
     <header>
         <br>
@@ -96,7 +91,6 @@ RF-01 -  O site deve apresentar na página principal um buscador no qual o usuá
     </footer>
     <script src="js/bootstrap.min.js" type="javascript"></script>
 </body>
-
 </html>
 
 ### Instruções de acesso 
