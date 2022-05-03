@@ -6,7 +6,7 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 
 A Tela Inicial do sistema apresenta apresenta um buscador centralizado, no qual o usuário deverá digitar seu endereço a fim de direcionar a buscar de medicamentos à Unidade Básica de Saúde mais próxima. Esta tela ainda permite que o usuário faça cadastro ou login, bem como acesso à Área do Farmacêutico. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil".
 
-![Inicial](img/Inicial.jpg)
+![Inicial](img/principal.png)
 
 ### Requisitos atendidos 
 
@@ -20,49 +20,74 @@ RF-01 -  O site deve apresentar na página principal um buscador no qual o usuá
 
 ### Estrutura de Dados 
 
+<!DOCTYPE html>
 <html>
+
 <head>
-    <link href="css/bootstrap.min.css" rel="stylesheet" />   
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">   
-    <link href="css/base.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+
+    <link href="css/template.css" rel="stylesheet" />
+
     <meta charset="UTF-8">
     <title>Medicamento Fácil. Simples. Rápido.</title>
 </head>
+
 <body>
-    <header class="row">
-        <div class="col-md-3">
-            <button class="btn btn-info">Área do Farmacêutico</button>
-        </div>
-        <div class="col-md-6"></div>
-        <div class="col-md-3 text-end">
-            <button type="button" class="btn btn-info">Faça seu Login</button>
-            <button type="button" class="btn btn-info">Crie sua conta</button>
+    <header>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <button id="button1" class="btn botao-principal">Área do Farmacêutico</button>
+            </div>
+            <div class="col-sm-8 text-end">
+                <ul class="lista-horizontal">
+                    <li>
+                        <button type="button" class="btn botao-padrao">Faça seu Login</button>
+                    </li>
+                    <li>
+                        <a href="cadastro.html">
+                            <button type="button" class="btn botao-padrao">Crie sua conta</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
     <main>
-        <div class="row separador"></div>        
+        <div class="row separador"></div>
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <img src="imagens/logo.png" class="img-fluid" />
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+        <div class="row"></div>
+        <br><br>
         <div class="row">
             <div class="col-sm-3"></div>
             <div class="col-sm-6">
-                <img src="imagens/logo.png" class="img-fluid"/>
+                <div class="botao-busca">
+                    <form method="get" action="mapa.html">
+                        <input class='form-control buscador' type="text" placeholder="Digite seu endereço" />
+                        <button type="submit" class="lupa">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                </div>
             </div>
             <div class="col-sm-3"></div>
         </div>
-        <div class="row separador"></div>
-        <div class="row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-8">
-                <input class='buscador' type="text" placeholder="Digite seu endereço" />
-            </div>
-            <div class="col-sm-2"></div>
-        </div>        
     </main>
     <footer class="row">
         <div class="col-md-12">
             <nav>
-                <ul>
+                <ul class="lista-horizontal">
                     <li>Sobre</li>
                     <li>Como funciona o Medicamento Fácil!</li>
                 </ul>
@@ -71,6 +96,7 @@ RF-01 -  O site deve apresentar na página principal um buscador no qual o usuá
     </footer>
     <script src="js/bootstrap.min.js" type="javascript"></script>
 </body>
+
 </html>
 
 ### Instruções de acesso 
@@ -79,8 +105,4 @@ Abra um navegador de Internet e informe a seguinte URL: XXXXX
 
 A Tela Inicial é a primeira funcionalidade exibida pelo aplicativo. 
 
-
-
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
