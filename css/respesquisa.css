@@ -37,6 +37,12 @@ h2{
     top: -45%;
     left: 51%;
 }
+#compartilha{
+    width:300px;
+    position: relative;
+    right: 20px;
+    bottom: 10px;   
+}
 
 
 
