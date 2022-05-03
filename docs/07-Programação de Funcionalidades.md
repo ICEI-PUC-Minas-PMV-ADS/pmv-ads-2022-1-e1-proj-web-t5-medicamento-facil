@@ -99,7 +99,7 @@ Abra um navegador de Internet e informe a seguinte URL: XXXXX
 
 A Tela Inicial é a primeira funcionalidade exibida pelo aplicativo. 
 
-## Tela Busca de Medicamentos (RF-02)
+## Tela de Busca de Medicamentos (RF-02)
 
 A Tela de Busca de Medicamentos do sistema apresenta apresenta um buscador centralizado, no qual o usuário deverá digitar os medicamentos de interesse. Esta tela ainda permite que o usuário notifique a falta de um medicamento. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil".
 
