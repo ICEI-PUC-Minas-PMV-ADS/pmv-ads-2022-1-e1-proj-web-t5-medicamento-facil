@@ -1,6 +1,6 @@
 # Template padrão do site
 
-A construção do design a ser utilizado na aplicação Medicamento Fácil foi feita através do Figma e tem como base o protótipo e o projeto de interface já apresentados. Para permitir a responsividade do layout foram utilizadas estruturas do Bootstrap. 
+A construção do design a ser utilizado na aplicação Medicamento Fácil foi feito através do Figma e tem como base o protótipo e o projeto de interface já apresentados. Para permitir a responsividade do layout foram utilizadas estruturas do Bootstrap. 
 
 ## Tela Inicial
 
