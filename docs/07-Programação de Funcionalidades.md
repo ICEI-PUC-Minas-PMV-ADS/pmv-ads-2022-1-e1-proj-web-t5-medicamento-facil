@@ -418,4 +418,4 @@ Abra um navegador de Internet e informe a seguinte URL: XXXXX
 A Tela de Login é a exibida após o usuário clicar em "Faça Login".
 
 
-## Tela área do usuário
+## Tela área do usuário (RF-02 e RF-08)
