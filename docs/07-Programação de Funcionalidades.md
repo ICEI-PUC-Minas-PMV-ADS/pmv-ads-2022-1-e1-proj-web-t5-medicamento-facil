@@ -319,3 +319,10 @@ A Tela de Login do sistema apresenta um buscador centralizado, no qual o usuári
 
 ![Login](img/login.png)
 
+### Requisitos atendidos
+RF-05 - O site deve ter uma área personalizada, na qual o usuário deverá acessar com login e senha. Nesta área, o usuário irá cadastrar seu e-mail, celular e os medicamentos que utiliza, sendo notificado assim que os medicamentos estiverem disponíveis.
+•	login.html
+•	template.css
+•	logo.png
+
+
