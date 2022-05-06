@@ -411,4 +411,8 @@ RF-05 - O site deve ter uma área personalizada, na qual o usuário deverá aces
 
 </html>
 
+### Instruções de acesso
+
+Abra um navegador de Internet e informe a seguinte URL: XXXXX
+A Tela de Login é a exibida após o usuário clicar em "Faça Login".
 
