@@ -437,3 +437,80 @@ RF-08 - O site deve permitir que o próprio usuário notifique a falta de um det
 •	template.css
 
 •	logo.png
+
+### Estrutura de Dados
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+
+    <link href="css/template.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <title>Medicamento Fácil. Simples. Rápido.</title>
+</head>
+
+<body class="ativar-rolamento">
+    <header>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <a href="index.html">
+                    <button id="button1" class="btn botao-padrao">Voltar</button>
+                </a>
+            </div>
+            <div class="col-sm-6 text-end">
+                <a href="index.html">
+                    <img src="imagens/logo.png" width="150" />
+                </a>
+            </div>
+        </div>
+    </header>
+    <main class="text-center">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Olá usuário, o que você deseja?</h1>   
+                <br> <br><br><br><br>          
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+               
+                    <div class="col-12">
+                        <button type="submit" class="btn botao-secundario">Pesquisar medicamento</button>
+                    </div>
+                    <div class="col-12">
+                        <br>
+                        <button type="submit" class="btn botao-secundario">Notificar falta de medicamentoa</button>
+                    </div>
+            
+            </div>
+            <div class="col-sm-3"></div>
+
+        </div>
+
+
+
+    </main>
+    <footer class="row">
+        <div class="col-md-12">
+            <nav>
+                <ul class="lista-horizontal">
+                    <li>Sobre</li>
+                    <li>Como funciona?</li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="js/bootstrap.min.js" type="javascript"></script>
+
+</body>
+
+</html>
