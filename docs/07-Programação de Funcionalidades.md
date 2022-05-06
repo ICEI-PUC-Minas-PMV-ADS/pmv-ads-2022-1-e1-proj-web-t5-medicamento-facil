@@ -420,5 +420,6 @@ A Tela de Login é a exibida após o usuário clicar em "Faça Login".
 
 ## Tela área do usuário (RF-02 e RF-08)
 
+A Tela de área do usuário do sistema apresenta dois botões centralizados, nos quais o usuário poderá pesquisar medicamento ou notificar a falta de medicamento. Também dispõe dos ícones "sobre" e "como funciona o medicamento fácil".
 
 ![Área-do-usuário](img/area-do-usuario.png)
