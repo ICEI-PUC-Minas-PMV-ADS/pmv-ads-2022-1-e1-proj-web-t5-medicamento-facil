@@ -156,6 +156,7 @@ input {
     padding-left: 39px;
     color: #1070AE;
     font-size: 20px;
+    background-color: #DEEFF1;
 
 }
 
@@ -192,4 +193,8 @@ footer {
     background: none;
     font-size: 25px;
     border: none;
+}
+
+.form-control {
+    border-radius: 45px;
 }
