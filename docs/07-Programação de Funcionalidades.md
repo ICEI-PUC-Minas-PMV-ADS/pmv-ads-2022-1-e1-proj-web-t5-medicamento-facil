@@ -419,3 +419,6 @@ A Tela de Login é a exibida após o usuário clicar em "Faça Login".
 
 
 ## Tela área do usuário (RF-02 e RF-08)
+
+
+![Área-do-usuário](img/area-do-usuario.png)
