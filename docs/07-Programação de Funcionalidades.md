@@ -316,3 +316,6 @@ A Tela de Cadastro é a exibida após o usuário clicar em "Crie sua Conta".
 ### Tela de Login (RF-05)
 
 A Tela de Login do sistema apresenta um buscador centralizado, no qual o usuário deverá digitar e-mail e senha cadastrados para acessar a área do usuário. Esta tela também apresenta o botão “esqueceu sua senha?” para o caso em que o usuário necessite recuperar o acesso. Também dispõe dos ícones "sobre" e "como funciona o medicamento fácil".
+
+![Login](img/login.png)
+
