@@ -514,3 +514,9 @@ RF-08 - O site deve permitir que o próprio usuário notifique a falta de um det
 </body>
 
 </html>
+
+### Instruções de acesso
+
+Abra um navegador de Internet e informe a seguinte URL: XXXXX
+
+A Tela da área do usuário é a exibida após o usuário logar na conta cadastrada em "Faça Login".
