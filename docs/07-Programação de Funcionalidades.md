@@ -427,6 +427,5 @@ A Tela de área do usuário do sistema apresenta dois botões centralizados, nos
 ## Requisitos atendidos
 
 RF-02 - O site deve apresentar uma página com um buscador no qual o usuário irá digitar os medicamentos buscados
-
 RF-08 - O site deve permitir que o próprio usuário notifique a falta de um determinado medicamento
 
