@@ -1,3 +1,16 @@
+
+
+input {
+    width: 100%;
+    border-radius: 100px;
+    height: 40px;
+    border:  #1070AE 3px;
+    padding-left: 39px;
+    color: #1070AE;
+    font-size: 20px;
+
+}
+
 /*/////FAMÍLIA DE CORES //////*/
 .cor-vermelha {
     color: #c1272d
@@ -41,6 +54,7 @@ body,
 .fundo-cinza {
     background-color: #b8cbd9;
 }
+
 
 .fundo-escuro {
     color: #333333;
@@ -101,12 +115,12 @@ footer {
 }
 
 main {
-    height: 70vh;
+    height: 100vh;
 }
 
 body.ativar-rolamento main {
     height: auto;
-    padding-top: 15vh;
+    padding-top: 35vh;
     padding-bottom: 15vh;
 }
 
@@ -134,21 +148,18 @@ body.ativar-rolamento footer{
 }
 
 
-input.buscador {
+input {
     width: 100%;
-    border-radius: 25px;
-    height: 60px;
-    border: solid #1070AE 3px;
+    border-radius: 100px;
+    height: 40px;
+    border:  #1070AE 3px;
     padding-left: 39px;
     color: #1070AE;
     font-size: 20px;
+    background-color: #DEEFF1;
 
 }
 
-input.buscador::-webkit-input-placeholder {
-    font-style: italic;
-    color: #1070AE;
-}
 
 .separador {
     height: 15vh;
@@ -182,4 +193,8 @@ footer {
     background: none;
     font-size: 25px;
     border: none;
+}
+
+.form-control {
+    border-radius: 45px;
 }
