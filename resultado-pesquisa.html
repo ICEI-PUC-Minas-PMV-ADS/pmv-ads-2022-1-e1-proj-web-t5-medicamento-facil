@@ -18,7 +18,9 @@
         <br>
         <div class="row">
             <div class="col-md-6">
-                <button id="button1" class="btn botao-principal">Área do Farmacêutico</button>
+                <a href="login-farmaceutico.html">
+                    <button class="btn botao-principal">Área do Farmacêutico</button>
+                </a>
             </div>
             <div class="col-md-6 text-end">
                 <a href="index.html">
@@ -27,62 +29,63 @@
             </div>
         </div>
     </header>
-    <main>       
-        
+    <main>
+
         <div class="resultado">
-        <div class="row">
-            <div class="col-md-12">
-                    <h1>Resultado da Busca</h1>           
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Resultado da Busca</h1>
+                </div>
             </div>
+            </br>
+
+            <div class="row">
+                <div class="col-md-8">
+                    <input type="text" readonly class="form-control-plaintext" value="Nome do Medicamento Pesquisado">
+                </div>
+                <div class=col-md-2>
+                    <h2>Dosagens Disponíveis:</h2>
+                </div>
+                <div class="col-md-2">
+                    <input type="text" readonly class="form-control-plaintext" value="Dosagem x">
+                </div>
             </div>
-        </br>
-        
-        <div class="row">
-            <div class="col-md-8">
-                <input type="text" readonly class="form-control-plaintext" value="Nome do Medicamento Pesquisado">
-            </div>
-            <div class=col-md-2>
-                <h2>Dosagens Disponíveis:</h2>
-            </div>
-            <div class="col-md-2">
-                <input type="text" readonly class="form-control-plaintext" value="Dosagem x">
-            </div>
-        </div>
-                </br>
-        <div class="row" >          
-            <div class=col-md-5>
-                <h2>Responsável pelo fornecimento da medicação:</h2>
-            </div>
-            <div class="col-md-3">
-                <input type="text" readonly class="form-control-plaintext" value="Fulano">
-            </div>
-            <div class=col-md-2>
-                <h2>Prazo de Entrega:</h2>
-            </div>
-            <div class="col-md-2">
-                <input type="text" readonly class="form-control-plaintext" value="01/01/0101">
-            </div>
+            </br>
+            <div class="row">
+                <div class=col-md-5>
+                    <h2>Responsável pelo fornecimento da medicação:</h2>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" readonly class="form-control-plaintext" value="Fulano">
+                </div>
+                <div class=col-md-2>
+                    <h2>Prazo de Entrega:</h2>
+                </div>
+                <div class="col-md-2">
+                    <input type="text" readonly class="form-control-plaintext" value="01/01/0101">
+                </div>
             </div>
         </div>
         <div id="mapa-medicamento" class="mapa" style="background-color: rgb(156, 156, 156);"></div>
-        <input type="text" id="informacao" readonly class="form-control-plaintext" value="Informações de contato da UBS">      </div>
+        <input type="text" id="informacao" readonly class="form-control-plaintext"
+            value="Informações de contato da UBS"> </div>
         </br>
         <button class="botao-padrao">Compartilhar resultado da busca</button>
-        </div>  
         </div>
-</div>
-       </main>
-    
+        </div>
+        </div>
+    </main>
+
     <footer class="row">
-        
+
         <div class="row">
             <div class="col-md-7"></div>
             <div class="col-md-5 text-end">
-             <button id="compartilha" class="botao-padrao">Compartilhar resultado da busca</button>
-            </br>
+                <button id="compartilha" class="botao-padrao">Compartilhar resultado da busca</button>
+                </br>
             </div>
         </div>
-        
+
         <div class="col-md-12">
             <nav>
                 <ul class="lista-horizontal">
