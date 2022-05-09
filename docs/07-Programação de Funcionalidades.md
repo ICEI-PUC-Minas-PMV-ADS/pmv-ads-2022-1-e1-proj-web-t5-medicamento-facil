@@ -515,6 +515,200 @@ RF-08 - O site deve permitir que o próprio usuário notifique a falta de um det
 
 </html>
 
+
+## Tela Notificar falta de medicamento (RF-08)
+
+A Tela Notificar falta medicamento apresenta uma caixa de texto centralizada onde o usuário poderá preencher o nome do medicamento que está em falta e em seguida enviar clicando no botão "Enviar requisição" logo abaixo. 
+
+![Falta medicamento](img/tela-falta-medicamento.jpg)
+
+### Requisitos atendidos 
+
+RF-08 -  O site deve permitir que o próprio usuário notifique a falta de um determinado medicamento.
+
+### Artefatos da funcionalidade 
+
+- index.html
+- base.css
+- logo.png
+
+### Estrutura de Dados 
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+
+    <link href="css/template.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <title>Medicamento Fácil. Simples. Rápido.</title>
+</head>
+
+<body class="ativar-rolamento">
+    <header>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <a href="index.html">
+                    <button id="button1" class="btn botao-padrao">Voltar</button>
+                </a>
+            </div>
+            <div class="col-sm-6 text-end">
+                <a href="index.html">
+                    <img src="imagens/logo.png" width="150" />
+                </a>
+            </div>
+        </div>
+    </header>
+    <main class="text-center">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Informe qual medicamento está em falta</h1>              
+            </div>
+        </div>
+        <div class="row"></div>
+        <br></br>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <form class="row g-3">
+                    <div class="col-12">
+                        <label for="inputAddress" class="form-label"></label>
+                        <input type="text" class="form-control" id="inputAddress">
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn botao-secundario">Enviar requisição</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-3"></div>
+
+        </div>
+
+
+
+    </main>
+    <footer class="row">
+        <div class="col-md-12">
+            <nav>
+                <ul class="lista-horizontal">
+                    <li>Sobre</li>
+                    <li>Como funciona?</li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="js/bootstrap.min.js" type="javascript"></script>
+
+</body>
+
+</html>
+
+
+## Tela Alterar senha (RF-09)
+
+A Tela Alterar senha apresenta dois campos:  "Senha" - onde o usuário preencherá com a nova senha e "Digite novamente sua senha" - onde deverá confirmar a senha escolhida e confirmar clicando no botão 'Enviar' logo abaixo.
+
+![Alterar senha](img/tela-alterar-senha.jpg)
+
+### Requisitos atendidos 
+
+RF-09 -  O site deve permitir que o usuário recupere sua senha em caso de esquecimento.
+
+### Artefatos da funcionalidade 
+
+- index.html
+- base.css
+- logo.png
+
+### Estrutura de Dados 
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+
+    <link href="css/template.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <title>Medicamento Fácil. Simples. Rápido.</title>
+</head>
+
+<body class="ativar-rolamento">
+    <header>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <a href="index.html">
+                    <button id="button1" class="btn botao-padrao">Voltar</button>
+                </a>
+            </div>
+            <div class="col-sm-6 text-end">
+                <a href="index.html">
+                    <img src="imagens/logo.png" width="150" />
+                </a>
+            </div>
+        </div>
+    </header>
+    <main class="text-center">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Alterar a senha</h1>              
+            </div>
+        </div>
+        <div class="row"></div>
+        <br></br>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <form class="row g-3">
+                    <div class="col-6">
+                        <label for="inputAddress" class="form-label">Senha</label>
+                        <input type="password" class="form-control" id="inputAddress">
+                    </div>
+                    <div class="col-6">
+                        <label for="inputAddress2" class="form-label">Digite novamente sua senha</label>
+                        <input type="password" class="form-control" id="inputAddress2">
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn botao-secundario">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-3"></div>
+
+        </div>
+
+
+
+    </main>
+    <footer class="row">
+        <div class="col-md-12">
+            <nav>
+                <ul class="lista-horizontal">
+                    <li>Sobre</li>
+                    <li>Como funciona?</li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="js/bootstrap.min.js" type="javascript"></script>
+
+</body>
+
+</html>
+
+
+
 ### Instruções de acesso
 
 Abra um navegador de Internet e informe a seguinte URL: XXXXX
