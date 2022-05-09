@@ -612,7 +612,7 @@ RF-08 -  O site deve permitir que o próprio usuário notifique a falta de um de
 
 ## Tela Alterar senha (RF-09)
 
-A Tela Alterar senha apresenta dois campos:  "Senha" - onde o usuário preencherá com a nova senha e "Digite novamente sua senha" - onde deverá confirmar a senha escolhida e confirmar clicando no botão 'Enviar' logo abaixo.
+A Tela Alterar senha apresenta dois campos:  "Senha" - onde o usuário preencherá com a nova senha e "Digite novamente sua senha" - onde deverá confirmar a senha escolhida e confirmar clicando no botão "Enviar" logo abaixo.
 
 ![Alterar senha](img/tela-alterar-senha.jpg)
 
