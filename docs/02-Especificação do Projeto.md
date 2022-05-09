@@ -123,10 +123,11 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-06| O site deve fornecer o prazo de entrega dos medicamentos | ALTA |
 |RF-07| O site deve informar o(s) responsável(is) pelo fornecimento da medicação | ALTA |
 |RF-08| O site deve permitir que o próprio usuário notifique a falta de um determinado medicamento | ALTA |
-|RF-09| O site deve permitir ao usuário visualizar as dosagens disponíveis do(s) medicamento(s) buscado | MÉDIA | 
-|RF-10| O site deve permitir visualizar as informações de contatos das Unidades Básicas de Saúde | BAIXA | 
-|RF-11| O site deve permitir salvar o resultado da busca | BAIXA |
-|RF-12| O site deve permitir o compartilhamento da busca no WhatsApp | BAIXA |
+|RF-09| O site deve permitir que o usuário recupere sua senha em caso de esquecimento | MÉDIA | 
+|RF-10| O site deve permitir ao usuário visualizar as dosagens disponíveis do(s) medicamento(s) buscado | MÉDIA | 
+|RF-11| O site deve permitir visualizar as informações de contatos das Unidades Básicas de Saúde | BAIXA | 
+|RF-12| O site deve permitir salvar o resultado da busca | BAIXA |
+|RF-13| O site deve permitir o compartilhamento da busca no WhatsApp | BAIXA |
 
 ### Requisitos não Funcionais
 
