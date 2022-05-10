@@ -722,7 +722,7 @@ A Tela da área do usuário é a exibida após o usuário logar na conta cadastr
 
 A Tela de Login do Farmacêutico apresenta os campos de login e senha, nos quais o farmacêutico deverá inserir seus dados. Esta tela ainda permite retornar à tela inicial. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil".
 
-![Inicial](img/principal.png)
+![login-farmaceutico](img/login-farmaceutico.png)
 
 ### Requisitos atendidos 
 
