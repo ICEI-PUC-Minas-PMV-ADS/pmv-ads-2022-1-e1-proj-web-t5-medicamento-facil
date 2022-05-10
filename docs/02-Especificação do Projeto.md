@@ -118,7 +118,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-01| O site deve apresentar na página principal um buscador no qual o usuário irá digitar seu endereço | ALTA | 
 |RF-02| O site deve apresentar uma página com um buscador no qual o usuário irá digitar os medicamentos buscados | ALTA |
 |RF-03| O site deve oferecer como resultado da busca o status de disponibilidade do(s) medicamento(s), além de um mapa localizando em qual Unidade Básica de Saúde mais próxima o(s) medicamento(s) está disponível, integrando a geolocalização do Google Maps  | ALTA |
-|RF-04| O site deve permitir a atualização do estoque de medicamentos disponíveis pela farmácia da UBS | ALTA |
+|RF-04| O site deve ter uma área de login do farmacêutico, na qual ele irá atualizar o estoque de medicamentos disponíveis pela farmácia da UBS | ALTA |
 |RF-05| O site deve ter uma área personalizada, na qual o usuário deverá acessar com login e senha. Nesta área, o usuário irá cadastrar seu e-mail, celular e os medicamentos que utiliza, sendo notificado assim que os medicamentos estiverem disponíveis | ALTA |
 |RF-06| O site deve fornecer o prazo de entrega dos medicamentos | ALTA |
 |RF-07| O site deve informar o(s) responsável(is) pelo fornecimento da medicação | ALTA |
