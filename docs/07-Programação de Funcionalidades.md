@@ -717,3 +717,101 @@ RF-09 -  O site deve permitir que o usuário recupere sua senha em caso de esque
 Abra um navegador de Internet e informe a seguinte URL: XXXXX
 
 A Tela da área do usuário é a exibida após o usuário logar na conta cadastrada em "Faça Login".
+
+## Tela Login do Farmacêutico (RF-04)
+
+A Tela de Login do Farmacêutico apresenta os campos de login e senha, nos quais o farmacêutico deverá inserir seus dados. Esta tela ainda permite retornar à tela inicial. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil".
+
+![Inicial](img/principal.png)
+
+### Requisitos atendidos 
+
+RF-04 -  O site deve ter uma área de login do farmacêutico, na qual ele irá atualizar o estoque de medicamentos disponíveis pela farmácia da UBS.
+
+### Artefatos da funcionalidade 
+
+- login-farmaceutico.html
+- template.css
+- logo.png
+
+### Estrutura de Dados 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+    <link href="css/template.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <title>Medicamento Fácil. Simples. Rápido.</title>
+</head>
+<body>
+    <header>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <button id="button1" class="btn botao-principal">Área do Farmacêutico</button>
+            </div>
+            <div class="col-sm-8 text-end">
+                <ul class="lista-horizontal">
+                    <li>
+                        <button type="button" class="btn botao-padrao">Faça seu Login</button>
+                    </li>
+                    <li>
+                        <a href="cadastro.html">
+                            <button type="button" class="btn botao-padrao">Crie sua conta</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="row separador"></div>
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <img src="imagens/logo.png" class="img-fluid" />
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+        <div class="row"></div>
+        <br><br>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <div class="botao-busca">
+                    <form method="get" action="mapa.html">
+                        <input class='form-control buscador' type="text" placeholder="Digite seu endereço" />
+                        <button type="submit" class="lupa">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+    </main>
+    <footer class="row">
+        <div class="col-md-12">
+            <nav>
+                <ul class="lista-horizontal">
+                    <li>Sobre</li>
+                    <li>Como funciona o Medicamento Fácil!</li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="js/bootstrap.min.js" type="javascript"></script>
+</body>
+</html>
+
+### Instruções de acesso 
+
+Abra um navegador de Internet e informe a seguinte URL: XXXXX
+
+A Tela de Login do Farmacêutico é direcionada ao clicar no botão "Área do Farmacêutico". 
+
