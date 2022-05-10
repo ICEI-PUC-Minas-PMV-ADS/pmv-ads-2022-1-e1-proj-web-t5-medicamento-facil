@@ -15,7 +15,7 @@ RF-01 -  O site deve apresentar na página principal um buscador no qual o usuá
 ### Artefatos da funcionalidade 
 
 - index.html
-- base.css
+- template.css
 - logo.png
 
 ### Estrutura de Dados 
@@ -111,7 +111,7 @@ RF-02 -  O site deve apresentar uma página com um buscador no qual o usuário i
 
 ### Artefatos da funcionalidade 
 
-- index.html
+- buscar-medicamento.html
 - template.css
 - logo.png
 
@@ -198,7 +198,7 @@ A Tela de Busca de Medicamentos é a exibida após a confirmação de endereço.
 
 ## Tela Cadastro (RF-05)
 
-A Tela de Busca de Medicamentos do sistema apresenta apresenta um buscador centralizado, no qual o usuário deverá digitar os medicamentos de interesse. Esta tela ainda permite que o usuário notifique a falta de um medicamento. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil".
+A Tela de Cadastro apresenta um formulário a ser preenchido pelo usuário. Esta tela ainda permite que o usuário volte à tela inicial. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil".
 
 ![Cadastro](img/cadastro.png)
 
@@ -323,7 +323,11 @@ A Tela de Login do sistema apresenta um buscador centralizado, no qual o usuári
 
 
 ### Requisitos atendidos
+
 RF-05 - O site deve ter uma área personalizada, na qual o usuário deverá acessar com login e senha. Nesta área, o usuário irá cadastrar seu e-mail, celular e os medicamentos que utiliza, sendo notificado assim que os medicamentos estiverem disponíveis.
+
+### Artefatos da funcionalidade 
+
 •	login.html
 •	template.css
 •	logo.png
@@ -436,9 +440,7 @@ RF-08 - O site deve permitir que o próprio usuário notifique a falta de um det
 ### Artefatos da funcionalidade
 
 •	area-do-usuario.html
-
 •	template.css
-
 •	logo.png
 
 ### Estrutura de Dados
@@ -531,8 +533,8 @@ RF-08 -  O site deve permitir que o próprio usuário notifique a falta de um de
 
 ### Artefatos da funcionalidade 
 
-- index.html
-- base.css
+- notificar-medicamento.html
+- template.css
 - logo.png
 
 ### Estrutura de Dados 
@@ -625,8 +627,8 @@ RF-09 -  O site deve permitir que o usuário recupere sua senha em caso de esque
 
 ### Artefatos da funcionalidade 
 
-- index.html
-- base.css
+- alterar-senha.html
+- template.css
 - logo.png
 
 ### Estrutura de Dados 
