@@ -612,6 +612,12 @@ RF-08 -  O site deve permitir que o próprio usuário notifique a falta de um de
 
 </html>
 
+### Instruções de acesso
+
+Abra um navegador de Internet e informe a seguinte URL: XXXXX
+
+A Tela de Área do usuário é a exibida após o usuário clicar em "Fazer Login" e enviar o formulário com o e-mail e senha.
+
 
 ## Tela Alterar senha (RF-09)
 
