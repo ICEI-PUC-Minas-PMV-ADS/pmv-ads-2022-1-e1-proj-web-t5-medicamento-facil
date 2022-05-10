@@ -319,6 +319,7 @@ A Tela de Login do sistema apresenta um buscador centralizado, no qual o usuári
 
 ![Login](img/login.png)
 ![EsqueceuASenha](img/telaEsqueceuSenha.png)
+![CodigodeRecuperacao](img/telaCodigoDeRecuperacao.png)
 
 
 ### Requisitos atendidos
