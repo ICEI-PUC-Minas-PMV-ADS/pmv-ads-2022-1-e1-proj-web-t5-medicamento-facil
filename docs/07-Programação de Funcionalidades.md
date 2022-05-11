@@ -2,6 +2,44 @@
 
 Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema.
 
+## Tela de Login (RF-06)
+
+A Tela de Login do sistema apresenta campos nos quais o usuário deverá digitar e-mail e senha cadastrados para acessar a área do usuário. Esta tela também apresenta o botão “esqueceu sua senha?” para o caso em que o usuário necessite recuperar o acesso. Também dispõe dos ícones "sobre" e "como funciona o medicamento fácil". 
+
+![Login](img/login.png)
+
+
+### Requisitos atendidos
+
+RF-06 - O site deve ter uma área personalizada, na qual o usuário deverá acessar com login e senha. Nesta área, o usuário irá cadastrar seu e-mail, celular e os medicamentos que utiliza, sendo notificado assim que os medicamentos estiverem disponíveis.
+
+### Artefatos da funcionalidade 
+
+•	login.html
+•	login.js
+•	template.css
+•	logo.png
+
+### Estrutura de Dados
+
+        function logar ()
+        {
+            var login = document.getElementById('login').value;
+            var senha = document.getElementById('senha').value;
+            if (login == "carolina@hotmail.com" && senha == "1234"){
+                location.href = "area-usuario.html";
+            } else {
+                alert ('Usuário ou senha incorretos. Tente novamente!');
+            }
+        }
+
+
+### Instruções de acesso
+
+A Tela de Login é a exibida após o usuário clicar em "Faça Login".
+
+
+
 ## Tela Inicial (RF-01)
 
 A Tela Inicial do sistema apresenta apresenta um buscador centralizado, no qual o usuário deverá digitar seu endereço a fim de direcionar a buscar de medicamentos à Unidade Básica de Saúde mais próxima. Esta tela ainda permite que o usuário faça cadastro ou login, bem como acesso à Área do Farmacêutico. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil".
@@ -20,78 +58,7 @@ RF-01 -  O site deve apresentar na página principal um buscador no qual o usuá
 
 ### Estrutura de Dados 
 
-<!DOCTYPE html>
-<html>
-<head>
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
-    <link href="css/template.css" rel="stylesheet" />
-    <meta charset="UTF-8">
-    <title>Medicamento Fácil. Simples. Rápido.</title>
-</head>
-<body>
-    <header>
-        <br>
-        <div class="row">
-            <div class="col-sm-4">
-                <button id="button1" class="btn botao-principal">Área do Farmacêutico</button>
-            </div>
-            <div class="col-sm-8 text-end">
-                <ul class="lista-horizontal">
-                    <li>
-                        <button type="button" class="btn botao-padrao">Faça seu Login</button>
-                    </li>
-                    <li>
-                        <a href="cadastro.html">
-                            <button type="button" class="btn botao-padrao">Crie sua conta</button>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </header>
-    <main>
-        <div class="row separador"></div>
-        <div class="row">
-            <div class="col-sm-4"></div>
-            <div class="col-sm-4">
-                <img src="imagens/logo.png" class="img-fluid" />
-            </div>
-            <div class="col-sm-4"></div>
-        </div>
-        <div class="row"></div>
-        <br><br>
-        <div class="row">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-6">
-                <div class="botao-busca">
-                    <form method="get" action="mapa.html">
-                        <input class='form-control buscador' type="text" placeholder="Digite seu endereço" />
-                        <button type="submit" class="lupa">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </button>
-                    </form>
-                </div>
-            </div>
-            <div class="col-sm-3"></div>
-        </div>
-    </main>
-    <footer class="row">
-        <div class="col-md-12">
-            <nav>
-                <ul class="lista-horizontal">
-                    <li>Sobre</li>
-                    <li>Como funciona o Medicamento Fácil!</li>
-                </ul>
-            </nav>
-        </div>
-    </footer>
-    <script src="js/bootstrap.min.js" type="javascript"></script>
-</body>
-</html>
+
 
 ### Instruções de acesso 
 
@@ -117,78 +84,7 @@ RF-02 -  O site deve apresentar uma página com um buscador no qual o usuário i
 
 ### Estrutura de Dados 
 
-<!DOCTYPE html>
-<html>
 
-<head>
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
-
-    <link href="css/template.css" rel="stylesheet" />
-
-    <meta charset="UTF-8">
-    <title>Medicamento Fácil. Simples. Rápido.</title>
-</head>
-
-<body>
-    <header>
-        <br>
-        <div class="row">
-            <div class="col-sm-4">
-            </div>
-            <div class="col-sm-8 text-end">
-                <ul class="lista-horizontal">
-                    <li>
-                        <button type="button" class="btn botao-padrao">Notificar falta de medicamento</button>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </header>
-    <main>
-        <div class="row separador"></div>
-        <div class="row">
-            <div class="col-sm-4"></div>
-            <div class="col-sm-4">
-                <img src="imagens/logo.png" class="img-fluid" />
-            </div>
-            <div class="col-sm-4"></div>
-        </div>
-        <div class="row"></div>
-        <br><br>
-        <div class="row">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-6">
-                <div class="botao-busca">
-                    <form method="get" action="mapa.html">
-                        <input class='form-control buscador' type="text" placeholder="Buscar medicamentos" />
-                        <button type="submit" class="lupa">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </button>
-                    </form>
-                </div>
-            </div>
-            <div class="col-sm-3"></div>
-        </div>
-    </main>
-    <footer class="row">
-        <div class="col-md-12">
-            <nav>
-                <ul class="lista-horizontal">
-                    <li>Sobre</li>
-                    <li>Como funciona o Medicamento Fácil!</li>
-                </ul>
-            </nav>
-        </div>
-    </footer>
-    <script src="js/bootstrap.min.js" type="javascript"></script>
-</body>
-
-</html>
 
 ### Instruções de acesso 
 
@@ -214,97 +110,6 @@ RF-05 -  O site deve ter uma área personalizada, na qual o usuário deverá ace
 
 ### Estrutura de Dados 
 
-<!DOCTYPE html>
-<html>
-<head>
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
-    <link href="css/template.css" rel="stylesheet" />
-    <meta charset="UTF-8">
-    <title>Medicamento Fácil. Simples. Rápido.</title>
-</head>
-<body class="ativar-rolamento">
-    <header>
-        <br>
-        <div class="row">
-            <div class="col-sm-6">
-                <a href="index.html">
-                    <button id="button1" class="btn botao-padrao">Voltar</button>
-                </a>
-            </div>
-            <div class="col-sm-6 text-end">
-                <a href="index.html">
-                    <img src="imagens/logo.png" width="150" />
-                </a>
-            </div>
-        </div>
-    </header>
-    <main class="text-center">
-        <div class="row">
-            <div class="col-sm-12">
-                <h1>Cadastre-se</h1>
-                <h2>É rápido e fácil</h2>                
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-6">
-                <form class="row g-3">
-                    <div class="col-md-12">
-                        <label for="inputName" class="form-label">Nome</label>
-                        <input type="text" class="form-control" id="inputName" >
-                    </div>
-                    <div class="col-md-12">
-                        <label for="inputLastname" class="form-label">Sobrenome</label>
-                        <input type="text" class="form-control" id="inputLastname" >
-                    </div>
-                    <div class="col-12">
-                        <label for="inputPhone" class="form-label">Celular</label>
-                        <input type="number" class="form-control" id="inputPhone">
-                    </div>
-                    <div class="col-md-12">
-                        <label for="inputEmail" class="form-label">E-mail</label>
-                        <input type="email" class="form-control" id="inputEmail">
-                    </div>
-                    <div class="col-md-12">
-                        <label for="inputPassword" class="form-label">Senha</label>
-                        <input type="password" class="form-control" id="inputPassword">
-                    </div>
-                    <div class="col-md-12">
-                        <label for="inputPassword2" class="form-label">Digite novamente sua senha</label>
-                        <input type="password" class="form-control" id="inputPassword2">
-                    </div>
-                    <div class="col-md-12">
-                        <label for="inputMed" class="form-label">Medicamentos que utiliza</label>
-                        <input type="text" class="form-control" id="inputMed">
-                    </div>
-                    </div>
-                    <div class="row"></div>
-                    <br><br>
-                    <div class="col-12">
-                        <button type="submit" class="btn botao-secundario">Realizar meu Cadastro</button>
-                    </div>
-                </form>
-            </div>
-            <div class="col-sm-3"></div>
-        </div>
-    </main>
-    <footer class="row">
-        <div class="col-md-12">
-            <nav>
-                <ul class="lista-horizontal">
-                    <li>Sobre</li>
-                    <li>Como funciona?</li>
-                </ul>
-            </nav>
-        </div>
-    </footer>
-    <script src="js/bootstrap.min.js" type="javascript"></script>
-</body>
-</html>
 
 ### Instruções de acesso 
 
@@ -313,114 +118,6 @@ Abra um navegador de Internet e informe a seguinte URL: XXXXX
 A Tela de Cadastro é a exibida após o usuário clicar em "Crie sua Conta".
 
 
-## Tela de Login (RF-05)
-
-A Tela de Login do sistema apresenta um buscador centralizado, no qual o usuário deverá digitar e-mail e senha cadastrados para acessar a área do usuário. Esta tela também apresenta o botão “esqueceu sua senha?” para o caso em que o usuário necessite recuperar o acesso. Também dispõe dos ícones "sobre" e "como funciona o medicamento fácil". 
-
-![Login](img/login.png)
-
-
-### Requisitos atendidos
-
-RF-05 - O site deve ter uma área personalizada, na qual o usuário deverá acessar com login e senha. Nesta área, o usuário irá cadastrar seu e-mail, celular e os medicamentos que utiliza, sendo notificado assim que os medicamentos estiverem disponíveis.
-
-### Artefatos da funcionalidade 
-
-•	login.html
-•	template.css
-•	logo.png
-
-### Estrutura de Dados
-<!DOCTYPE html>
-<html>
-
-<head>
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
-
-    <link href="css/template.css" rel="stylesheet" />
-    <meta charset="UTF-8">
-    <title>Medicamento Fácil. Simples. Rápido.</title>
-</head>
-
-<body class="ativar-rolamento">
-    <header>
-        <br>
-        <div class="row">
-            <div class="col-sm-6">
-                <a href="index.html">
-                    <button id="button1" class="btn botao-padrao">Voltar</button>
-                </a>
-            </div>
-            <div class="col-sm-6 text-end">
-                <a href="index.html">
-                    <img src="imagens/logo.png" width="150" />
-                </a>
-            </div>
-        </div>
-    </header>
-    <main class="text-center">
-        <div class="row">
-            <div class="col-sm-12">
-                <h1>Faça Login</h1>   
-                <br> <br><br><br><br>          
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-6">
-                <form class="row g-3" action="area-do-usuario.html">
-                    <div class="col-md-3">
-                        <label for="inputEmail4" class="form-label">E-mail:</label>
-                    </div>
-                    <div class="col-md-9">
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="Digite seu usuário">
-                    </div>
-                    <div class="col-md-3">
-                        <label for="inputPassword4" class="form-label">Senha:</label>
-                    </div>    
-                    <div class="col-md-9">
-                        <input type="password" class="form-control" id="inputPassword4" placeholder="Digite sua senha">
-                    </div>
-                    <div class="col-12">
-                        <button type="submit" class="btn botao-secundario">Entrar</button>
-                    </div>
-                    <div class="col-12">
-                        <button type="submit" class="btn botao-padrao">Esqueceu sua senha?</button>
-                    </div>
-                </form>
-            </div>
-            <div class="col-sm-3"></div>
-
-        </div>
-
-
-    </main>
-    <footer class="row">
-        <div class="col-md-12">
-            <nav>
-                <ul class="lista-horizontal">
-                    <li>Sobre</li>
-                    <li>Como funciona?</li>
-                </ul>
-            </nav>
-        </div>
-    </footer>
-    <script src="js/bootstrap.min.js" type="javascript"></script>
-
-</body>
-
-</html>
-
-### Instruções de acesso
-
-Abra um navegador de Internet e informe a seguinte URL: XXXXX
-
-A Tela de Login é a exibida após o usuário clicar em "Faça Login".
 
 
 ## Tela área do usuário (RF-02 e RF-08)
@@ -443,80 +140,11 @@ RF-08 - O site deve permitir que o próprio usuário notifique a falta de um det
 
 ### Estrutura de Dados
 
-<!DOCTYPE html>
-<html>
+### Instruções de acesso 
 
-<head>
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+Abra um navegador de Internet e informe a seguinte URL: XXXXX
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
-
-    <link href="css/template.css" rel="stylesheet" />
-    <meta charset="UTF-8">
-    <title>Medicamento Fácil. Simples. Rápido.</title>
-</head>
-
-<body class="ativar-rolamento">
-    <header>
-        <br>
-        <div class="row">
-            <div class="col-sm-6">
-                <a href="index.html">
-                    <button id="button1" class="btn botao-padrao">Voltar</button>
-                </a>
-            </div>
-            <div class="col-sm-6 text-end">
-                <a href="index.html">
-                    <img src="imagens/logo.png" width="150" />
-                </a>
-            </div>
-        </div>
-    </header>
-    <main class="text-center">
-        <div class="row">
-            <div class="col-sm-12">
-                <h1>Olá usuário, o que você deseja?</h1>   
-                <br> <br><br><br><br>          
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-6">
-               
-                    <div class="col-12">
-                        <button type="submit" class="btn botao-secundario">Pesquisar medicamento</button>
-                    </div>
-                    <div class="col-12">
-                        <br>
-                        <button type="submit" class="btn botao-secundario">Notificar falta de medicamentoa</button>
-                    </div>
-            
-            </div>
-            <div class="col-sm-3"></div>
-
-        </div>
-
-
-
-    </main>
-    <footer class="row">
-        <div class="col-md-12">
-            <nav>
-                <ul class="lista-horizontal">
-                    <li>Sobre</li>
-                    <li>Como funciona?</li>
-                </ul>
-            </nav>
-        </div>
-    </footer>
-    <script src="js/bootstrap.min.js" type="javascript"></script>
-
-</body>
-
-</html>
+A Tela de Cadastro é a exibida após o usuário clicar em "Crie sua Conta".
 
 
 ## Tela Notificar falta de medicamento (RF-08)
@@ -536,81 +164,7 @@ RF-08 -  O site deve permitir que o próprio usuário notifique a falta de um de
 - logo.png
 
 ### Estrutura de Dados 
-<!DOCTYPE html>
-<html>
 
-<head>
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
-
-    <link href="css/template.css" rel="stylesheet" />
-    <meta charset="UTF-8">
-    <title>Medicamento Fácil. Simples. Rápido.</title>
-</head>
-
-<body class="ativar-rolamento">
-    <header>
-        <br>
-        <div class="row">
-            <div class="col-sm-6">
-                <a href="index.html">
-                    <button id="button1" class="btn botao-padrao">Voltar</button>
-                </a>
-            </div>
-            <div class="col-sm-6 text-end">
-                <a href="index.html">
-                    <img src="imagens/logo.png" width="150" />
-                </a>
-            </div>
-        </div>
-    </header>
-    <main class="text-center">
-        <div class="row">
-            <div class="col-sm-12">
-                <h1>Informe qual medicamento está em falta</h1>              
-            </div>
-        </div>
-        <div class="row"></div>
-        <br></br>
-        <div class="row">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-6">
-                <form class="row g-3">
-                    <div class="col-12">
-                        <label for="inputAddress" class="form-label"></label>
-                        <input type="text" class="form-control" id="inputAddress">
-                    </div>
-                    <div class="col-12">
-                        <button type="submit" class="btn botao-secundario">Enviar requisição</button>
-                    </div>
-                </form>
-            </div>
-            <div class="col-sm-3"></div>
-
-        </div>
-
-
-
-    </main>
-    <footer class="row">
-        <div class="col-md-12">
-            <nav>
-                <ul class="lista-horizontal">
-                    <li>Sobre</li>
-                    <li>Como funciona?</li>
-                </ul>
-            </nav>
-        </div>
-    </footer>
-    <script src="js/bootstrap.min.js" type="javascript"></script>
-
-</body>
-
-</html>
 
 ### Instruções de acesso
 
@@ -636,85 +190,6 @@ RF-09 -  O site deve permitir que o usuário recupere sua senha em caso de esque
 - logo.png
 
 ### Estrutura de Dados 
-<!DOCTYPE html>
-<html>
-
-<head>
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
-
-    <link href="css/template.css" rel="stylesheet" />
-    <meta charset="UTF-8">
-    <title>Medicamento Fácil. Simples. Rápido.</title>
-</head>
-
-<body class="ativar-rolamento">
-    <header>
-        <br>
-        <div class="row">
-            <div class="col-sm-6">
-                <a href="index.html">
-                    <button id="button1" class="btn botao-padrao">Voltar</button>
-                </a>
-            </div>
-            <div class="col-sm-6 text-end">
-                <a href="index.html">
-                    <img src="imagens/logo.png" width="150" />
-                </a>
-            </div>
-        </div>
-    </header>
-    <main class="text-center">
-        <div class="row">
-            <div class="col-sm-12">
-                <h1>Alterar a senha</h1>              
-            </div>
-        </div>
-        <div class="row"></div>
-        <br></br>
-        <div class="row">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-6">
-                <form class="row g-3">
-                    <div class="col-6">
-                        <label for="inputAddress" class="form-label">Senha</label>
-                        <input type="password" class="form-control" id="inputAddress">
-                    </div>
-                    <div class="col-6">
-                        <label for="inputAddress2" class="form-label">Digite novamente sua senha</label>
-                        <input type="password" class="form-control" id="inputAddress2">
-                    </div>
-                    <div class="col-12">
-                        <button type="submit" class="btn botao-secundario">Enviar</button>
-                    </div>
-                </form>
-            </div>
-            <div class="col-sm-3"></div>
-
-        </div>
-
-
-
-    </main>
-    <footer class="row">
-        <div class="col-md-12">
-            <nav>
-                <ul class="lista-horizontal">
-                    <li>Sobre</li>
-                    <li>Como funciona?</li>
-                </ul>
-            </nav>
-        </div>
-    </footer>
-    <script src="js/bootstrap.min.js" type="javascript"></script>
-
-</body>
-
-</html>
 
 
 
@@ -742,78 +217,7 @@ RF-04 -  O site deve ter uma área de login do farmacêutico, na qual ele irá a
 
 ### Estrutura de Dados 
 
-<!DOCTYPE html>
-<html>
-<head>
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
-    <link href="css/template.css" rel="stylesheet" />
-    <meta charset="UTF-8">
-    <title>Medicamento Fácil. Simples. Rápido.</title>
-</head>
-<body>
-    <header>
-        <br>
-        <div class="row">
-            <div class="col-sm-4">
-                <button id="button1" class="btn botao-principal">Área do Farmacêutico</button>
-            </div>
-            <div class="col-sm-8 text-end">
-                <ul class="lista-horizontal">
-                    <li>
-                        <button type="button" class="btn botao-padrao">Faça seu Login</button>
-                    </li>
-                    <li>
-                        <a href="cadastro.html">
-                            <button type="button" class="btn botao-padrao">Crie sua conta</button>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </header>
-    <main>
-        <div class="row separador"></div>
-        <div class="row">
-            <div class="col-sm-4"></div>
-            <div class="col-sm-4">
-                <img src="imagens/logo.png" class="img-fluid" />
-            </div>
-            <div class="col-sm-4"></div>
-        </div>
-        <div class="row"></div>
-        <br><br>
-        <div class="row">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-6">
-                <div class="botao-busca">
-                    <form method="get" action="mapa.html">
-                        <input class='form-control buscador' type="text" placeholder="Digite seu endereço" />
-                        <button type="submit" class="lupa">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </button>
-                    </form>
-                </div>
-            </div>
-            <div class="col-sm-3"></div>
-        </div>
-    </main>
-    <footer class="row">
-        <div class="col-md-12">
-            <nav>
-                <ul class="lista-horizontal">
-                    <li>Sobre</li>
-                    <li>Como funciona o Medicamento Fácil!</li>
-                </ul>
-            </nav>
-        </div>
-    </footer>
-    <script src="js/bootstrap.min.js" type="javascript"></script>
-</body>
-</html>
+
 
 ### Instruções de acesso 
 
