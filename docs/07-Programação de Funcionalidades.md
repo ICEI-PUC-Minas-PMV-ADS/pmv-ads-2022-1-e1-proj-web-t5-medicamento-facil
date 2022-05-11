@@ -15,10 +15,10 @@ RF-06 - O site deve ter uma área personalizada, na qual o usuário deverá aces
 
 ### Artefatos da funcionalidade 
 
-•	login.html 
-•	login.js 
-•	template.css 
-•	logo.png 
+- login.html
+- login.js
+- template.css
+- logo.png
 
 ### Estrutura de Dados
 
