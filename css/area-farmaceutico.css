@@ -1,0 +1,17 @@
+
+#caixa1, #caixa2, #caixa3{
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #FFFFFF99;
+    font-size: 15px;
+    border-radius: 45px;
+}
+#caixa1{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#titulo{
+    font-weight: bold;
+    font-size: large;
+}
