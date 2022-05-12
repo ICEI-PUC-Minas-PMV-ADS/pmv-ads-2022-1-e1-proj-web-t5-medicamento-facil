@@ -164,6 +164,9 @@ RF-08 -  O site deve permitir que o próprio usuário notifique a falta de um de
 - logo.png
 
 ### Estrutura de Dados 
+                        <button type="submit" class="btn botao-secundario" onclick="alert('Requisição de medicamento enviada!');">
+                            Enviar requisição
+                        </button>
 
 
 ### Instruções de acesso
@@ -190,7 +193,9 @@ RF-09 -  O site deve permitir que o usuário recupere sua senha em caso de esque
 - logo.png
 
 ### Estrutura de Dados 
-
+                        <button type="submit" class="btn botao-secundario" onclick="alert('Senha alterada com sucesso!');">
+                            Enviar
+                        </button>
 
 
 ### Instruções de acesso
