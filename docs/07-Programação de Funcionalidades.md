@@ -217,11 +217,24 @@ RF-04 -  O site deve ter uma área de login do farmacêutico, na qual ele irá a
 
 ### Estrutura de Dados 
 
+<script>
+      
+        function logar()
+        {
+            var login = document.getElementById('login').value;
+            var senha = document.getElementById('senha').value;
+            if (login == "farmaceutico@ubs.com" && senha == "1234"){
+                location.href = "area-do-farmaceutico.html";
+            } else {
+                alert ('Usuário ou senha incorretos! \nTente novamente.');
+            }
+        }
 
+    </script>
 
 ### Instruções de acesso 
 
 Abra um navegador de Internet e informe a seguinte URL: XXXXX
 
-A Tela de Login do Farmacêutico é direcionada ao clicar no botão "Área do Farmacêutico". 
+A Tela de Login do Farmacêutico é direcionada ao clicar no botão "Área do Farmacêutico" na home page. 
 
