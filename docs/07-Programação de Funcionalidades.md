@@ -217,9 +217,7 @@ RF-04 -  O site deve ter uma área de login do farmacêutico, na qual ele irá a
 
 ### Estrutura de Dados 
 
-<script>
-      
-        function logar()
+function logar()
         {
             var login = document.getElementById('login').value;
             var senha = document.getElementById('senha').value;
@@ -230,7 +228,6 @@ RF-04 -  O site deve ter uma área de login do farmacêutico, na qual ele irá a
             }
         }
 
-    </script>
 
 ### Instruções de acesso 
 
