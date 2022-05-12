@@ -9,6 +9,7 @@ Os requisitos para realização dos testes de software são:
 Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
 | Caso de Teste | CT-01 - login do usuário |
+|---------------|--------------------------|
 | Requisitos Associados | RF-06 - O site deve ter uma área personalizada, na qual o usuário deverá acessar com login e senha. Nesta área, o usuário irá cadastrar seu e-mail, celular e os medicamentos que utiliza, sendo notificado assim que os medicamentos estiverem disponíveis. |
 | Objetivo do Teste | Verificar se o login está acontecendo corretamente. |
 | Passos | 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a página de login 4) Inserir o e-mail e senha cadastrados 5) Ser redirecionado para a tela de área do usuário |
