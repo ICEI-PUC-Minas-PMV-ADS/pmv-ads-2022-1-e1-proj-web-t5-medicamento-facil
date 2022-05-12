@@ -12,6 +12,21 @@
     <link href="css/template.css" rel="stylesheet" />
     <meta charset="UTF-8">
     <title>Medicamento Fácil. Simples. Rápido.</title>
+
+    <script>
+      
+        function logar()
+        {
+            var login = document.getElementById('login').value;
+            var senha = document.getElementById('senha').value;
+            if (login == "farmaceutico@ubs.com" && senha == "1234"){
+                location.href = "area-do-farmaceutico.html";
+            } else {
+                alert ('Usuário ou senha incorretos! \nTente novamente.');
+            }
+        }
+
+    </script>
 </head>
 
 <body class="ativar-rolamento">
@@ -40,24 +55,22 @@
         <div class="row">
             <div class="col-sm-3"></div>
             <div class="col-sm-6">
-                <form class="row g-3">
+                <form class="row g-3" method="post">
                     <div class="col-md-3">
                         <label for="inputEmail4" class="form-label">Login:</label>
                     </div>
                     <div class="col-md-9">
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="Digite seu usuário">
+                        <input type="email" class="form-control" id="login" placeholder="Digite seu usuário">
                     </div>
                     <div class="col-md-3">
                         <label for="inputPassword4" class="form-label">Senha:</label>
                     </div>    
                     <div class="col-md-9">
-                        <input type="password" class="form-control" id="inputPassword4" placeholder="Digite sua senha">
+                        <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
                     </div>
-                    <br><br><br><br><br> 
+                    <br> <br><br><br><br> 
                     <div class="col-12">
-                        <a href="area-farmaceutico.html">
-                        <button type="button" class="btn botao-secundario">Entrar</button>
-                        </a>
+                        <button type="submit" onclick="logar();return false;" class="btn botao-secundario">Entrar</button>
                     </div>
                 </form>
             </div>
