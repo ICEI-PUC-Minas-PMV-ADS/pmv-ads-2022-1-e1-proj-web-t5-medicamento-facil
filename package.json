@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "construir": "tsc && ts-node .\\src\\app\\import.ts"
+    "construir": "tsc --module ES6 && ts-node .\\src\\app\\import.ts"
   },
   "dependencies": {
     "@types/node": "^17.0.33",
