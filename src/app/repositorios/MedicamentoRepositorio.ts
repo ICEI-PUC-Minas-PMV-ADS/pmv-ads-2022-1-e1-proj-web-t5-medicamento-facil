@@ -1,4 +1,3 @@
-import fs from 'fs';
 import { Medicamento } from '../entidades/Medicamento';
 import { medicamentos } from '../mocks/medicamentos.mock.min';
 import { Texto } from '../utils/Texto';
