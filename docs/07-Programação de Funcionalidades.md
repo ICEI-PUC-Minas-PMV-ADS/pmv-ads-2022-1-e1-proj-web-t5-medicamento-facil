@@ -73,11 +73,9 @@ RF-01 -  O site deve apresentar na página principal um buscador no qual o usuá
 
 ### Instruções de acesso 
 
-Abra um navegador de Internet e informe a seguinte URL: XXXXX
-
 A Tela Inicial é a primeira funcionalidade exibida pelo aplicativo. 
 
-## Tela de Busca de Medicamentos (RF-02)
+## Tela de Busca de Medicamentos (RF-03)
 
 A Tela de Busca de Medicamentos do sistema apresenta apresenta um buscador centralizado, no qual o usuário deverá digitar os medicamentos de interesse. Esta tela ainda permite que o usuário notifique a falta de um medicamento. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil".
 
@@ -85,7 +83,7 @@ A Tela de Busca de Medicamentos do sistema apresenta apresenta um buscador centr
 
 ### Requisitos atendidos 
 
-RF-02 -  O site deve apresentar uma página com um buscador no qual o usuário irá digitar os medicamentos buscados.
+RF-03 -  O site deve apresentar uma página com um buscador no qual o usuário irá digitar os medicamentos buscados.
 
 ### Artefatos da funcionalidade 
 
@@ -99,11 +97,9 @@ RF-02 -  O site deve apresentar uma página com um buscador no qual o usuário i
 
 ### Instruções de acesso 
 
-Abra um navegador de Internet e informe a seguinte URL: XXXXX
-
 A Tela de Busca de Medicamentos é a exibida após a confirmação de endereço. 
 
-## Tela Cadastro (RF-05)
+## Tela Cadastro (RF-06)
 
 A Tela de Cadastro apresenta um formulário a ser preenchido pelo usuário. Esta tela ainda permite que o usuário volte à tela inicial. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil".
 
@@ -111,7 +107,7 @@ A Tela de Cadastro apresenta um formulário a ser preenchido pelo usuário. Esta
 
 ### Requisitos atendidos 
 
-RF-05 -  O site deve ter uma área personalizada, na qual o usuário deverá acessar com login e senha. Nesta área, o usuário irá cadastrar seu e-mail, celular e os medicamentos que utiliza, sendo notificado assim que os medicamentos estiverem disponíveis.
+RF-06 -  O site deve ter uma área personalizada, na qual o usuário deverá acessar com login e senha. Nesta área, o usuário irá cadastrar seu e-mail, celular e os medicamentos que utiliza, sendo notificado assim que os medicamentos estiverem disponíveis.
 
 ### Artefatos da funcionalidade 
 
@@ -124,14 +120,10 @@ RF-05 -  O site deve ter uma área personalizada, na qual o usuário deverá ace
 
 ### Instruções de acesso 
 
-Abra um navegador de Internet e informe a seguinte URL: XXXXX
-
 A Tela de Cadastro é a exibida após o usuário clicar em "Crie sua Conta".
 
 
-
-
-## Tela área do usuário (RF-02 e RF-08)
+## Tela área do usuário (RF-03 e RF-09)
 
 A Tela de área do usuário do sistema apresenta dois botões centralizados, nos quais o usuário poderá pesquisar medicamento ou notificar a falta de medicamento. Também dispõe dos ícones "sobre" e "como funciona o medicamento fácil".
 
@@ -139,9 +131,9 @@ A Tela de área do usuário do sistema apresenta dois botões centralizados, nos
 
 ## Requisitos atendidos
 
-RF-02 - O site deve apresentar uma página com um buscador no qual o usuário irá digitar os medicamentos buscados
+RF-03 - O site deve apresentar uma página com um buscador no qual o usuário irá digitar os medicamentos buscados
 
-RF-08 - O site deve permitir que o próprio usuário notifique a falta de um determinado medicamento
+RF-09 - O site deve permitir que o próprio usuário notifique a falta de um determinado medicamento
 
 ### Artefatos da funcionalidade
 
@@ -153,12 +145,10 @@ RF-08 - O site deve permitir que o próprio usuário notifique a falta de um det
 
 ### Instruções de acesso 
 
-Abra um navegador de Internet e informe a seguinte URL: XXXXX
-
 A Tela de Cadastro é a exibida após o usuário clicar em "Crie sua Conta".
 
 
-## Tela Notificar falta de medicamento (RF-08)
+## Tela Notificar falta de medicamento (RF-09)
 
 A Tela Notificar falta medicamento apresenta uma caixa de texto centralizada onde o usuário poderá preencher o nome do medicamento que está em falta e em seguida enviar clicando no botão "Enviar requisição" logo abaixo. 
 
@@ -166,7 +156,7 @@ A Tela Notificar falta medicamento apresenta uma caixa de texto centralizada ond
 
 ### Requisitos atendidos 
 
-RF-08 -  O site deve permitir que o próprio usuário notifique a falta de um determinado medicamento.
+RF-09 -  O site deve permitir que o próprio usuário notifique a falta de um determinado medicamento.
 
 ### Artefatos da funcionalidade 
 
@@ -182,12 +172,10 @@ RF-08 -  O site deve permitir que o próprio usuário notifique a falta de um de
 
 ### Instruções de acesso
 
-Abra um navegador de Internet e informe a seguinte URL: XXXXX
-
 A Tela de Área do usuário é a exibida após o usuário clicar em "Fazer Login" e enviar o formulário com o e-mail e senha.
 
 
-## Tela Alterar senha (RF-09)
+## Tela Alterar senha (RF-10)
 
 A Tela Alterar senha apresenta dois campos:  "Senha" - onde o usuário preencherá com a nova senha e "Digite novamente sua senha" - onde deverá confirmar a senha escolhida e confirmar clicando no botão "Enviar" logo abaixo.
 
@@ -195,7 +183,7 @@ A Tela Alterar senha apresenta dois campos:  "Senha" - onde o usuário preencher
 
 ### Requisitos atendidos 
 
-RF-09 -  O site deve permitir que o usuário recupere sua senha em caso de esquecimento.
+RF-10 -  O site deve permitir que o usuário recupere sua senha em caso de esquecimento.
 
 ### Artefatos da funcionalidade 
 
@@ -211,11 +199,9 @@ RF-09 -  O site deve permitir que o usuário recupere sua senha em caso de esque
 
 ### Instruções de acesso
 
-Abra um navegador de Internet e informe a seguinte URL: XXXXX
-
 A Tela da área do usuário é a exibida após o usuário logar na conta cadastrada em "Faça Login".
 
-## Tela Login do Farmacêutico (RF-04)
+## Tela Login do Farmacêutico (RF-05)
 
 A Tela de Login do Farmacêutico apresenta os campos de login e senha, nos quais o farmacêutico deverá inserir seus dados. Esta tela ainda permite retornar à tela inicial. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil".
 
@@ -223,7 +209,7 @@ A Tela de Login do Farmacêutico apresenta os campos de login e senha, nos quais
 
 ### Requisitos atendidos 
 
-RF-04 -  O site deve ter uma área de login do farmacêutico, na qual ele irá atualizar o estoque de medicamentos disponíveis pela farmácia da UBS.
+RF-05 -  O site deve ter uma área de login do farmacêutico, na qual ele irá atualizar o estoque de medicamentos disponíveis pela farmácia da UBS.
 
 ### Artefatos da funcionalidade 
 
@@ -246,8 +232,6 @@ RF-04 -  O site deve ter uma área de login do farmacêutico, na qual ele irá a
 
 
 ### Instruções de acesso 
-
-Abra um navegador de Internet e informe a seguinte URL: XXXXX
 
 A Tela de Login do Farmacêutico é direcionada ao clicar no botão "Área do Farmacêutico" na home page. 
 
