@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "construir": "tsc && ts-node .\\src\\app\\import.ts"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.33",
+    "filehound": "^1.17.6",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.6.4"
+  }
+}
