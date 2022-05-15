@@ -42,9 +42,9 @@ A Tela de Login é a exibida após o usuário clicar em "Faça Login".
 
 ## Tela Inicial (RF-01)
 
-A Tela Inicial do sistema apresenta apresenta um buscador centralizado, no qual o usuário deverá digitar seu endereço a fim de direcionar a buscar de medicamentos à Unidade Básica de Saúde mais próxima. Esta tela ainda permite que o usuário faça cadastro ou login, bem como acesso à Área do Farmacêutico. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil".
+A Tela Inicial do sistema apresenta apresenta um buscador centralizado, no qual o usuário deverá digitar seu endereço e a fim de direcionar a buscar de medicamentos à Unidade Básica de Saúde mais próxima. Esta tela ainda permite que o usuário faça cadastro ou login, bem como acesso à Área do Farmacêutico. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil". Para facilidade de acesso foi incorporado a função de autocompletar o endereço enquanto o usuário digita.
 
-![Inicial](img/principal.png)
+![Inicial](img/principalautocomplete.png)
 
 ### Requisitos atendidos 
 
@@ -53,11 +53,22 @@ RF-01 -  O site deve apresentar na página principal um buscador no qual o usuá
 ### Artefatos da funcionalidade 
 
 - index.html
+- index.js
 - template.css
 - logo.png
 
 ### Estrutura de Dados 
 
+        let endereco_google;
+        function initAutocomplete(){
+        endereco_google = new google.maps.places.Autocomplete(
+            document.getElementById('autocomplete'),
+            {
+                types: ['address'],
+                componentRestrictions: {'country': ['BR']},
+                fields: ['address_components']
+            })   ;
+        }
 
 
 ### Instruções de acesso 
