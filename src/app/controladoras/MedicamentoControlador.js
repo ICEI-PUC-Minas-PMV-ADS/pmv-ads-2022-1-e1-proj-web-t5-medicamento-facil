@@ -2,7 +2,6 @@ import { MedicamentoRepositorio } from '../repositorios/MedicamentoRepositorio.j
 export class MedicamentoControlador {
     buscarMedicamento(termoBusca) {
         const repositorio = new MedicamentoRepositorio();
-        const resultado = repositorio.buscarMedicamentoPorNome(termoBusca);
-        console.log(resultado);
+        return repositorio.buscarMedicamentoPorNome(termoBusca);
     }
 }

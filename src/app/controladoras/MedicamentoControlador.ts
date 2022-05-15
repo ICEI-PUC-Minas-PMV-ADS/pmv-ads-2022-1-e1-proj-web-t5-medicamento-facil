@@ -1,11 +1,11 @@
+import { Medicamento } from '../entidades/Medicamento';
 import { MedicamentoRepositorio } from '../repositorios/MedicamentoRepositorio';
 
 export class MedicamentoControlador {
 
-    public buscarMedicamento(termoBusca: string) {
+    public buscarMedicamento(termoBusca: string): Array<Medicamento> {
         const repositorio = new MedicamentoRepositorio();
-        const resultado = repositorio.buscarMedicamentoPorNome(termoBusca);
-        console.log(resultado);
+        return repositorio.buscarMedicamentoPorNome(termoBusca);
     }
-    
+
 }
