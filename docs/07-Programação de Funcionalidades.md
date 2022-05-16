@@ -2,6 +2,8 @@
 
 Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema.
 
+Abra um navegador de Internet e informe a seguinte URL: 
+
 ## Tela de Login (RF-06)
 
 A Tela de Login do sistema apresenta campos nos quais o usuário deverá digitar e-mail e senha cadastrados para acessar a área do usuário. Esta tela também apresenta o botão “esqueceu sua senha?” para o caso em que o usuário necessite recuperar o acesso. Também dispõe dos ícones "sobre" e "como funciona o medicamento fácil". 
@@ -94,14 +96,8 @@ RF-03 -  O site deve apresentar uma página com um buscador no qual o usuário i
 ### Artefatos da funcionalidade 
 
 - buscar-medicamento.html
-- logo.png
-- template.css
 - MedicamentoControlador.js
-- MedicamentoRepositorio.js
-- Medicamento.js
-- medicamentos.mock.min.js
-- busca.medicamento.js
-- Componente Select2
+- logo.png
 
 ### Estrutura de Dados 
 Acesse a pasta scr/app/entidades e veja Medicamento.js, depois vá em src/app/mocks e acesse medicamento.mock.js e medicamento.mock.min.js
@@ -120,44 +116,6 @@ export const medicamentos = [{
         "apresentacao": "10 MG/ML XPE CT FR VD AMB X 120 ML + COP",
         "tarja": "TARJA VERMELHA"
     }...
-```
-
-### Funcionalidade Principal
-
-```
-import { MedicamentoControlador } from "../controladoras/MedicamentoControlador.js";
-///// FUNCIONALIDADES
-const iniciaSelect2 = () => {
-    const seletor = document.getElementById('seletor-medicamento');
-    $(seletor).select2({
-        placeholder: "Buscar medicamentos",
-        multiple: true
-    });
-};
-let timer = null;
-const buscaMedicamento = () => {
-    const area = document.getElementById('area-busca');
-    const input = area.getElementsByTagName('input')[0];
-    const texto = input.value;
-    if (texto.length < 3) {
-        return;
-    }
-    if (timer) {
-        clearTimeout(timer);
-    }
-    timer = setTimeout(() => {
-        const controle = new MedicamentoControlador();
-        const medicamentos = controle.buscarMedicamento(texto);
-        medicamentos.forEach((item, id) => {
-            const opcao = new Option(item.nome, id.toString(), false, false);
-            const seletor = document.getElementById('seletor-medicamento');
-            $(seletor).select2().append(opcao).trigger('change');
-        });
-    }, 1000);
-};
-///// EVENTOS
-$(document).ready(iniciaSelect2);
-$('body').on('keyup', '.select2-search__field', buscaMedicamento);
 ```
 
 ### Instruções de acesso 
@@ -217,6 +175,30 @@ RF-10 -  O site deve permitir que o usuário recupere sua senha em caso de esque
 ### Instruções de acesso
 
 A Tela da área do usuário é a exibida após o usuário logar na conta cadastrada em "Faça Login".
+
+## Tela Cadastro (RF-06)
+
+A Tela de Cadastro apresenta um formulário a ser preenchido pelo usuário. Esta tela ainda permite que o usuário volte à tela inicial. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil".
+
+![Cadastro](img/cadastro.png)
+
+### Requisitos atendidos 
+
+RF-06 -  O site deve ter uma área personalizada, na qual o usuário deverá acessar com login e senha. Nesta área, o usuário irá cadastrar seu e-mail, celular e os medicamentos que utiliza, sendo notificado assim que os medicamentos estiverem disponíveis.
+
+### Artefatos da funcionalidade 
+
+- cadastro.html
+- template.css
+- logo.png
+
+### Estrutura de Dados 
+
+
+### Instruções de acesso 
+
+A Tela de Cadastro é a exibida após o usuário clicar em "Crie sua Conta".
+
 
 ## Tela Login do Farmacêutico (RF-05)
 
