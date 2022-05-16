@@ -158,12 +158,20 @@ A Tela Alterar senha apresenta dois campos:  "Senha" - onde o usuário preencher
 
 ### Requisitos atendidos 
 
+![Esqueceu Senha](img/telaEsqueceuSenha.png)
+
+![Codigo de Recuperacao](img/telaCodigoDeRecuperacao.png)
+
+### Requisitos atendidos 
+
 RF-10 -  O site deve permitir que o usuário recupere sua senha em caso de esquecimento.
 
 ### Artefatos da funcionalidade 
 
 - alterar-senha.html
+- esqueceu-senha.html
 - template.css
+- recuperar-senha.css
 - logo.png
 
 ### Estrutura de Dados 
