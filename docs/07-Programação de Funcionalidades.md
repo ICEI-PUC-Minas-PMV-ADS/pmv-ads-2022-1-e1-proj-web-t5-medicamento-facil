@@ -2,6 +2,8 @@
 
 Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema.
 
+Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-1-e1-proj-web-t5-medicamento-facil/src/index
+
 ## Tela de Login (RF-06)
 
 A Tela de Login do sistema apresenta campos nos quais o usuário deverá digitar e-mail e senha cadastrados para acessar a área do usuário. Esta tela também apresenta o botão “esqueceu sua senha?” para o caso em que o usuário necessite recuperar o acesso. Também dispõe dos ícones "sobre" e "como funciona o medicamento fácil". 
@@ -120,54 +122,6 @@ export const medicamentos = [{
 
 A Tela de Busca de Medicamentos é a exibida após a confirmação de endereço. 
 
-## Tela Cadastro (RF-06)
-
-A Tela de Cadastro apresenta um formulário a ser preenchido pelo usuário. Esta tela ainda permite que o usuário volte à tela inicial. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil".
-
-![Cadastro](img/cadastro.png)
-
-### Requisitos atendidos 
-
-RF-06 -  O site deve ter uma área personalizada, na qual o usuário deverá acessar com login e senha. Nesta área, o usuário irá cadastrar seu e-mail, celular e os medicamentos que utiliza, sendo notificado assim que os medicamentos estiverem disponíveis.
-
-### Artefatos da funcionalidade 
-
-- cadastro.html
-- template.css
-- logo.png
-
-### Estrutura de Dados 
-
-
-### Instruções de acesso 
-
-A Tela de Cadastro é a exibida após o usuário clicar em "Crie sua Conta".
-
-
-## Tela área do usuário (RF-03 e RF-09)
-
-A Tela de área do usuário do sistema apresenta dois botões centralizados, nos quais o usuário poderá pesquisar medicamento ou notificar a falta de medicamento. Também dispõe dos ícones "sobre" e "como funciona o medicamento fácil".
-
-![Área-do-usuário](img/area-do-usuario.png)
-
-## Requisitos atendidos
-
-RF-03 - O site deve apresentar uma página com um buscador no qual o usuário irá digitar os medicamentos buscados
-
-RF-09 - O site deve permitir que o próprio usuário notifique a falta de um determinado medicamento
-
-### Artefatos da funcionalidade
-
-•	area-do-usuario.html
-•	template.css
-•	logo.png
-
-### Estrutura de Dados
-
-### Instruções de acesso 
-
-A Tela de Cadastro é a exibida após o usuário clicar em "Crie sua Conta".
-
 
 ## Tela Notificar falta de medicamento (RF-09)
 
@@ -208,6 +162,12 @@ A Tela Alterar senha apresenta dois campos:  "Senha" - onde o usuário preencher
 
 ### Requisitos atendidos 
 
+![Esqueceu Senha](img/telaEsqueceuSenha.png)
+
+![Codigo de Recuperacao](img/telaCodigoDeRecuperacao.png)
+
+### Requisitos atendidos 
+
 RF-10 -  O site deve permitir que o usuário recupere sua senha em caso de esquecimento.
 
 ### Artefatos da funcionalidade 
@@ -226,7 +186,8 @@ RF-10 -  O site deve permitir que o usuário recupere sua senha em caso de esque
 
 ### Instruções de acesso
 
-A Tela da área do usuário é a exibida após o usuário logar na conta cadastrada em "Faça Login".
+A Tela da alterar a senha é a exibida após o usuário receber o codigo de recuperação.
+
 
 ## Tela Login do Farmacêutico (RF-05)
 
