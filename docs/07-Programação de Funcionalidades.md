@@ -2,7 +2,7 @@
 
 Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema.
 
-Abra um navegador de Internet e informe a seguinte URL: 
+Abra um navegador de Internet e informe a seguinte URL: https://main.d3hwghqgn7vvmi.amplifyapp.com/src/index
 
 ## Tela de Login (RF-06)
 
