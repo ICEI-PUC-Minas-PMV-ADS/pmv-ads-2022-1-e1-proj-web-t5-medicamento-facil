@@ -204,7 +204,7 @@ A Tela Alterar senha apresenta dois campos:  "Senha" - onde o usuário preencher
 
 ![Esqueceu Senha](img/telaEsqueceuSenha.png)
 
-![Codigo de Recuperacao](img/telaCodigoDeRecuperacao.jpg)
+![Codigo de Recuperacao](img/telaCodigoDeRecuperacao.png)
 
 ### Requisitos atendidos 
 
