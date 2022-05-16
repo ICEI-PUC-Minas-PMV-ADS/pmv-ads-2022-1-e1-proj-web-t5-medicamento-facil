@@ -174,7 +174,7 @@ RF-10 -  O site deve permitir que o usuário recupere sua senha em caso de esque
 
 ### Instruções de acesso
 
-A Tela da área do usuário é a exibida após o usuário logar na conta cadastrada em "Faça Login".
+A Tela da alterar a senha é a exibida após o usuário receber o codigo de recuperação.
 
 
 ## Tela Login do Farmacêutico (RF-05)
