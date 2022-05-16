@@ -176,29 +176,6 @@ RF-10 -  O site deve permitir que o usuário recupere sua senha em caso de esque
 
 A Tela da área do usuário é a exibida após o usuário logar na conta cadastrada em "Faça Login".
 
-## Tela Cadastro (RF-06)
-
-A Tela de Cadastro apresenta um formulário a ser preenchido pelo usuário. Esta tela ainda permite que o usuário volte à tela inicial. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil".
-
-![Cadastro](img/cadastro.png)
-
-### Requisitos atendidos 
-
-RF-06 -  O site deve ter uma área personalizada, na qual o usuário deverá acessar com login e senha. Nesta área, o usuário irá cadastrar seu e-mail, celular e os medicamentos que utiliza, sendo notificado assim que os medicamentos estiverem disponíveis.
-
-### Artefatos da funcionalidade 
-
-- cadastro.html
-- template.css
-- logo.png
-
-### Estrutura de Dados 
-
-
-### Instruções de acesso 
-
-A Tela de Cadastro é a exibida após o usuário clicar em "Crie sua Conta".
-
 
 ## Tela Login do Farmacêutico (RF-05)
 
