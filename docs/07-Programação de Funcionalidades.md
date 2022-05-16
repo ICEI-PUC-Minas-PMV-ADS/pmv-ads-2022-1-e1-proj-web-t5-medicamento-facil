@@ -111,84 +111,28 @@ RF-02 -  O site deve apresentar uma página com um buscador no qual o usuário i
 
 ### Artefatos da funcionalidade 
 
-- index.html
-- template.css
+- buscar-medicamento.html
+- MedicamentoControlador.js
 - logo.png
 
 ### Estrutura de Dados 
+Acesse a pasta scr/app/entidades e veja Medicamento.js, depois vá em src/app/mocks e acesse medicamento.mock.js e medicamento.mock.min.js
 
-<!DOCTYPE html>
-<html>
-
-<head>
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
-
-    <link href="css/template.css" rel="stylesheet" />
-
-    <meta charset="UTF-8">
-    <title>Medicamento Fácil. Simples. Rápido.</title>
-</head>
-
-<body>
-    <header>
-        <br>
-        <div class="row">
-            <div class="col-sm-4">
-            </div>
-            <div class="col-sm-8 text-end">
-                <ul class="lista-horizontal">
-                    <li>
-                        <button type="button" class="btn botao-padrao">Notificar falta de medicamento</button>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </header>
-    <main>
-        <div class="row separador"></div>
-        <div class="row">
-            <div class="col-sm-4"></div>
-            <div class="col-sm-4">
-                <img src="imagens/logo.png" class="img-fluid" />
-            </div>
-            <div class="col-sm-4"></div>
-        </div>
-        <div class="row"></div>
-        <br><br>
-        <div class="row">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-6">
-                <div class="botao-busca">
-                    <form method="get" action="mapa.html">
-                        <input class='form-control buscador' type="text" placeholder="Buscar medicamentos" />
-                        <button type="submit" class="lupa">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </button>
-                    </form>
-                </div>
-            </div>
-            <div class="col-sm-3"></div>
-        </div>
-    </main>
-    <footer class="row">
-        <div class="col-md-12">
-            <nav>
-                <ul class="lista-horizontal">
-                    <li>Sobre</li>
-                    <li>Como funciona o Medicamento Fácil!</li>
-                </ul>
-            </nav>
-        </div>
-    </footer>
-    <script src="js/bootstrap.min.js" type="javascript"></script>
-</body>
-
-</html>
+```
+export const medicamentos = [{
+        "principioAtivo": "ACEBROFILINA",
+        "laboratorioNome": "GERMED FARMACEUTICA LTDA",
+        "nome": "ACEBROFILINA",
+        "apresentacao": "10 MG/ML XPE CT FR PLAS AMB X 120 ML + COP",
+        "tarja": "TARJA VERMELHA"
+    }, {
+        "principioAtivo": "ACEBROFILINA",
+        "laboratorioNome": "GERMED FARMACEUTICA LTDA",
+        "nome": "ACEBROFILINA",
+        "apresentacao": "10 MG/ML XPE CT FR VD AMB X 120 ML + COP",
+        "tarja": "TARJA VERMELHA"
+    }...
+```
 
 ### Instruções de acesso 
 
