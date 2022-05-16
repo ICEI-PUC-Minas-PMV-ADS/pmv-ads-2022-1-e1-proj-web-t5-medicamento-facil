@@ -2,7 +2,7 @@
 
 Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema.
 
-Abra um navegador de Internet e informe a seguinte URL: https://main.d3hwghqgn7vvmi.amplifyapp.com/src/index
+Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-1-e1-proj-web-t5-medicamento-facil/src/index
 
 ## Tela de Login (RF-06)
 
