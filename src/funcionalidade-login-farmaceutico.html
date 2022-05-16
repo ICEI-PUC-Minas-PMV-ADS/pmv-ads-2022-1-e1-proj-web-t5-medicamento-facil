@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+
+    <link href="css/template.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <title>Medicamento Fácil. Simples. Rápido.</title>
+
+    <script>
+      
+        function logar()
+        {
+            var login = document.getElementById('login').value;
+            var senha = document.getElementById('senha').value;
+            if (login == "farmaceutico@ubs.com" && senha == "1234"){
+                location.href = "area-farmaceutico.html";
+            } else {
+                alert ('Usuário ou senha incorretos! \nTente novamente.');
+            }
+        }
+
+    </script>
+</head>
+
+<body class="ativar-rolamento">
+    <header>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <a href="index.html">
+                    <button id="button1" class="btn botao-padrao">Voltar</button>
+                </a>
+            </div>
+            <div class="col-sm-6 text-end">
+                <a href="index.html">
+                    <img src="imagens/logo.png" width="150" />
+                </a>
+            </div>
+        </div>
+    </header>
+    <main class="text-center">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Área do Farmacêutico</h1>   
+                <br> <br><br><br><br>          
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <form class="row g-3" method="post">
+                    <div class="col-md-3">
+                        <label for="inputEmail4" class="form-label">Login:</label>
+                    </div>
+                    <div class="col-md-9">
+                        <input type="email" class="form-control" id="login" placeholder="Digite seu usuário">
+                    </div>
+                    <div class="col-md-3">
+                        <label for="inputPassword4" class="form-label">Senha:</label>
+                    </div>    
+                    <div class="col-md-9">
+                        <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
+                    </div>
+                    <br> <br><br><br><br> 
+                    <div class="col-12">
+                        <button type="submit" onclick="logar();return false;" class="btn botao-secundario">Entrar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-3"></div>
+
+        </div>
+
+
+
+    </main>
+    <footer class="row">
+        <div class="col-md-12">
+            <nav>
+                <ul class="lista-horizontal">
+                    <li>Sobre</li>
+                    <li>Como funciona?</li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="js/bootstrap.min.js" type="javascript"></script>
+
+</body>
+
+</html>
