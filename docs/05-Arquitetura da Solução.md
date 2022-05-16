@@ -35,11 +35,11 @@ A solução implementada conta com os seguintes módulos:
 
 ## Hospedagem
 
-O site utiliza a plataforma Amazon Web Services - AWS como ambiente de hospedagem da aplicação. O site é mantido no ambiente do link: 
+O site utiliza a plataforma GitHub Page como ambiente de hospedagem da aplicação. O site é mantido no ambiente do link: 
 
-[Site do Projeto Medicamento Fácil](https://main.d3hwghqgn7vvmi.amplifyapp.com/)
+[Site do Projeto Medicamento Fácil](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-1-e1-proj-web-t5-medicamento-facil/src/index.html)
 
-A publicação na plataforma AWS é feita via git para o repositório remoto que se encontra no link: 
+A publicação na plataforma é feita via git para o repositório remoto que se encontra no link: 
 
 [Repositório Remoto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t5-medicamento-facil.git)
 
