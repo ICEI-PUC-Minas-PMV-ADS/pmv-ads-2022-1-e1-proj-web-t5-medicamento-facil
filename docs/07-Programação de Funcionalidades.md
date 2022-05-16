@@ -149,22 +149,37 @@ RF-09 -  O site deve permitir que o próprio usuário notifique a falta de um de
 
 A Tela de Área do usuário é a exibida após o usuário clicar em "Fazer Login" e enviar o formulário com o e-mail e senha.
 
+## Tela Esqueceu sua senha (RF-10)
+
+A Tela Esqueceu sua senha permite que o usuário preencha seu e-mail para fazer a recuperação de senha. A tela ainda conta com o itens "Sobre" e "Como funciona?", nos quais o usuário, ao passar o mouse acessa os balões com as informações correspondentes.
+
+![Esqueceu Senha](img/telaEsqueceuSenha.png)
+
+### Requisitos atendidos 
+
+RF-10 -  O site deve permitir que o usuário recupere sua senha em caso de esquecimento.
+
+### Artefatos da funcionalidade 
+
+- esqueceu-senha.html
+- template.css
+- logo.png
+
+### Estrutura de Dados 
+                        <ul class="lista-horizontal">
+                        <li class="tipSobre" data-tooltip="Nascido para ser uma ferramenta de suporte do usuário do Sistema Único de Saúde - SUS, o Medicamento Fácil fo desenvolvimento por um grupo de aluos do curso de Tecnologia e Desenvolvimento e Análise de Sistemas da PUC Minas, durante o primeiro semestre de 2022.">Sobre</li>
+                        <li class="tipComo" data-tooltip="O Medicamento Fácil conta com uma base de dados alimentada diariamente pelos profissionais das Unidades Básicas de Saúde - UBS, assim você consegue buscar o medicamento que você precisa através do nosso buscador de endereços.">Como funciona?</li>
+                    </ul>
+
+### Instruções de acesso
+
+A Tela da esquecimento de senha é exibida após o usuário clicar em "esqueceu sua senha?" na tela de login.
 
 ## Tela Alterar senha (RF-10)
 
 A Tela Alterar senha apresenta dois campos:  "Senha" - onde o usuário preencherá com a nova senha e "Digite novamente sua senha" - onde deverá confirmar a senha escolhida e confirmar clicando no botão "Enviar" logo abaixo.
 
 ![Alterar senha](img/tela-alterar-senha.jpg)
-
-![Esqueceu Senha](img/telaEsqueceuSenha.png)
-
-![Codigo de Recuperacao](img/telaCodigoDeRecuperacao.png)
-
-### Requisitos atendidos 
-
-![Esqueceu Senha](img/telaEsqueceuSenha.png)
-
-![Codigo de Recuperacao](img/telaCodigoDeRecuperacao.png)
 
 ### Requisitos atendidos 
 
