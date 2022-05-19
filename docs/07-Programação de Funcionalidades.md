@@ -136,6 +136,7 @@ RF-09 -  O site deve permitir que o próprio usuário notifique a falta de um de
 ### Artefatos da funcionalidade 
 
 - notificar-medicamento.html
+- notificar.js
 - template.css
 - logo.png
 
