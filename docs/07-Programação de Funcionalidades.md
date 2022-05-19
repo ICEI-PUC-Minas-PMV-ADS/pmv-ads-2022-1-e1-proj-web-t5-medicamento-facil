@@ -140,10 +140,28 @@ RF-09 -  O site deve permitir que o próprio usuário notifique a falta de um de
 - logo.png
 
 ### Estrutura de Dados 
-                        <button type="submit" class="btn botao-secundario" onclick="alert('Requisição de medicamento enviada!');">
-                            Enviar requisição
-                        </button>
 
+    let nomeMedicamento = document.getElementById("nomeMedicamento");
+
+    let dados = JSON.parse(localStorage.getItem("dadosMedicamento"));
+
+    if(dados == null){
+         localStorage.setItem("dadosMedicamento", "[]");
+         dados = [];
+    }
+
+    let auxRegistro = {
+        nome: nomeMedicamento.value
+    
+    }
+
+    dados.push(auxRegistro);
+
+    localStorage.setItem("dadosMedicamento", JSON.stringify(dados));
+    alert("Requisição de medicamento enviada!")
+
+    nomeMedicamento.value = "";
+    }
 
 ### Instruções de acesso
 
