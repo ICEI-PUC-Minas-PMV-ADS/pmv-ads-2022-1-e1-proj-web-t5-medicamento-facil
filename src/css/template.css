@@ -215,6 +215,57 @@ footer {
     border: none;
 }
 
+/*// CONFIGURAÇAO "SOBRE"//*/
+
+.tipSobre {
+    background-size: cover;
+    background-position: center;
+    position: left;
+  }
+  
+  .tipSobre::before,
+  .tipSobre::after {
+    --scale: 0;
+    --arrow-size: 0px;
+    --tooltip-color: #b8cbd9   ;
+  
+    position: absolute;
+    top: -.25rem;
+    left: 50%;
+    transform: translateX(-110%) translateY(var(--translate-y, 0)) scale(var(--scale));
+    transition: 150ms transform;
+    transform-origin: bottom center;
+  }
+  
+  .tipSobre::before {
+    --translate-y: calc(-70% - var(--arrow-size));
+  
+    content: attr(data-tooltip);
+    color: black;
+    font-size: smaller;
+    padding: .5rem;
+    border-radius: .3rem;
+    text-align: left;
+    width: 600px;
+    max-width: 100%;
+    background: var(--tooltip-color);
+    position: right;
+  }
+  
+  .tipSobre:hover::before,
+  .tipSobre:hover::after {
+    --scale: 1;
+  }
+  
+  .tipSobre::after {
+    --translate-y: calc(-1 * var(--arrow-size));
+  
+    content: '';
+    border: var(--arrow-size) solid transparent;
+    border-top-color: var(--tooltip-color);
+    transform-origin: top center;
+  }
+
 /*// CONFIGURAÇAO TOOL TIPS //*/
 
 .tipComo {
@@ -232,21 +283,21 @@ footer {
     position: absolute;
     top: -.25rem;
     left: 50%;
-    transform: translateX(-50%) translateY(var(--translate-y, 0)) scale(var(--scale));
+    transform: translateX(-110%) translateY(var(--translate-y, 0)) scale(var(--scale));
     transition: 150ms transform;
     transform-origin: bottom center;
   }
   
   .tipComo::before {
-    --translate-y: calc(-100% - var(--arrow-size));
+    --translate-y: calc(-70% - var(--arrow-size));
   
     content: attr(data-tooltip);
     color: black;
     font-size: smaller;
     padding: .5rem;
     border-radius: .3rem;
-    text-align: center;
-    width: 400px;
+    text-align: left;
+    width: 600px;
     max-width: 100%;
     background: var(--tooltip-color);
   }
