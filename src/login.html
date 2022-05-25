@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
-
     <link href="css/template.css" rel="stylesheet" />
     <meta charset="UTF-8">
 
@@ -42,25 +41,25 @@
         <div class="row">
             <div class="col-sm-3"></div>
             <div class="col-sm-6">
-                <form class="row g-3" method="get" action="area-usuario.html">
+                <form class="row g-3" method="post" action="area-usuario.html">
                     <div class="col-md-3">
-                        <label for="inputEmail" class="form-label">E-mail:</label>
+                        <label for="inputEmail" id = 'userLabel' class="form-label" >E-mail:</label>
                     </div>
                     <div class="col-md-9">
-                        <input type="email" class="form-control" id="login" placeholder="Digite seu usuário">
+                        <input type="email" class="form-control" id="login" placeholder="Digite seu usuário" required>
                     </div>
                     <div class="col-md-3">
-                        <label for="inputPassword" class="form-label">Senha:</label>
+                        <label for="inputPassword" id = 'senhaLabel' class="form-label">Senha:</label>
                     </div>
                     <div class="col-md-9">
-                        <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
+                        <input type="password" class="form-control" id="senha" placeholder="Digite sua senha" required>
                     </div>
                     <br><br><br><br><br>
                     <div class="col-12">
-                        <button type="submit" onclick = "logar(); return false" class="btn botao-secundario">Entrar</button>
+                        <button onclick = 'logar()' class="btn botao-secundario">Entrar</button>
                     </div>
                     <div class="col-12">
-                        <a href="esqueceu-senha.html">
+                        <a href="esqueceu-senha.html"> 
                             <button type="button" class="btn botao-padrao">Esqueceu sua senha?</button>
                         </a>
                     </div>
