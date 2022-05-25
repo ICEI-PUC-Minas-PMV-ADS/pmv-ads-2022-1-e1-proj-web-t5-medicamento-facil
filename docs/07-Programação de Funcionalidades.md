@@ -4,11 +4,92 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 
 Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-1-e1-proj-web-t5-medicamento-facil/src/index
 
+
+## Tela Inicial (RF-01)
+
+A Tela Inicial do sistema apresenta apresenta um buscador centralizado, no qual o usuário deverá digitar seu endereço e a fim de direcionar a buscar de medicamentos à Unidade Básica de Saúde mais próxima. Esta tela ainda permite que o usuário faça cadastro ou login, bem como acesso à Área do Farmacêutico. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil". Para facilidade de acesso foi incorporado a função de autocompletar o endereço enquanto o usuário digita.
+
+![Inicial](img/principalautocomplete.png)
+
+### Requisitos atendidos 
+
+RF-01 -  O site deve apresentar na página principal um buscador no qual o usuário irá digitar seu endereço.
+
+### Artefatos da funcionalidade 
+
+- index.html
+- index.js
+- template.css
+- logo.png
+
+### Estrutura de Dados 
+
+        let endereco_google;
+        function initAutocomplete(){
+        endereco_google = new google.maps.places.Autocomplete(
+            document.getElementById('autocomplete'),
+            {
+                types: ['address'],
+                componentRestrictions: {'country': ['BR']},
+                fields: ['address_components']
+            })   ;
+        }
+
+
+### Instruções de acesso 
+
+A Tela Inicial é a primeira funcionalidade exibida pelo aplicativo. 
+
+## Tela de Busca de Medicamentos (RF-03)
+
+A Tela de Busca de Medicamentos do sistema apresenta apresenta um buscador centralizado, no qual o usuário deverá digitar os medicamentos de interesse. Esta tela ainda permite que o usuário notifique a falta de um medicamento. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil".
+
+![Busca Medicamento](img/busca_medicamento.png)
+
+### Requisitos atendidos 
+
+RF-03 -  O site deve apresentar uma página com um buscador no qual o usuário irá digitar os medicamentos buscados.
+
+### Artefatos da funcionalidade 
+
+- buscar-medicamento.html
+- template.css
+- logo.png
+
+### Artefatos da funcionalidade 
+
+- buscar-medicamento.html
+- MedicamentoControlador.js
+- logo.png
+
+### Estrutura de Dados 
+Acesse a pasta scr/app/entidades e veja Medicamento.js, depois vá em src/app/mocks e acesse medicamento.mock.js e medicamento.mock.min.js
+
+```
+export const medicamentos = [{
+        "principioAtivo": "ACEBROFILINA",
+        "laboratorioNome": "GERMED FARMACEUTICA LTDA",
+        "nome": "ACEBROFILINA",
+        "apresentacao": "10 MG/ML XPE CT FR PLAS AMB X 120 ML + COP",
+        "tarja": "TARJA VERMELHA"
+    }, {
+        "principioAtivo": "ACEBROFILINA",
+        "laboratorioNome": "GERMED FARMACEUTICA LTDA",
+        "nome": "ACEBROFILINA",
+        "apresentacao": "10 MG/ML XPE CT FR VD AMB X 120 ML + COP",
+        "tarja": "TARJA VERMELHA"
+    }...
+```
+
+### Instruções de acesso 
+
+A Tela de Busca de Medicamentos é a exibida após a confirmação de endereço. 
+
 ## Tela de Cadastro (RF-06)
 
 A Tela de Cadastro do sistema apresenta campos nos quais o usuário deverá preencher seus dados para realizar o cadastro. Esta tela também apresenta os ícones "sobre" e "como funciona o medicamento fácil". 
 
-![Login](img/login.png)
+![Cadastro](img/cadastro.png)
 
 
 ### Requisitos atendidos
@@ -24,29 +105,8 @@ RF-06 - O site deve ter uma área personalizada, na qual o usuário deverá aces
 
 ### Estrutura de Dados
 
-let nome = document.querySelector('#nome')
-let labelNome = document.querySelector('#labelNome')
-let validNome = false
+Acesse a pasta scr/js e veja cadastro.js.
 
-let sobrenome = document.querySelector('#sobrenome')
-let labelSobrenome = document.querySelector('#labelSobrenome')
-let validSobrenome = false
-
-let celular = document.querySelector('#celular')
-let labelCelular = document.querySelector('#labelCelular')
-let validCelular = false
-
-let email = document.querySelector('#email')
-let labelEmail = document.querySelector('#labelEmail')
-let validEmail = false
-
-let senha = document.querySelector('#senha')
-let labelSenha = document.querySelector('#labelSenha')
-let validSenha = false
-
-let confirmarSenha = document.querySelector('#confirmarSenha')
-let labelConfirmarSenha = document.querySelector('#labelConfirmarSenha')
-let validConfirmarSenha = false
 
 nome.addEventListener('keyup', ()=>{
     if(nome.value.length < 2){
@@ -131,17 +191,13 @@ function cadastrar(){
                 celularCad: celular.value,
                 emailCad: email.value,
                 senhaCad: senha.value,
-            }
-
-          
+            }          
         )
-    
         //salvando a lista de usuário no local storage
 
         localStorage.setItem('listaUser', JSON.stringify(listaUser))
         alert ('Cadastro realizado com sucesso!')
-        window.location.href = 'login.html'
-       
+        window.location.href = 'login.html'    
 
     } else {
         alert ('Favor preencher os campos!')
@@ -189,87 +245,6 @@ RF-06 - O site deve ter uma área personalizada, na qual o usuário deverá aces
 
 A Tela de Login é a exibida após o usuário clicar em "Faça Login".
 
-
-
-## Tela Inicial (RF-01)
-
-A Tela Inicial do sistema apresenta apresenta um buscador centralizado, no qual o usuário deverá digitar seu endereço e a fim de direcionar a buscar de medicamentos à Unidade Básica de Saúde mais próxima. Esta tela ainda permite que o usuário faça cadastro ou login, bem como acesso à Área do Farmacêutico. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil". Para facilidade de acesso foi incorporado a função de autocompletar o endereço enquanto o usuário digita.
-
-![Inicial](img/principalautocomplete.png)
-
-### Requisitos atendidos 
-
-RF-01 -  O site deve apresentar na página principal um buscador no qual o usuário irá digitar seu endereço.
-
-### Artefatos da funcionalidade 
-
-- index.html
-- index.js
-- template.css
-- logo.png
-
-### Estrutura de Dados 
-
-        let endereco_google;
-        function initAutocomplete(){
-        endereco_google = new google.maps.places.Autocomplete(
-            document.getElementById('autocomplete'),
-            {
-                types: ['address'],
-                componentRestrictions: {'country': ['BR']},
-                fields: ['address_components']
-            })   ;
-        }
-
-
-### Instruções de acesso 
-
-A Tela Inicial é a primeira funcionalidade exibida pelo aplicativo. 
-
-## Tela de Busca de Medicamentos (RF-03)
-
-A Tela de Busca de Medicamentos do sistema apresenta apresenta um buscador centralizado, no qual o usuário deverá digitar os medicamentos de interesse. Esta tela ainda permite que o usuário notifique a falta de um medicamento. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil".
-
-![Busca Medicamento](img/busca_medicamento.png)
-
-### Requisitos atendidos 
-
-RF-03 -  O site deve apresentar uma página com um buscador no qual o usuário irá digitar os medicamentos buscados.
-
-### Artefatos da funcionalidade 
-
-- buscar-medicamento.html
-- template.css
-- logo.png
-
-### Artefatos da funcionalidade 
-
-- buscar-medicamento.html
-- MedicamentoControlador.js
-- logo.png
-
-### Estrutura de Dados 
-Acesse a pasta scr/app/entidades e veja Medicamento.js, depois vá em src/app/mocks e acesse medicamento.mock.js e medicamento.mock.min.js
-
-```
-export const medicamentos = [{
-        "principioAtivo": "ACEBROFILINA",
-        "laboratorioNome": "GERMED FARMACEUTICA LTDA",
-        "nome": "ACEBROFILINA",
-        "apresentacao": "10 MG/ML XPE CT FR PLAS AMB X 120 ML + COP",
-        "tarja": "TARJA VERMELHA"
-    }, {
-        "principioAtivo": "ACEBROFILINA",
-        "laboratorioNome": "GERMED FARMACEUTICA LTDA",
-        "nome": "ACEBROFILINA",
-        "apresentacao": "10 MG/ML XPE CT FR VD AMB X 120 ML + COP",
-        "tarja": "TARJA VERMELHA"
-    }...
-```
-
-### Instruções de acesso 
-
-A Tela de Busca de Medicamentos é a exibida após a confirmação de endereço. 
 
 
 ## Tela Notificar falta de medicamento (RF-09)
