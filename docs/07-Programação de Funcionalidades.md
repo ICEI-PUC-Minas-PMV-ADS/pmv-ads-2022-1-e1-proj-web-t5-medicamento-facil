@@ -132,6 +132,7 @@ function cadastrar(){
         alert ('Favor preencher os campos!')
     }
 }
+```
 
 ### Instruções de acesso
 
