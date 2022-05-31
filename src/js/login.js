@@ -1,7 +1,8 @@
 function logar ()
-{
+{  
     let usuario = document.querySelector('#login');
     let userLabel = document.querySelector('#userLabel');
+
 
     let senha = document.querySelector('#senha');
     let senhaLabel = document.querySelector('#senhaLabel');
@@ -31,9 +32,9 @@ function logar ()
 
     })
 
-    /*  if (usuario.value == null && senha.value == null){
+      if (usuario.value == null && senha.value == null){
            alert ('Preencha todos os campos')
-      }*/
+      }
 
      if(usuario.value === userValid.email && senha.value === userValid.senha){
           window.location.href = 'area-usuario.html'
