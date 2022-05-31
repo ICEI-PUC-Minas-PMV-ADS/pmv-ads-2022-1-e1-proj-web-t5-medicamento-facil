@@ -1,48 +1,39 @@
-function logar ()
-{  
+function logar() {
     let usuario = document.querySelector('#login');
-    let userLabel = document.querySelector('#userLabel');
-
-
     let senha = document.querySelector('#senha');
-    let senhaLabel = document.querySelector('#senhaLabel');
-
-    let listaUser = [];
-
-    let userValid = {
+    let usuarioValido = {
         nome: '',
         email: '',
-        senha: '',
-
+        senha: ''
     }
 
+    let usuarios = JSON.parse(localStorage.getItem('listaUser'));
 
-    listaUser = JSON.parse(localStorage.getItem('listaUser'))
-
-
-    listaUser.forEach((item) =>{
-
-         if(usuario.value == item.emailCad && senha.value == item.senhaCad){
-            userValid = {
-                nome: item.nomeCad,
-                email: item.emailCad,
-                senha: item.senhaCad
+    usuarios.forEach((usuario) => {
+        const ehValido = usuario.value === usuario.emailCad && senha.value === usuario.senhaCad;
+        if (ehValido) {
+            usuarioValido = {
+                nome: usuario.nomeCad,
+                email: usuario.emailCad,
+                senha: usuario.senhaCad
             }
         }
 
     })
 
-      if (usuario.value == null && senha.value == null){
-           alert ('Preencha todos os campos')
-      }
-
-     if(usuario.value === userValid.email && senha.value === userValid.senha){
-          window.location.href = 'area-usuario.html'
-          localStorage.setItem('userLogado', JSON.stringify(userValid)) 
-
-    } else {
-        alert ('Usuário ou senha incorretos')
+    if (!usuario.value && !senha.value) {
+        alert('Preencha todos os campos')
     }
-    
+
+    const deuMatch = usuario.value === usuarioValido.email && senha.value === usuarioValido.senha;
+    if (!deuMatch) {
+        alert('Usuário ou senha incorretos')
+        window.location.href = 'login.html'
+        return;
+    }
+
+    localStorage.setItem('userLogado', JSON.stringify(usuarioValido))
+    window.location.href = 'area-usuario.html'
+
 }
 
