@@ -129,6 +129,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-12| O site deve permitir visualizar as informações de contatos das Unidades Básicas de Saúde | BAIXA | 
 |RF-13| O site deve permitir salvar o resultado da busca | BAIXA |
 |RF-14| O site deve permitir o compartilhamento da busca no WhatsApp | BAIXA |
+|RF-15| O site deve permitir que o usuário visualize e altere seus dados cadastrados | MÉDIA |
 
 ### Requisitos não Funcionais
 
