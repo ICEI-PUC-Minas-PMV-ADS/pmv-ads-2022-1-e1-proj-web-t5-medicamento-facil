@@ -1,19 +1,14 @@
 # Registro de Testes de Software
 
-Os requisitos para realização dos testes de software são:
-
-- Site publicado na Internet
-- Navegador da Internet - Chrome, Firefox ou Edge
-- Conectividade de Internet para acesso às plataformas (APIs)
-
-Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
+Considerando requisitos do projeto e os casos listados no item [08. Plano de Testes de Software](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-1-e1-proj-web-t5-medicamento-facil/docs/08-Plano de Testes de Software.md), foram realizados os testes descritos abaixo:
 
 | Caso de Teste | CT-01 - Localização mapa |
 |---------------|--------------------------|
 | Requisitos Associados | RF-01 - O site deve apresentar na página principal um buscador no qual o usuário irá digitar seu endereço RF-02 - O site deve confirmar a localização do usuário no mapa |
 | Objetivo do Teste | Verificar se a localização do usuário está corretamente indicada no mapa. |
-| Passos | 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a página inicial 4) Inserir o endereço a ser buscado |
 | Critérios de Êxito | - A tela inicial deve abrir corretamente - Ao digitar o endereço, o usuário deve ser direcionado à tela de confirmação do endereço - O endereço digitado deve ser corretamente indicado no mapa. |
+| Print do Teste | -imagem. |
+| Conclusão do teste | informar se OK ou não OK |
 
 
 | Caso de Teste | CT-02 - Busca de medicamentos |
