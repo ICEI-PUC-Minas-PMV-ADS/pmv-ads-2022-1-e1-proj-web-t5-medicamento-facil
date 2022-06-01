@@ -226,6 +226,8 @@ RF-09 -  O site deve permitir que o próprio usuário notifique a falta de um de
 
 ### Estrutura de Dados 
 
+```
+function notificar (){
     let nomeMedicamento = document.getElementById("nomeMedicamento");
 
     let dados = JSON.parse(localStorage.getItem("dadosMedicamento"));
@@ -246,8 +248,8 @@ RF-09 -  O site deve permitir que o próprio usuário notifique a falta de um de
     alert("Requisição de medicamento enviada!")
 
     nomeMedicamento.value = "";
-    }
-
+}
+```
 ### Instruções de acesso
 
 A Tela de Área do usuário é a exibida após o usuário clicar em "Fazer Login" e enviar o formulário com o e-mail e senha.
