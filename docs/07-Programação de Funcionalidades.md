@@ -301,7 +301,7 @@ RF-10 -  O site deve permitir que o usuário recupere sua senha em caso de esque
 senha.addEventListener('keyup', ()=>{
     if(senha.value.length <= 5){
         labelSenha.setAttribute('style', 'color: red')
-        labelSenha.innerHTML =  'Senha *Insira no mínimo 6 caracteres'
+        labelSenha.innerHTML =  '*Insira no mínimo 6 caracteres*'
         validSenha = false
     } else {
         labelSenha.setAttribute('style', 'color: green')
@@ -313,7 +313,7 @@ senha.addEventListener('keyup', ()=>{
 confirmarSenha.addEventListener('keyup', ()=>{
     if(senha.value != confirmarSenha.value){
         labelConfirmarSenha.setAttribute('style', 'color: red')
-        labelConfirmarSenha.innerHTML =  'Senha *As senhas devem ser iguais'
+        labelConfirmarSenha.innerHTML =  '*As senhas devem ser iguais*'
         validConfirmarSenha = false
     } else {
         labelConfirmarSenha.setAttribute('style', 'color: green')
