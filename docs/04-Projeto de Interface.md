@@ -80,7 +80,7 @@ Caso um usuário tenha verificado a indisponibilidade de um determinado medicame
 
 Ao clicar em “Esqueceu sua senha” na tela "Faça login", o usuário será redirecionado a esta tela, na qual deverá inserir seu e-mail cadastrado para que o código de recuperação de senha lhe seja enviado. Caso o e-mail esteja correto e cadastrado, a tela apresenta a mensagem de confirmação de envio e o botão "recebi meu código" que redireciona o usuário à página "Código de recuperação". 
 
-![Wireframe9](img/Desktop9.jpeg)
+![Wireframe9](img/Desktop9.jpg)
 
 ### Tela - Código de recuperação 
 
