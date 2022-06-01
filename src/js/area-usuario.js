@@ -4,6 +4,7 @@
     if(!userLogado){        
         alert('Você precisa estar cadastrado em nossa base de dados.');
         window.location.href = 'index.html';
+        return;
     }
 
     let logado = document.querySelector("#logado");
