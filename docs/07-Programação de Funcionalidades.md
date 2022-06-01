@@ -293,15 +293,34 @@ RF-10 -  O site deve permitir que o usuário recupere sua senha em caso de esque
 - alterar-senha.html
 - esqueceu-senha.html
 - template.css
+- alterarSenha.js
 - recuperar-senha.css
 - logo.png
 
 ### Estrutura de Dados 
-                        <button type="submit" class="btn botao-secundario" onclick="alert('Senha alterada com sucesso!');">
-                            Enviar
-                        </button>
+senha.addEventListener('keyup', ()=>{
+    if(senha.value.length <= 5){
+        labelSenha.setAttribute('style', 'color: red')
+        labelSenha.innerHTML =  'Senha *Insira no mínimo 6 caracteres'
+        validSenha = false
+    } else {
+        labelSenha.setAttribute('style', 'color: green')
+        labelSenha.innerHTML = 'Senha'
+        validSenha = true
+    }
+})
 
-
+confirmarSenha.addEventListener('keyup', ()=>{
+    if(senha.value != confirmarSenha.value){
+        labelConfirmarSenha.setAttribute('style', 'color: red')
+        labelConfirmarSenha.innerHTML =  'Senha *As senhas devem ser iguais'
+        validConfirmarSenha = false
+    } else {
+        labelConfirmarSenha.setAttribute('style', 'color: green')
+        labelConfirmarSenha.innerHTML = 'Confirmar senha'
+        validConfirmarSenha = true
+    }
+})
 ### Instruções de acesso
 
 A Tela da alterar a senha é a exibida após o usuário receber o codigo de recuperação.
