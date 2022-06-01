@@ -56,7 +56,7 @@ Ao clicar em “fazer login” na tela de home-page, o usuário será redirecion
 
 Caso um usuário tenha verificado a indisponibilidade de um determinado medicamento, ele poderá notificar a falta através de uma requisição no sistema. 
 
-![Wireframe7](img/Desktop7.jng)
+![Wireframe7](img/Desktop7.jpg)
 
 ### Tela - Buscar medicamentos
 
