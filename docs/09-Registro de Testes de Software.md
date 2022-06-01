@@ -1,6 +1,6 @@
 # Registro de Testes de Software
 
-Considerando requisitos do projeto e os casos listados no item [08. Plano de Testes de Software](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-1-e1-proj-web-t5-medicamento-facil/docs/08-Plano de Testes de Software.md), foram realizados os testes descritos abaixo:
+Considerando requisitos do projeto e os casos listados no item [08. Plano de Testes de Software](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-1-e1-proj-web-t5-medicamento-facil/docs/08-Plano-de-Testes-de-Software.md), foram realizados os testes descritos abaixo:
 
 | Caso de Teste | CT-01 - Localização mapa |
 |---------------|--------------------------|
