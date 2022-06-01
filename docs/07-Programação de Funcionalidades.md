@@ -291,13 +291,13 @@ RF-10 -  O site deve permitir que o usuário recupere sua senha em caso de esque
 ### Artefatos da funcionalidade 
 
 - alterar-senha.html
-- esqueceu-senha.html
 - template.css
 - alterarSenha.js
-- recuperar-senha.css
 - logo.png
 
 ### Estrutura de Dados 
+
+```
 senha.addEventListener('keyup', ()=>{
     if(senha.value.length <= 5){
         labelSenha.setAttribute('style', 'color: red')
@@ -321,6 +321,7 @@ confirmarSenha.addEventListener('keyup', ()=>{
         validConfirmarSenha = true
     }
 })
+```
 ### Instruções de acesso
 
 A Tela da alterar a senha é a exibida após o usuário receber o codigo de recuperação.
