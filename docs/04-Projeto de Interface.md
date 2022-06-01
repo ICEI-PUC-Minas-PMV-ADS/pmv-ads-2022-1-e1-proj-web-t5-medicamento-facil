@@ -52,17 +52,29 @@ Ao clicar em “fazer login” na tela de home-page, o usuário será redirecion
 
 ![Wireframe6](img/Desktop6.jpg)
 
-### Tela – Notificar a falta de medicamentos
+### Tela - Perfil do usuário
 
-Caso um usuário tenha verificado a indisponibilidade de um determinado medicamento, ele poderá notificar a falta através de uma requisição no sistema. 
+Ai clicar em "Visualizar meu perfil" na tela "Seleção de função pelo usuário", o usuário será redirecionado a esta página, onde pode consultar seus dados cadastrados e editá-los, além de visualizar suas requisições de medicamentos em falta.
 
-![Wireframe7](img/Desktop7.jpg)
+![Wireframe6](img/Desktop14.jpg)
+
+### Tela - Perfil do usuário - alterando cadastro
+
+Ao selecionar a opção "Alterar meu cadastro" na tela anterior, o usuário pode editar seus dados e salvá-los.
+
+![Wireframe6](img/Desktop15.jpg)
 
 ### Tela - Buscar medicamentos
 
 Após escolher a opção "Pesquisar medicamentos" na tela "Seleção de função pelo usuário" o usuário será redirecionado para esta página na qual poderá fazer a busca pelo medicamento clicando no botão "Buscar medicamentos" e também notificar a falta de algum medicamento clicando no botão "Notificar falta de medicamento".
 
 ![Wireframe8](img/Desktop8.jpg)
+
+### Tela – Notificar a falta de medicamentos
+
+Caso um usuário tenha verificado a indisponibilidade de um determinado medicamento, ele poderá notificar a falta através de uma requisição no sistema. 
+
+![Wireframe7](img/Desktop7.jpg)
 
 ### Tela - Esqueceu sua senha 
 
