@@ -17,7 +17,7 @@ Considerando requisitos do projeto e os casos listados no item [08. Plano de Tes
 | Objetivo do Teste | Verificar se o resultado da busca de medicamentos está corretamente indicado. |
 | Passos | 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a página de busca de medicamentos 4) Inserir o medicamento a ser buscado 5) Vizualizar o resultado da busca |
 | Critérios de Êxito | - A tela de busca de medicamentos deve abrir corretamente - Ao digitar o medicamento, o usuário deve ser direcionado à tela de resultado da busca - A tela de resultado da busca deve indicar a disponibilidade do medicamento buscado, o responsável pela entrega, prazo de entrega e a UBS mais próxima da localização indicada, com suas informações de contato. |
-| Print do Teste | ![Tela3](/docs/img/telaTeste3.JPG)   |
+| Print do Teste | ![Tela3](/docs/img/telaTeste3.jpg)   |
 | Conclusão do teste | Falha na funcionalidade, pois o usuário não é direcionado para página de resultado da busca após clica na "lupa". |
 
 
