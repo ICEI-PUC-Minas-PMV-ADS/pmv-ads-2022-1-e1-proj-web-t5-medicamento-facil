@@ -25,6 +25,7 @@ function logar ()
             userValid = {
                 nome: item.nomeCad,
                 sobrenome: item.sobrenomeCad,
+                celular: item.celularCad,
                 email: item.emailCad,
                 senha: item.senhaCad,
                 medicamento: item.medCad
@@ -33,17 +34,24 @@ function logar ()
 
     })
 
-      if (usuario.value == null && senha.value == null){
-           alert ('Preencha todos os campos')
-      }
-
-     if(usuario.value === userValid.email && senha.value === userValid.senha){
-          window.location.location = 'area-usuario.html'
-          localStorage.setItem('userLogado', JSON.stringify(userValid)) 
-
-    } else {
-        alert ('Usuário ou senha incorretos')
+    if (!usuario.value && !senha.value) {
+        alert('Preencha todos os campos');
+        location.reload(true);
+  
     }
+    else if(usuario.value === userValid.email && senha.value === userValid.senha){
+        localStorage.setItem('userLogado', JSON.stringify(userValid)) 
+          window.location.href = "area-usuario.html"
+        
+        
+    } 
+    
+     if  (usuario.value != userValid.email || senha.value != userValid.senha){
+        alert ('Usuário ou senha incorretos');
+        location.reload(true);
+    }
+
+     
     
 }
 

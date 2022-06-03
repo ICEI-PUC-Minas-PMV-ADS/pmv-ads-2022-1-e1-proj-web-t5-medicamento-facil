@@ -23,6 +23,10 @@ let confirmarSenha = document.querySelector('#confirmarSenha')
 let labelConfirmarSenha = document.querySelector('#labelConfirmarSenha')
 let validConfirmarSenha = false
 
+let medicamento = document.querySelector('#medicamento')
+let labelMedicamento = document.querySelector('#labelMedicamento')
+let validMedicamento = false
+
 nome.addEventListener('keyup', ()=>{
     if(nome.value.length < 2){
         labelNome.setAttribute('style', 'color: red')
@@ -106,6 +110,7 @@ function cadastrar(){
                 celularCad: celular.value,
                 emailCad: email.value,
                 senhaCad: senha.value,
+                medCad: medicamento.value
             }
 
           

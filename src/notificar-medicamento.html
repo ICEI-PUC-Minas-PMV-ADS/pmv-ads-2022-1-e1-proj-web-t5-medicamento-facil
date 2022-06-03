@@ -19,7 +19,7 @@
         <br>
         <div class="row">
             <div class="col-sm-6">
-                <a href="index.html">
+                <a href="area-usuario.html">
                     <button id="button1" class="btn botao-padrao">Voltar</button>
                 </a>
             </div>
@@ -43,13 +43,11 @@
             <div class="col-sm-6">
                 <form class="row g-3">
                     <div class="col-12">
-                        <label for="inputAddress" class="form-label"></label>
-                        <input type="text" class="form-control" id="inputAddress">
+                        <label for="nomeMedicamento" class="form-label"></label>
+                        <input id="nomeMedicamento" type="text" class="form-control">
                     </div>
                     <div class="col-12">
-                        <button type="submit" class="btn botao-secundario" onclick="alert('Requisição de medicamento enviada!');">
-                            Enviar requisição
-                        </button>
+                        <button type="button" onclick="notificar()" class="btn botao-secundario"> Enviar requisição</button>
                     </div>
                 </form>
             </div>
@@ -71,6 +69,7 @@
         </div>
     </footer>
     <script src="js/bootstrap.min.js" type="javascript"></script>
+    <script  src="js/notificar.js" type="text/javascript"></script>
 
 </body>
 
