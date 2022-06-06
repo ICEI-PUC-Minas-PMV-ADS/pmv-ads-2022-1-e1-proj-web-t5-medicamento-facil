@@ -1,10 +1,10 @@
 
     let userLogado = JSON.parse(localStorage.getItem("userLogado"));
 
-    if(!userLogado){        
+   /* if(!userLogado){        
         alert('Você precisa estar cadastrado em nossa base de dados.');
         window.location.href = 'login.html';
-    }
+    } */
 
     let logado = document.querySelector("#logado");
 

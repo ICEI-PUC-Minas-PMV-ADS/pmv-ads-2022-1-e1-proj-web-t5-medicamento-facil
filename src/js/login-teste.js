@@ -41,7 +41,8 @@ function logar ()
     }
     else if(usuario.value === userValid.email && senha.value === userValid.senha){
         localStorage.setItem('userLogado', JSON.stringify(userValid)) 
-          window.location.href = "area-usuario.html"
+       // document.location.href = 'area-usuario.html'; 
+        window.open ('area-usuario.html')
         
         
     } 
