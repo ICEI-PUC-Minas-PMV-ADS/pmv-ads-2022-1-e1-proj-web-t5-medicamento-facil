@@ -27,6 +27,7 @@ let medicamento = document.querySelector('#medicamento')
 let labelMedicamento = document.querySelector('#labelMedicamento')
 let validMedicamento = false
 
+
 nome.addEventListener('keyup', ()=>{
     if(nome.value.length < 2){
         labelNome.setAttribute('style', 'color: red')
@@ -102,50 +103,37 @@ confirmarSenha.addEventListener('keyup', ()=>{
 
 function cadastrarNovo() {
 
+    let userLogado = JSON.parse(localStorage.getItem("userLogado"));
+    let nomeLogado = userLogado.nome;
+    
 
     // Localiza o indice do objeto a ser alterado no array a partir do seu nome
-    let userLogado = listaUser.data.map(obj => obj.id).indexOf(nome);
-
+   
+   if (validNome == true  && validSobrenome == true && validCelular == true && validEmail == true  && validSenha == true && validConfirmarSenha == true) { 
+    
+    userLogado = listaUser.indexOf(nomeLogado);
+    
+    let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
     // Altera os dados do objeto no array
+   
+    
     listaUser.data[index].nomeCad = nome,
     listaUser.data[index].sobrenomeCad = sobrenome,
     listaUser.data[index].celularCad = celular,
     listaUser.data[index].emailCad = email,
     listaUser.data[index].senhaCad = senha,
     listaUser.data[index].medCad = medicamento
-
+         
+    listaUser.push;
     
     // Atualiza os dados no Local Storage
+    localStorage.setItem('userLogado', JSON.stringify(userLogado));
     localStorage.setItem('listaUser', JSON.stringify(listaUser));
-    cadastrar();
-}
-
-// realiza novo cadastro:
-function cadastrar (){
-    if (validNome == true  && validSobrenome == true && validCelular == true && validEmail == true  && validSenha == true && validConfirmarSenha == true) { 
-        
-        let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
-        listaUser.push(
-            {
-                nomeCad:nome.value,
-                sobrenomeCad: sobrenome.value,
-                celularCad: celular.value,
-                emailCad: email.value,
-                senhaCad: senha.value,
-                medCad: medicamento.value
-            }
-
-          
-        )
-    
-        //salvando a lista de usuário no local storage
-
-        localStorage.setItem('listaUser', JSON.stringify(listaUser))
-        alert ('Cadastro realizado com sucesso!')
+    alert ('Cadastro realizado com sucesso!')
         window.location.href = 'login.html'
-       
 
     } else {
         alert ('Favor preencher os campos!')
     }
 }
+
