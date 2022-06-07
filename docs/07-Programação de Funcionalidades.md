@@ -247,9 +247,9 @@ RF-06 - O site deve ter uma área personalizada, na qual o usuário deverá aces
 
 A Tela de Área do Usuário é a exibida após o usuário fazer login.
 
-## Tela Vizualizar Perfil (RF-15)
+## Tela Visualizar Perfil (RF-15)
 
-A Tela de Vizualizar Perfil apresenta os dados do usuário cadastrado. Também dispõe dos ícones "sobre" e "como funciona o medicamento fácil". 
+A Tela de Visualizar Perfil apresenta os dados do usuário cadastrado. Também dispõe dos ícones "sobre" e "como funciona o medicamento fácil". 
 
 ![Usuario Cadastrado](img/cadastro-usuario.png)
 
@@ -292,7 +292,7 @@ RF-15 - O site deve permitir que o usuário visualize e altere seus dados cadast
 
 ### Instruções de acesso
 
-A Tela de Vizualizar Perfil é a exibida após o usuário fazer login e acessar a área do usuário.
+A Tela de Visualizar Perfil é a exibida após o usuário fazer login e acessar a área do usuário.
 
 
 ## Tela Notificar falta de medicamento (RF-09)
