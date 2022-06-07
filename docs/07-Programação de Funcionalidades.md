@@ -395,3 +395,180 @@ Artefatos da funcionalidade
 - medicamentos.js
 
 ### Estrutura de Dados
+
+        function init() {
+            exibeMedicamentos();
+
+            // Adiciona funções para tratar os eventos 
+            $("#btnInsert").click(function () {
+                // Verfica se o formulário está preenchido corretamente
+                if (!$('#form-medicamento')[0].checkValidity()) {
+			
+                    displayMessage("Preencha o formulário corretamente.");
+                    return;
+                }
+
+                // Obtem os valores dos campos do formulário
+                let campoNomeMedicamento = $("#inputNomeMedicamento").val();
+                let campoDosagem = $("#inputDosagem").val();
+                let campoDisponibilidade = $("#inputDisponibilidade").val();
+                
+                let medicamento= { nomeMedicamento: campoNomeMedicamento, 
+                    dosagem: campoDosagem, 
+                    disponibilidade: campoDisponibilidade };
+				
+                insertMedicamento(medicamento);
+                alert("Medicamento armazenado com sucesso!");
+
+                // Reexibe os medicamentos
+                exibeMedicamentos();
+
+                // Limpa o formulario
+                $("#form-medicamento")[0].reset();
+            });
+
+
+            $("#btnView").click(function () {
+                document.location.reload(true);
+            });
+
+            $("#btnOcultar").click(function () {
+            $("#table-medicamentos").html("").hide();
+        });
+              
+
+
+
+        $("#btnMostrar").click(function () {
+            $("#table-medicamentos").html("").show();
+            exibeMedicamentos();
+        });
+
+
+
+            // Oculta a mensagem de aviso após alguns segundos
+            $('#msg').bind("DOMSubtreeModified", function () {
+                window.setTimeout(function () {
+                    $(".alert").fadeTo(500, 0).slideUp(500, function () {
+                        $(this).remove();
+                    });
+                }, 5000);
+            });
+
+        
+
+          // Intercepta o click do botão Alterar
+          $("#btnUpdate").click(function () {
+              
+                // Obtem os valores dos campos do formulário
+                let campoId = $("#inputId").val();
+				
+                if (campoId == "") {
+                    alert("Selecione um medicamento para ser alterado.");
+                    return;
+                }
+                // Obtem os valores dos campos do formulário
+                let campoNomeMedicamento = $("#inputNomeMedicamento").val();
+                let campoDosagem = $("#inputDosagem").val();
+
+                /*
+                if(campoDosagem.val=="50MG"){
+                    var dosradio = document.getElementsByName('dosagem1');
+              
+                    dosradio.checked;
+                }
+                if(campoDosagem.val=="100MG"){
+                    var dosradio = document.getElementsByName('dosagem2');
+                    dosradio.checked;
+                }
+                if(campoDosagem.val=="250MG"){
+                    var dosradio = document.getElementsByName('dosagem3');
+                    dosradio.checked;
+                }
+                if(campoDosagem.val=="500MG"){
+                    var dosradio = document.getElementsByName('dosagem4');
+                    dosradio.checked;
+                }
+                */
+                let campoDisponibilidade = $("#inputDisponibilidade").val();
+
+                var checkbox = document.getElementById('inputDisponibilidade');
+                if (checkbox.checked==true)
+                    campoDisponibilidade="SIM";
+                else
+                    campoDisponibilidade="NÃO";
+                
+                let medicamento= { nomeMedicamento: campoNomeMedicamento, 
+                    dosagem: campoDosagem, 
+                    disponibilidade: campoDisponibilidade };
+
+                updateMedicamento(parseInt(campoId), medicamento);
+
+                // Reexibe os medicamentos
+                exibeMedicamentos();
+
+                // Limpa o formulario
+                $("#form-medicamento")[0].reset();
+            });
+
+             // Intercepta o click do botão Listar Contatos
+             $("#btnClear").click(function () {
+                $("#form-medicamento")[0].reset();
+            });
+        
+ // Intercepta o click do botão Excluir
+ $("#btnDelete").click(function () {
+                let campoId = $("#inputId").val();
+                if (campoId == "") {
+                    alert("Selecione um medicamento a ser excluído.");
+                    return;
+                }
+                deleteMedicamento(parseInt(campoId));
+
+                // Reexibe os contatos
+                exibeMedicamentos();
+
+                // Limpa o formulario
+                $("#form-medicamento")[0].reset();
+            });
+
+
+ // Preenche o formulário quando o usuario clicar em uma linha da tabela 
+ $("#grid-medicamentos").on("click", "tr", function (e) {
+                let linhaContato = this;
+                colunas = linhaContato.querySelectorAll("td");
+
+                $("#inputId").val(colunas[0].innerText);
+                $("#inputNomeMedicamento").val(colunas[1].innerText);
+                $("#inputDosagem").val(colunas[2].innerText);
+                $("#inputDisponibilidade").val(colunas[3].innerText);
+
+                if(colunas[2].innerText=="100")
+                var dosradio = document.getElementsById('inputDosagem');
+                //$("#inputDosagem").
+
+                var checkbox = document.getElementById('inputDisponibilidade');
+                if(colunas[3].innerText=="SIM")
+                    checkbox.checked = true;
+                else
+                    checkbox.checked = false; 
+            
+            });
+}
+
+        function exibeMedicamentos() {
+            // Remove todas as linhas do corpo da tabela
+            $("#table-medicamentos").html("");
+
+            // Popula a tabela com os registros do banco de dados
+            for (i = 0; i < db.data.length; i++) {
+                let medicamentos = db.data[i];    
+                $("#table-medicamentos").append(`<tr>
+                                                <td>${medicamentos.id}</td>
+                                                <td>${medicamentos.nomeMedicamento.toUpperCase()}</td>
+                                                <td>${medicamentos.dosagem.toUpperCase()}</td>
+                                                <td>${medicamentos.disponibilidade.toUpperCase()}</td>
+                                            </tr>`);
+                    
+            }
+        }
