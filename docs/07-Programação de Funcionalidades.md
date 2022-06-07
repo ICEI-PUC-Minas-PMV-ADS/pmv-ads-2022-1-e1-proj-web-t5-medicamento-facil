@@ -347,7 +347,7 @@ RF-05 -  O site deve ter uma área de login do farmacêutico, na qual ele irá a
 
 ### Estrutura de Dados 
 
-   function logar()
+        function logar()
             {
                 var login = document.getElementById('login').value;
                 var senha = document.getElementById('senha').value;
