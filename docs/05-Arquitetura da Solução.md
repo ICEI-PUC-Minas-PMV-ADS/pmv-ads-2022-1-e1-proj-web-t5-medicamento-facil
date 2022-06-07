@@ -27,7 +27,7 @@ A solução implementada conta com os seguintes módulos:
 
 - Editor gráfico de vetor e prototipagem de projetos de design: Figma.
 
-- Hospedagem da documentação e arquivos do projeto: Github.
+- Hospedagem da documentação e arquivos do projeto: Github Pages.
 
 - Plataforma de hospedagem em nuvem: Github.
 
