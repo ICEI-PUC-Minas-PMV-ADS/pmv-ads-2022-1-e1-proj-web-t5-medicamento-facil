@@ -29,7 +29,7 @@ A solução implementada conta com os seguintes módulos:
 
 - Hospedagem da documentação e arquivos do projeto: Github.
 
-- Plataforma de hospedagem em nuvem: AWS Amplify.
+- Plataforma de hospedagem em nuvem: Github.
 
 - Serviço de pesquisa e visualização de mapas e imagens de satélite para localização do usuário e da UBS: Google Mapas.
 
