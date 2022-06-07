@@ -251,7 +251,7 @@ A Tela de Área do Usuário é a exibida após o usuário fazer login.
 
 A Tela de Vizualizar Perfil apresenta os dados do usuário cadastrado. Também dispõe dos ícones "sobre" e "como funciona o medicamento fácil". 
 
-![Usuario Cadastrado](img/cadastro usuario.png)
+![Usuario Cadastrado](img/cadastro-usuario.png)
 
 
 ### Requisitos atendidos
@@ -420,7 +420,7 @@ A Tela da alterar a senha é a exibida após o usuário receber o codigo de recu
 
 A Tela de novo cadastro apresenta os campos para preenchimento de todo o cadastro do usuário.
 
-![Novo Cadastro](img/novo cadastro.png)
+![Novo Cadastro](img/novo-cadastro.png)
 
 ### Requisitos atendidos 
 
