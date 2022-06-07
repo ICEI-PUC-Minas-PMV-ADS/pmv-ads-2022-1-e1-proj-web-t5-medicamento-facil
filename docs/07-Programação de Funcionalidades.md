@@ -347,16 +347,28 @@ RF-05 -  O site deve ter uma área de login do farmacêutico, na qual ele irá a
 
 ### Estrutura de Dados 
 
-        function logar()
-        {
-            var login = document.getElementById('login').value;
-            var senha = document.getElementById('senha').value;
-            if (login == "farmaceutico@ubs.com" && senha == "1234"){
-                location.href = "area-do-farmaceutico.html";
-            } else {
-                alert ('Usuário ou senha incorretos! \nTente novamente.');
+   function logar()
+            {
+                var login = document.getElementById('login').value;
+                var senha = document.getElementById('senha').value;
+                var validado=false;
+                if (login == "farmaceuticobh@ubs.com" && senha == "1234"){
+                    location.href = "area-farmaceutico.html?login="+login+"&nome=Lucas";
+                    validado=true;
+                }
+                if (login == "farmaceuticorj@ubs.com" && senha == "1234"){
+                    location.href = "area-farmaceutico.html?login="+login+"&nome=Tadeu";
+                    validado=true;
+                }
+                if (login == "farmaceuticosp@ubs.com" && senha == "1234"){
+                    location.href = "area-farmaceutico.html?login="+login+"&nome=Paulo";
+                    validado=true;
+                }
+                if(validado==false) {
+                    alert ('Usuário ou senha incorretos! \nTente novamente.');
+                }
             }
-        }
+
 
 
 ### Instruções de acesso 
