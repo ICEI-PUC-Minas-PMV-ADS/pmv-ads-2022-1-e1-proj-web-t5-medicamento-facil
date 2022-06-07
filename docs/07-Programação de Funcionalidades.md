@@ -379,3 +379,7 @@ A Tela de Login do Farmacêutico é direcionada ao clicar no botão "Área do Fa
 ## Tela Área do Farmacêutico
 
 A Tela área do farmacêutico possui os campos nome do medicamento, dosagem e a disponibilidade do medicamento, o cadastro dessas informações será realizado pelo farmacêutico, ele poderá cadastrar, excluir, alterar, mostrar e ocultar as informações dos medicamentos cadastrados. Também dispõe dos ícones "sobre" e "como funciona o medicamento fácil".
+
+![Área do farmaceutico](img/araedofarmaceutico.png)
+
+###
