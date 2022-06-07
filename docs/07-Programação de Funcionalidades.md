@@ -511,7 +511,7 @@ Artefatos da funcionalidade
                 $("#form-medicamento")[0].reset();
             });
 
-             // Intercepta o click do botão Listar Contatos
+             // Intercepta o click do botão Listar Medicamentos
              $("#btnClear").click(function () {
                 $("#form-medicamento")[0].reset();
             });
