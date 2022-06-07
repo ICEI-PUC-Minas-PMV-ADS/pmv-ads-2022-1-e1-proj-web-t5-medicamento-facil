@@ -382,4 +382,8 @@ A Tela área do farmacêutico possui os campos nome do medicamento, dosagem e a 
 
 ![area-farmaceutico](img/area-farmaceutico.png)
 
-###
+### Requisitos atendidos
+
+RF-05 - O site deve ter uma área de login do farmacêutico, na qual ele irá atualizar o estoque de medicamentos disponíveis pela farmácia da UBS.
+Artefatos da funcionalidade
+
