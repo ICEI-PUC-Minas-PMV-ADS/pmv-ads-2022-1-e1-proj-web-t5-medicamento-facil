@@ -105,4 +105,4 @@ O(a) usuário(a) farmacêutico(a), responsável pelo controle de medicamentos da
 
 Após realizar o login, o profissional da farmácia visualizará as listas de medicamentos e doses para filtro, além da seção para marcação de SIM ou NÃO, para indicar se o medicamento está ou não disponível na UBS.
 
-![Wireframe13](img/Desktop13.png)
+![Wireframe13](img/Desktop13.jpg)
