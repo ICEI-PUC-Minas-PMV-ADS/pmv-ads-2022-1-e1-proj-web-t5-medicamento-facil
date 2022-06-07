@@ -394,3 +394,4 @@ Artefatos da funcionalidade
 - logo.png
 - medicamentos.js
 
+### Estrutura de Dados
