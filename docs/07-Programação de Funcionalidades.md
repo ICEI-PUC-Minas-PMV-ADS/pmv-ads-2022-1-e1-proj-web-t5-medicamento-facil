@@ -535,7 +535,7 @@ Artefatos da funcionalidade
 
  // Preenche o formulário quando o usuario clicar em uma linha da tabela 
  $("#grid-medicamentos").on("click", "tr", function (e) {
-                let linhaContato = this;
+                let linhaMedicamento = this;
                 colunas = linhaContato.querySelectorAll("td");
 
                 $("#inputId").val(colunas[0].innerText);
