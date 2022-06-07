@@ -160,15 +160,56 @@ RF-06 - O site deve ter uma área personalizada, na qual o usuário deverá aces
 ### Estrutura de Dados
 
         function logar ()
-        {
-            var login = document.getElementById('login').value;
-            var senha = document.getElementById('senha').value;
-            if (login == "carolina@hotmail.com" && senha == "1234"){
-                location.href = "area-usuario.html";
-            } else {
-                alert ('Usuário ou senha incorretos. Tente novamente!');
+{  
+    let usuario = document.querySelector('#login');
+    let senha = document.querySelector('#senha');
+
+    let listaUser = [];
+
+    let userValid = {
+        nome: '',
+        sobrenome: '',
+        celular: '',
+        email: '',
+        senha: '',
+        medicamento:''
+
+    }
+
+
+    listaUser = JSON.parse(localStorage.getItem('listaUser'))
+
+
+    listaUser.forEach((item) =>{
+
+         if(usuario.value === item.emailCad && senha.value === item.senhaCad){
+            userValid = {
+                nome: item.nomeCad,
+                sobrenome: item.sobrenomeCad,
+                celular: item.celularCad,
+                email: item.emailCad,
+                senha: item.senhaCad,
+                medicamento: item.medCad
             }
         }
+
+    })
+
+    if (!usuario.value && !senha.value) {
+        alert('Preencha todos os campos');
+        location.reload(true);
+  
+    }
+    else if(usuario.value === userValid.email && senha.value === userValid.senha){
+        localStorage.setItem('userLogado', JSON.stringify(userValid)) 
+        window.open ('area-usuario.html')
+        
+        
+    } 
+    
+     if  (usuario.value != userValid.email || senha.value != userValid.senha){
+        alert ('Usuário ou senha incorretos');
+        location.reload(true);
 
 
 ### Instruções de acesso
@@ -177,7 +218,7 @@ A Tela de Login é a exibida após o usuário clicar em "Faça Login".
 
 ## Tela Área do Usuário (RF-06)
 
-A Tela de Área do usuário apresenta o nome do usuário logado e os botões "pesquisar medicamento" e "notificar a falta de medicamento". Também dispõe dos ícones "sobre" e "como funciona o medicamento fácil". 
+A Tela de Área do usuário apresenta o nome do usuário logado e os botões "vizualizar meu perfil" "pesquisar medicamento" e "notificar a falta de medicamento". Também dispõe dos ícones "sobre" e "como funciona o medicamento fácil". 
 
 ![Area-do-usuario](img/area-do-usuario.png)
 
@@ -205,6 +246,53 @@ RF-06 - O site deve ter uma área personalizada, na qual o usuário deverá aces
 ### Instruções de acesso
 
 A Tela de Área do Usuário é a exibida após o usuário fazer login.
+
+## Tela Vizualizar Perfil (RF-15)
+
+A Tela de Vizualizar Perfil apresenta os dados do usuário cadastrado. Também dispõe dos ícones "sobre" e "como funciona o medicamento fácil". 
+
+![Usuario Cadastrado](img/cadastro usuario.png)
+
+
+### Requisitos atendidos
+
+RF-15 - O site deve permitir que o usuário visualize e altere seus dados cadastrados.
+
+### Artefatos da funcionalidade 
+
+- usuario-cadastrado.html
+- usuario-cadastrado.js
+- template.css
+- logo.png
+
+### Estrutura de Dados
+
+       let userLogado = JSON.parse(localStorage.getItem("userLogado"));
+    let cadastradoNome = document.querySelector("#cadastradoNome");
+    let cadastradoSobrenome = document.querySelector("#cadastradoSobrenome");
+    let cadastradoCelular = document.querySelector("#cadastradoCelular");
+    let cadastradoEmail = document.querySelector("#cadastradoEmail");
+    let cadastradoSenha = document.querySelector("#cadastradoSenha");
+    let cadastradoMed = document.querySelector("#cadastradoMed");
+    let dadosMedicamento = JSON.parse(localStorage.getItem("dadosMedicamento"));
+    let cadastradoNotificacao = document.querySelector("#cadastradoNotificacao");
+
+    cadastradoNome.innerHTML =  userLogado.nome;
+    cadastradoSobrenome.innerHTML =  userLogado.sobrenome;
+    cadastradoCelular.innerHTML =  userLogado.celular;
+    cadastradoEmail.innerHTML =  userLogado.email;
+    cadastradoSenha.innerHTML =  userLogado.senha;
+    cadastradoMed.innerHTML =  userLogado.medicamento;
+
+    
+    for (var i = 0; i < dadosMedicamento.length; i++) {
+        cadastradoNotificacao.innerHTML = dadosMedicamento.nome;
+      }
+
+
+### Instruções de acesso
+
+A Tela de Vizualizar Perfil é a exibida após o usuário fazer login e acessar a área do usuário.
 
 
 ## Tela Notificar falta de medicamento (RF-09)
@@ -327,6 +415,54 @@ confirmarSenha.addEventListener('keyup', ()=>{
 ### Instruções de acesso
 
 A Tela da alterar a senha é a exibida após o usuário receber o codigo de recuperação.
+
+## Tela Novo Cadastro (RF-15)
+
+A Tela de novo cadastro apresenta os campos para preenchimento de todo o cadastro do usuário.
+
+![Novo Cadastro](img/novo cadastro.png)
+
+### Requisitos atendidos 
+
+RF-15 -  O site deve permitir que o usuário visualize e altere seus dados cadastrados.
+
+### Artefatos da funcionalidade 
+
+- novo-cadastro.html
+- template.css
+- novo-cadastro.js
+- logo.png
+
+### Estrutura de Dados 
+
+```
+senha.addEventListener('keyup', ()=>{
+    if(senha.value.length <= 5){
+        labelSenha.setAttribute('style', 'color: red')
+        labelSenha.innerHTML =  '*Insira no mínimo 6 caracteres*'
+        validSenha = false
+    } else {
+        labelSenha.setAttribute('style', 'color: green')
+        labelSenha.innerHTML = 'Senha'
+        validSenha = true
+    }
+})
+
+confirmarSenha.addEventListener('keyup', ()=>{
+    if(senha.value != confirmarSenha.value){
+        labelConfirmarSenha.setAttribute('style', 'color: red')
+        labelConfirmarSenha.innerHTML =  '*As senhas devem ser iguais*'
+        validConfirmarSenha = false
+    } else {
+        labelConfirmarSenha.setAttribute('style', 'color: green')
+        labelConfirmarSenha.innerHTML = 'Confirmar senha'
+        validConfirmarSenha = true
+    }
+})
+```
+### Instruções de acesso
+
+A Tela de Novo Cadastro é a exibida após o usuário acessar a área do usuário e clicar em "alterar cadastro".
 
 
 ## Tela Login do Farmacêutico (RF-05)
