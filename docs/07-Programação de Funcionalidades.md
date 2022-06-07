@@ -572,3 +572,7 @@ Artefatos da funcionalidade
                     
             }
         }
+
+### Instruções de acesso
+
+A Tela de Área do Farmacêutico é exibida após o farmacêutico efetuar o login na pagina "login do farmacêutico", que é exibida ao clicar na "Área do Farmacêutico" na home page.
