@@ -25,9 +25,9 @@ Considerando requisitos do projeto e os casos listados no item [08. Plano de Tes
 
 
 
-| Caso de Teste | CT-03 - Compartilhamento com o WhatsApp |
+| Caso de Teste | CT-03 - Alterar o Cadastro |
 |---------------|--------------------------|
-| Requisitos Associados | RF-13 - O site deve permitir salvar o resultado da busca RF-14 - O site deve permitir o compartilhamento da busca no WhatsApp |
+| Requisitos Associados | RF-15 - VERIFICAR O REQUISITO E ALTERAR TAMBEM PLANO DE TESTES |
 | Objetivo do Teste | Verificar se o resultado da busca de medicamentos está sendo corretamente compartilhado pelo WhatsApp. |
 | Passos | 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a página de busca de medicamentos 4) Inserir o medicamento a ser buscado 5) Vizualizar o resultado da busca 6) Clicar em compartilhar resultado da busca |
 | Critérios de Êxito | - A tela de resultado da busca deve abrir corretamente - Ao clicar em compartilhar o resultado da busca, o usuário deverá ser direcionado ao aplicativo WhatsApp, no qual indicará um número para compartilhar a tela de resultado - A tela de resultado da busca deve ser compartilhada corretamente no WhatsApp. |
