@@ -21,21 +21,7 @@ Considerando requisitos do projeto e os casos listados no item [08. Plano de Tes
 | Conclusão do teste | Falha na funcionalidade, pois o usuário não é direcionado para página de resultado da busca após clica na "lupa". |
 
 
-
-
-
-
-| Caso de Teste | CT-03 - Alterar o Cadastro |
-|---------------|--------------------------|
-| Requisitos Associados | RF-15 - VERIFICAR O REQUISITO E ALTERAR TAMBEM PLANO DE TESTES |
-| Objetivo do Teste | Verificar se o resultado da busca de medicamentos está sendo corretamente compartilhado pelo WhatsApp. |
-| Passos | 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a página de busca de medicamentos 4) Inserir o medicamento a ser buscado 5) Vizualizar o resultado da busca 6) Clicar em compartilhar resultado da busca |
-| Critérios de Êxito | - A tela de resultado da busca deve abrir corretamente - Ao clicar em compartilhar o resultado da busca, o usuário deverá ser direcionado ao aplicativo WhatsApp, no qual indicará um número para compartilhar a tela de resultado - A tela de resultado da busca deve ser compartilhada corretamente no WhatsApp. |
-| Print do Teste | PENDENTE  |
-| Conclusão do teste | PENDENTE |
-
-
-| Caso de Teste | CT-04 - Login do farmacêutico |
+| Caso de Teste | CT-03 - Login do farmacêutico |
 |---------------|--------------------------|
 | Requisitos Associados | RF-05 - O site deve ter uma área de login do farmacêutico, na qual ele irá atualizar o estoque de medicamentos disponíveis pela farmácia da UBS. |
 | Objetivo do Teste | Verificar se o login do farmacêutico está acontecendo corretamente. |
@@ -44,9 +30,7 @@ Considerando requisitos do projeto e os casos listados no item [08. Plano de Tes
 | Print do Teste | PENDENTE  |
 | Conclusão do teste | PENDENTE |
 
-
-
-| Caso de Teste | CT-05 - Área do farmacêutico |
+| Caso de Teste | CT-04 - Área do farmacêutico |
 |---------------|--------------------------|
 | Requisitos Associados | RF-05 - O site deve ter uma área de login do farmacêutico, na qual ele irá atualizar o estoque de medicamentos disponíveis pela farmácia da UBS. |
 | Objetivo do Teste | Verificar se a área do farmacêutico está permitindo a alteração de estoque corretamente. |
@@ -56,7 +40,7 @@ Considerando requisitos do projeto e os casos listados no item [08. Plano de Tes
 | Conclusão do teste | PENDENTE |
 
 
-| Caso de Teste | CT-06 - Área do usuário |
+| Caso de Teste | CT-05 - Área do usuário |
 |---------------|--------------------------|
 | Requisitos Associados | RF-06 - O site deve ter uma área personalizada, na qual o usuário deverá acessar com login e senha. Nesta área, o usuário irá cadastrar seu e-mail, celular e os medicamentos que utiliza, sendo notificado assim que os medicamentos estiverem disponíveis. |
 | Objetivo do Teste | Verificar se o cadastramento de usuário está acontecendo corretamente. |
@@ -65,8 +49,7 @@ Considerando requisitos do projeto e os casos listados no item [08. Plano de Tes
 | Print do Teste | PENDENTE  |
 | Conclusão do teste | PENDENTE |
 
-
-| Caso de Teste | CT-07 - Login do usuário |
+| Caso de Teste | CT-06 - Login do usuário |
 |---------------|--------------------------|
 | Requisitos Associados | RF-06 - O site deve ter uma área personalizada, na qual o usuário deverá acessar com login e senha. Nesta área, o usuário irá cadastrar seu e-mail, celular e os medicamentos que utiliza, sendo notificado assim que os medicamentos estiverem disponíveis. |
 | Objetivo do Teste | Verificar se o login está acontecendo corretamente. |
@@ -74,6 +57,16 @@ Considerando requisitos do projeto e os casos listados no item [08. Plano de Tes
 | Critérios de Êxito | - A tela de login deve abrir corretamente - O login e senha cadastrados devem direcionar o usuário para a tela de área do usuário - Login e senha não cadastrados devem exibir uma mensagem de login ou senha incorretos. |
 | Print do Teste | PENDENTE  |
 | Conclusão do teste | PENDENTE |
+
+| Caso de Teste | CT-07 - Alterar o Cadastro |
+|---------------|--------------------------|
+| Requisitos Associados | RF-15 - VERIFICAR O REQUISITO E ALTERAR TAMBEM PLANO DE TESTES |
+| Objetivo do Teste | Verificar se o resultado da busca de medicamentos está sendo corretamente compartilhado pelo WhatsApp. |
+| Passos | 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a página de busca de medicamentos 4) Inserir o medicamento a ser buscado 5) Vizualizar o resultado da busca 6) Clicar em compartilhar resultado da busca |
+| Critérios de Êxito | - A tela de resultado da busca deve abrir corretamente - Ao clicar em compartilhar o resultado da busca, o usuário deverá ser direcionado ao aplicativo WhatsApp, no qual indicará um número para compartilhar a tela de resultado - A tela de resultado da busca deve ser compartilhada corretamente no WhatsApp. |
+| Print do Teste | PENDENTE  |
+| Conclusão do teste | PENDENTE |
+
 
 
 | Caso de Teste | CT-08 - Notificação de falta de medicamento |
