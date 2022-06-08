@@ -349,6 +349,8 @@ A Tela de Área do usuário é a exibida após o usuário clicar em "Fazer Login
 
 ## Tela Esqueceu sua senha (RF-10)
 
+Desenvolvedor(a): Tauan Gonçalves Silva
+
 A Tela Esqueceu sua senha permite que o usuário preencha seu e-mail para fazer a recuperação de senha. A tela ainda conta com o itens "Sobre" e "Como funciona?", nos quais o usuário, ao passar o mouse acessa os balões com as informações correspondentes.
 
 ![Esqueceu Senha](img/telaEsqueceuSenha.png)
