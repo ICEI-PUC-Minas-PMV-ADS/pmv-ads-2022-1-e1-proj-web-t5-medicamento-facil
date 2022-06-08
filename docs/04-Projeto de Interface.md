@@ -7,7 +7,7 @@ Para a montagem da interface do sistema, foram atendidos os requisitos funcionai
 
 O diagrama abaixo mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o ambiente Figma do projeto. 
 
-![fluxo_usuario](img/fluxograma.jpg)
+![fluxo_usuario](img/fluxograma1.jpg)
 
 ## Wireframes
 
