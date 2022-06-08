@@ -5,7 +5,6 @@
 Para a montagem da interface do sistema, foram atendidos os requisitos funcionais, não funcionais e histórias de usuários. Assim, as funcionalidades do sistema serão simples e de fácil entendimento, focando na acessibilidade e usabilidade. 
 
 ## Fluxo de Usuário
-### Desenvolvedor: Rafael Penido de Souza
 
 O diagrama abaixo mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o ambiente Figma do projeto. 
 
