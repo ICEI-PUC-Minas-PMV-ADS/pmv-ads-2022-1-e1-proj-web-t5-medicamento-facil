@@ -56,7 +56,7 @@ Ao clicar em “fazer login” na tela de home-page, o usuário será redirecion
 
 Ai clicar em "Visualizar meu perfil" na tela "Seleção de função pelo usuário", o usuário será redirecionado a esta página, onde pode consultar seus dados cadastrados e editá-los, além de visualizar suas requisições de medicamentos em falta.
 
-![Wireframe6](img/Desktop14.jpg)
+![Wireframe6](img/Desktop16.jpg)
 
 ### Tela - Perfil do usuário - alterando cadastro
 
