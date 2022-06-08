@@ -1,6 +1,5 @@
 
 # Projeto de Interface
-### Desenvolvedor: Rafael Penido de Souza
 
 Para a montagem da interface do sistema, foram atendidos os requisitos funcionais, não funcionais e histórias de usuários. Assim, as funcionalidades do sistema serão simples e de fácil entendimento, focando na acessibilidade e usabilidade. 
 
