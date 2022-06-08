@@ -98,7 +98,7 @@ Ao clicar em “enviar” na tela de "código de recuperação" e após verifica
 
 O(a) usuário(a) farmacêutico(a), responsável pelo controle de medicamentos da UBS - Unidade Básica de saúde, fará o login nessa tela, na qual será necessário informar e-mail e senha cadastrados. 
 
-![Wireframe12](img/Desktop12.jpg)
+![Wireframe12](img/Desktop14.jpg)
 
 
 ### Tela - Área do(a) Farmacêutico(a)
