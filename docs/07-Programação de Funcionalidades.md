@@ -467,6 +467,8 @@ A Tela de Novo Cadastro é a exibida após o usuário acessar a área do usuári
 
 ## Tela Login do Farmacêutico (RF-05)
 
+### Desenvolvedor(a): Fabiana Alkmim Avelar
+
 A Tela de Login do Farmacêutico apresenta os campos de login e senha, nos quais o farmacêutico deverá inserir seus dados. Esta tela ainda permite retornar à tela inicial. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil".
 
 ![login-farmaceutico](img/login-farmaceutico.png)
@@ -513,6 +515,8 @@ A Tela de Login do Farmacêutico é direcionada ao clicar no botão "Área do Fa
 
 
 ## Tela Área do Farmacêutico
+
+### Desenvolvedor(a): Fabiana Alkmim Avelar
 
 A Tela área do farmacêutico possui os campos nome do medicamento, dosagem e a disponibilidade do medicamento, o cadastro dessas informações será realizado pelo farmacêutico, ele poderá cadastrar, excluir, alterar, mostrar e ocultar as informações dos medicamentos cadastrados. Também dispõe dos ícones "sobre" e "como funciona o medicamento fácil".
 
