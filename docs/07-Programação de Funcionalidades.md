@@ -86,6 +86,7 @@ export const medicamentos = [{
 A Tela de Busca de Medicamentos é a exibida após a confirmação de endereço. 
 
 ## Tela de Cadastro (RF-06)
+### Desenvolvedor(a): Carolina Felipe Alves de Oliveira
 
 A Tela de Cadastro do sistema apresenta campos nos quais o usuário deverá preencher seus dados para realizar o cadastro. Esta tela também apresenta os ícones "sobre" e "como funciona o medicamento fácil". 
 
@@ -140,6 +141,7 @@ A Tela de Cadastro é a exibida após o usuário clicar em "Crie sua conta".
 
 
 ## Tela de Login (RF-06)
+### Desenvolvedor(a): Carolina Felipe Alves de Oliveira
 
 A Tela de Login do sistema apresenta campos nos quais o usuário deverá digitar e-mail e senha cadastrados para acessar a área do usuário. Esta tela também apresenta o botão “esqueceu sua senha?” para o caso em que o usuário necessite recuperar o acesso. Também dispõe dos ícones "sobre" e "como funciona o medicamento fácil". 
 
@@ -217,8 +219,9 @@ RF-06 - O site deve ter uma área personalizada, na qual o usuário deverá aces
 A Tela de Login é a exibida após o usuário clicar em "Faça Login".
 
 ## Tela Área do Usuário (RF-06)
+### Desenvolvedor(a): Carolina Felipe Alves de Oliveira
 
-A Tela de Área do usuário apresenta o nome do usuário logado e os botões "vizualizar meu perfil" "pesquisar medicamento" e "notificar a falta de medicamento". Também dispõe dos ícones "sobre" e "como funciona o medicamento fácil". 
+A Tela de Área do usuário apresenta o nome do usuário logado e os botões "vizualizar meu perfil", "pesquisar medicamento" e "notificar a falta de medicamento". Também dispõe dos ícones "sobre" e "como funciona o medicamento fácil". 
 
 ![Area-do-usuario](img/area-do-usuario.png)
 
@@ -248,6 +251,7 @@ RF-06 - O site deve ter uma área personalizada, na qual o usuário deverá aces
 A Tela de Área do Usuário é a exibida após o usuário fazer login.
 
 ## Tela Visualizar Perfil (RF-14)
+### Desenvolvedor(a): Carolina Felipe Alves de Oliveira
 
 A Tela de Visualizar Perfil apresenta os dados do usuário cadastrado. Também dispõe dos ícones "sobre" e "como funciona o medicamento fácil". 
 
@@ -417,6 +421,7 @@ confirmarSenha.addEventListener('keyup', ()=>{
 A Tela da alterar a senha é a exibida após o usuário receber o codigo de recuperação.
 
 ## Tela Novo Cadastro (RF-15)
+### Desenvolvedor(a): Carolina Felipe Alves de Oliveira
 
 A Tela de novo cadastro apresenta os campos para preenchimento de todo o cadastro do usuário.
 
