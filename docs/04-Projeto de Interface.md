@@ -21,7 +21,7 @@ No bloco superior esquerdo, o usuário pode acessar a área do farmacêutico, cu
 
 ![Wireframe1](img/Desktop20.jpg)
 
-### Tela - Sobre/Como Funnciona
+### Tela - Sobre/Como Funciona
 
 Nessa tela o usuário pode entender melhor a proposta do site e como o mesmo funciona através dos títulos "Sobre" e "Como Funciona".
 
