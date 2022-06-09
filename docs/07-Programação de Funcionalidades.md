@@ -345,7 +345,7 @@ function notificar (){
 ```
 ### Instruções de acesso
 
-A Tela de Área do usuário é a exibida após o usuário clicar em "Fazer Login" e enviar o formulário com o e-mail e senha.
+A Tela Notificar falta de medicamento é exibida após o usuário clicar em "Notificar falta de medicamento" nas telas "Buscar medicamento" e "Área do usuário".
 
 ## Tela Esqueceu sua senha (RF-10)
 
@@ -422,7 +422,7 @@ confirmarSenha.addEventListener('keyup', ()=>{
 ```
 ### Instruções de acesso
 
-A Tela da alterar a senha é a exibida após o usuário receber o codigo de recuperação.
+A Tela da alterar a senha é exibida após o usuário receber o código de recuperação.
 
 ## Tela Novo Cadastro (RF-15)
 ### Desenvolvedor(a): Carolina Felipe Alves de Oliveira
