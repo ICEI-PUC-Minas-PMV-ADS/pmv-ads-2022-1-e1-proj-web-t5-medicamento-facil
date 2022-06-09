@@ -1,4 +1,6 @@
 
+
+
 let nome = document.querySelector('#nome')
 let labelNome = document.querySelector('#labelNome')
 let validNome = false
@@ -101,22 +103,22 @@ confirmarSenha.addEventListener('keyup', ()=>{
 })
 
 
-function cadastrarNovo() {
+
+function cadastrarNovo(id) {
 
     let userLogado = JSON.parse(localStorage.getItem("userLogado"));
-    let nomeLogado = userLogado.nome;
-    
-
-    // Localiza o indice do objeto a ser alterado no array a partir do seu nome
+   
+    let listaUser = JSON.parse(localStorage.getItem('listaUser'))
+   
    
    if (validNome == true  && validSobrenome == true && validCelular == true && validEmail == true  && validSenha == true && validConfirmarSenha == true) { 
     
-    userLogado = listaUser.indexOf(nomeLogado);
+
+     // Localiza o indice do objeto a ser alterado no array a partir do seu nome
+     let index = listaUser.map(obj => obj.id).indexOf(id);
     
-    let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
     // Altera os dados do objeto no array
    
-    
     listaUser.data[index].nomeCad = nome,
     listaUser.data[index].sobrenomeCad = sobrenome,
     listaUser.data[index].celularCad = celular,
@@ -129,7 +131,7 @@ function cadastrarNovo() {
     // Atualiza os dados no Local Storage
     localStorage.setItem('userLogado', JSON.stringify(userLogado));
     localStorage.setItem('listaUser', JSON.stringify(listaUser));
-    alert ('Cadastro realizado com sucesso!')
+    alert ('Alteração de cadastro realizada com sucesso!')
         window.location.href = 'login.html'
 
     } else {

@@ -101,20 +101,28 @@ confirmarSenha.addEventListener('keyup', ()=>{
 
 function cadastrar(){ 
     if (validNome == true  && validSobrenome == true && validCelular == true && validEmail == true  && validSenha == true && validConfirmarSenha == true) { 
-        
+      
         let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
+        let novoId = 1;
+        if (listaUser.length != 0){
+        novoId = listaUser[listaUser.length - 1].id + 1;
+    } 
+         
+
         listaUser.push(
             {
+                id: novoId,
                 nomeCad:nome.value,
                 sobrenomeCad: sobrenome.value,
                 celularCad: celular.value,
                 emailCad: email.value,
                 senhaCad: senha.value,
-                medCad: medicamento.value
+                medCad: medicamento.value,
             }
-
+           
           
         )
+            
     
         //salvando a lista de usuário no local storage
 
