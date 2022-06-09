@@ -304,7 +304,7 @@ A Tela de Visualizar Perfil é a exibida após o usuário fazer login e acessar 
 
 A Tela Notificar falta medicamento apresenta uma caixa de texto centralizada onde o usuário poderá preencher o nome do medicamento que está em falta e em seguida enviar clicando no botão "Enviar requisição" logo abaixo. 
 
-![Falta medicamento](img/tela-falta-medicamento.jpg)
+![Falta medicamento](img/Screenshot_3.jpg)
 
 ### Requisitos atendidos 
 
@@ -380,7 +380,7 @@ A Tela da esquecimento de senha é exibida após o usuário clicar em "esqueceu 
 
 A Tela Alterar senha apresenta dois campos:  "Senha" - onde o usuário preencherá com a nova senha e "Digite novamente sua senha" - onde deverá confirmar a senha escolhida e confirmar clicando no botão "Enviar" logo abaixo.
 
-![Alterar senha](img/tela-alterar-senha.jpg)
+![Alterar senha](img/Screenshot_2.jpg)
 
 ### Requisitos atendidos 
 
