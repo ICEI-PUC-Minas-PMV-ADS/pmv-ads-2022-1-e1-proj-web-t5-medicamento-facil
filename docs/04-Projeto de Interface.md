@@ -23,7 +23,7 @@ No bloco superior esquerdo, o usuário pode acessar a área do farmacêutico, cu
 
 ### Tela - Sobre/Como Funciona
 
-Ao clicar no botão "Sobre/Como Funciona" na Home-Page o usuário é redirecionado à tela a seguir na qual pode entender melhor a proposta do desenvolvimento do site e como o mesmo funciona através dos títulos "Sobre" e "Como Funciona".
+Ao clicar no botão "Sobre/Como Funciona" na Home-Page o usuário é redirecionado à tela a seguir na qual poderá entender melhor a proposta do desenvolvimento do site e como o mesmo funciona através dos títulos "Sobre" e "Como Funciona".
 
 ![Wireframe2](img/Desktop18.png)
 
