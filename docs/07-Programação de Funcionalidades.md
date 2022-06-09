@@ -403,7 +403,7 @@ senha.addEventListener('keyup', ()=>{
         validSenha = false
     } else {
         labelSenha.setAttribute('style', 'color: green')
-        labelSenha.innerHTML = 'Senha'
+        labelSenha.innerHTML = 'Nova senha'
         validSenha = true
     }
 })
