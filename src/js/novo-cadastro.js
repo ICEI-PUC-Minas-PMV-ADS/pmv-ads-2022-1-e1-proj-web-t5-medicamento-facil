@@ -104,19 +104,29 @@ confirmarSenha.addEventListener('keyup', ()=>{
 
 
 
-function cadastrarNovo(id) {
+function cadastrarNovo() {
 
-    let userLogado = JSON.parse(localStorage.getItem("userLogado"));
-   
-    let listaUser = JSON.parse(localStorage.getItem('listaUser'))
-   
-   
+
    if (validNome == true  && validSobrenome == true && validCelular == true && validEmail == true  && validSenha == true && validConfirmarSenha == true) { 
     
+    let userLogado = JSON.parse(localStorage.getItem("userLogado"));
+    let listaUser = JSON.parse(localStorage.getItem("listaUser"));
+    let cad = userLogado.nome;
+    console.log (cad);
+     let index;
+     for  (var i = 0; i < listaUser.length; i++){
+        if (cad === listaUser.nomeCad);
+        console.log (listaUser.nomeCad);
+        index = listaUser.id; 
+     }
+
+         
 
      // Localiza o indice do objeto a ser alterado no array a partir do seu nome
-     let index = listaUser.map(obj => obj.id).indexOf(id);
-    
+    // let index = listaUser.indexof('cad'); 
+
+    console.log (index);
+        
     // Altera os dados do objeto no array
    
     listaUser.data[index].nomeCad = nome,
