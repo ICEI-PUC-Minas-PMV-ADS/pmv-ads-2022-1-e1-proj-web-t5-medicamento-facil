@@ -79,11 +79,3 @@ Considerando requisitos do projeto e os casos listados no item [08. Plano de Tes
 | Conclusão do teste | PENDENTE |
 
 
-| Caso de Teste | CT-09 - Recuperação de senha |
-|---------------|--------------------------|
-| Requisitos Associados | RF-10 - O site deve permitir que o usuário recupere sua senha em caso de esquecimento. |
-| Objetivo do Teste | Verificar se a recuperação de senha está acontecendo corretamente. |
-| Passos | 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a página de login do usuário 4) Clicar em "esqueceu sua senha" 5) Digitar o endereço de e-mail e clicar em "recuperar senha" 6) Acessar o e-mail digitado anteriormente e vizualizar o código enviado 7) Digitar o código enviado 8) Alterar a senha 9) Fazer login com a senha nova |
-| Critérios de Êxito | - A tela de esquecimento de senha deve abrir corretamente - O e-mail com o código deve ser enviado - O código deve permitir o acesso à tela de alteração de senha - O login com a senha nova deve ocorrer corretamente.|
-| Print do Teste | PENDENTE  |
-| Conclusão do teste | PENDENTE |
