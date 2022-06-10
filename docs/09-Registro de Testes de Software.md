@@ -55,7 +55,7 @@ Considerando requisitos do projeto e os casos listados no item [08. Plano de Tes
 | Objetivo do Teste | Verificar se o login está acontecendo corretamente. |
 | Passos | 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a página de login 4) Inserir o e-mail e senha cadastrados 5) Ser redirecionado para a tela de área do usuário |
 | Critérios de Êxito | - A tela de login deve abrir corretamente - O login e senha cadastrados devem direcionar o usuário para a tela de área do usuário - Login e senha não cadastrados devem exibir uma mensagem de login ou senha incorretos. |
-| Print do Teste | PENDENTE  |
+| Print do Teste | ![Tela7](/docs/img/teste-login1.png)  ![Tela8](/docs/img/teste-login2.png) ![Tela9](/docs/img/teste-login3.png)|
 | Conclusão do teste | PENDENTE |
 
 | Caso de Teste | CT-07 - Alterar o Cadastro |
