@@ -46,7 +46,7 @@ Considerando requisitos do projeto e os casos listados no item [08. Plano de Tes
 | Objetivo do Teste | Verificar se o cadastramento de usuário está acontecendo corretamente. |
 | Passos | 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a página de área do usuário 4) Inserir todos os dados de cadastrado 5) Ser redirecionado para a tela de login do usuário |
 | Critérios de Êxito | - A tela de área do usuário deve abrir corretamente - Os dados cadastrados devem ser corretamente armazenados. |
-| Print do Teste | ![Tela6](/docs/img/teste-area-usuario.png)   |
+| Print do Teste | ![Tela6](/docs/img/teste-area-usuario.png)  ![Tela7](/docs/img/teste-perfil.png) |
 | Conclusão do teste | Teste realizado com sucesso e funcionalidade entregue conforme requisitos. |
 
 | Caso de Teste | CT-06 - Login do usuário |
@@ -55,7 +55,7 @@ Considerando requisitos do projeto e os casos listados no item [08. Plano de Tes
 | Objetivo do Teste | Verificar se o login está acontecendo corretamente. |
 | Passos | 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a página de login 4) Inserir o e-mail e senha cadastrados 5) Ser redirecionado para a tela de área do usuário |
 | Critérios de Êxito | - A tela de login deve abrir corretamente - O login e senha cadastrados devem direcionar o usuário para a tela de área do usuário - Login e senha não cadastrados devem exibir uma mensagem de login ou senha incorretos. |
-| Print do Teste | ![Tela7](/docs/img/teste-login1.png)  ![Tela8](/docs/img/teste-login2.png) ![Tela9](/docs/img/teste-login3.png)|
+| Print do Teste | ![Tela8](/docs/img/teste-login1.png)  ![Tela9](/docs/img/teste-login2.png) ![Tela10](/docs/img/teste-login3.png)|
 | Conclusão do teste | PENDENTE |
 
 | Caso de Teste | CT-07 - Alterar o Cadastro |
@@ -75,7 +75,7 @@ Considerando requisitos do projeto e os casos listados no item [08. Plano de Tes
 | Objetivo do Teste | Verificar se a notificação está acontecendo corretamente. |
 | Passos | 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a página de notificação de falta de medicamento 4) Inserir o medicamento em falta |
 | Critérios de Êxito | - A tela de notificação de falta de medicamento deve abrir corretamente - Após a inclusão do medicamento em falta, deve ser apresentada uma mensagem de envio com êxito. |
-| Print do Teste | ![Tela8](/docs/img/telaNotificarMedicamento.jpg)  |
+| Print do Teste | ![Tela11](/docs/img/telaNotificarMedicamento.jpg)  |
 | Conclusão do teste | Teste realizado com sucesso, considerando que o usuário consegue incluir a notificação de medicamento em falta. |
 
 
