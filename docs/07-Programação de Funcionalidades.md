@@ -365,11 +365,6 @@ RF-10 -  O site deve permitir que o usuário recupere sua senha em caso de esque
 - template.css
 - logo.png
 
-### Estrutura de Dados 
-                        <ul class="lista-horizontal">
-                        <li class="tipSobre" data-tooltip="Nascido para ser uma ferramenta de suporte do usuário do Sistema Único de Saúde - SUS, o Medicamento Fácil fo desenvolvimento por um grupo de aluos do curso de Tecnologia e Desenvolvimento e Análise de Sistemas da PUC Minas, durante o primeiro semestre de 2022.">Sobre</li>
-                        <li class="tipComo" data-tooltip="O Medicamento Fácil conta com uma base de dados alimentada diariamente pelos profissionais das Unidades Básicas de Saúde - UBS, assim você consegue buscar o medicamento que você precisa através do nosso buscador de endereços.">Como funciona?</li>
-                    </ul>
 
 ### Instruções de acesso
 
