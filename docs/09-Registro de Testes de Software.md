@@ -28,7 +28,7 @@ Considerando requisitos do projeto e os casos listados no item [08. Plano de Tes
 | Passos | 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a página de login do farmacêutico 4) Inserir o e-mail e senha cadastrados 5) Ser redirecionado para a tela de área do farmacêutico |
 | Critérios de Êxito | - A tela de login do farmacêutico deve abrir corretamente - O login e senha cadastrados devem direcionar o usuário para a tela de área do farmacêutico - Login e senha não cadastrados devem exibir uma mensagem de login ou senha incorretos. |
 | Print do Teste | ![Tela4](/docs/img/telaLoginFarmaceutico.jpg)  |
-| Conclusão do teste | Teste realizao com sucesso. Após inserir os dados de acesso (e-mail e senha) o usuário farmacêutico consegue acessar a página destinada ao controle das informações de disponibilidade de medicamento. |
+| Conclusão do teste | Teste realizado com sucesso. Após inserir os dados de acesso (e-mail e senha) o usuário farmacêutico consegue acessar a página destinada ao controle das informações de disponibilidade de medicamento. |
 
 | Caso de Teste | CT-04 - Área do farmacêutico |
 |---------------|--------------------------|
@@ -36,8 +36,8 @@ Considerando requisitos do projeto e os casos listados no item [08. Plano de Tes
 | Objetivo do Teste | Verificar se a área do farmacêutico está permitindo a alteração de estoque corretamente. |
 | Passos | 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a página de área do farmacêutico 4) Inserir um medicamento como disponível e outro como indisponível 5) Vizualizar a disponibilidade de um medicamento 6) Alterar a disponibilidade de um medicamento |
 | Critérios de Êxito | - A tela de área do farmacêutico deve abrir corretamente - A página deve permitir a inclusão de medicamentos tanto disponíveis quanto indisponíveis - A página deve permitir que o farmacêutico vizualize e altere a disponibilidade de medicamentos. |
-| Print do Teste | PENDENTE  |
-| Conclusão do teste | PENDENTE |
+| Print do Teste | ![Tela5](/docs/img/telaAreaFarmaceutico.jpg)  |
+| Conclusão do teste | Teste realizado com sucesso e funcionalidade entregue conforme requisitos. O farmacêutico após logado consegue lançar medicamentos no estoque e fazer alterações ou excluões. |
 
 
 | Caso de Teste | CT-05 - Área do usuário |
@@ -46,8 +46,8 @@ Considerando requisitos do projeto e os casos listados no item [08. Plano de Tes
 | Objetivo do Teste | Verificar se o cadastramento de usuário está acontecendo corretamente. |
 | Passos | 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a página de área do usuário 4) Inserir todos os dados de cadastrado 5) Ser redirecionado para a tela de login do usuário |
 | Critérios de Êxito | - A tela de área do usuário deve abrir corretamente - Os dados cadastrados devem ser corretamente armazenados. |
-| Print do Teste | PENDENTE  |
-| Conclusão do teste | PENDENTE |
+| Print do Teste | ![Tela6](/docs/img/telaAreaUsuario.jpg)   |
+| Conclusão do teste | Teste realizado sem sucesso, pois os botões de ação não direcionam o paciente para nenhuma outra página. |
 
 | Caso de Teste | CT-06 - Login do usuário |
 |---------------|--------------------------|
