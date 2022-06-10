@@ -6,7 +6,7 @@
     let cadastradoEmail = document.querySelector("#cadastradoEmail");
     let cadastradoSenha = document.querySelector("#cadastradoSenha");
     let cadastradoMed = document.querySelector("#cadastradoMed");
-    let dadosMedicamento = JSON.parse(localStorage.getItem("dadosMedicamento"));
+    let notificado = JSON.parse(localStorage.getItem("notificado"));
     let cadastradoNotificacao = document.querySelector("#cadastradoNotificacao");
 
     cadastradoNome.innerHTML =  userLogado.nome;
@@ -15,11 +15,9 @@
     cadastradoEmail.innerHTML =  userLogado.email;
     cadastradoSenha.innerHTML =  userLogado.senha;
     cadastradoMed.innerHTML =  userLogado.medicamento;
-
+    cadastradoNotificacao.innerHTML = notificado.nome;
     
-    for (var i = 0; i < dadosMedicamento.length; i++) {
-        cadastradoNotificacao.innerHTML = dadosMedicamento.nome;
-      }
+  
 
    
   

@@ -8,14 +8,19 @@ function notificar (){
          dados = [];
     }
 
+    let notificado = [];
+    notificado = JSON.parse(localStorage.getItem('notificado'))
+
     let auxRegistro = {
         nome: nomeMedicamento.value
     
     }
 
+
     dados.push(auxRegistro);
 
     localStorage.setItem("dadosMedicamento", JSON.stringify(dados));
+    localStorage.setItem('notificado', JSON.stringify(auxRegistro));
     alert("Requisição de medicamento enviada!")
 
     nomeMedicamento.value = "";
