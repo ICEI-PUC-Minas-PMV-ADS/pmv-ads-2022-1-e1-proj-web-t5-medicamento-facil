@@ -75,7 +75,7 @@ Considerando requisitos do projeto e os casos listados no item [08. Plano de Tes
 | Objetivo do Teste | Verificar se a notificação está acontecendo corretamente. |
 | Passos | 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a página de notificação de falta de medicamento 4) Inserir o medicamento em falta |
 | Critérios de Êxito | - A tela de notificação de falta de medicamento deve abrir corretamente - Após a inclusão do medicamento em falta, deve ser apresentada uma mensagem de envio com êxito. |
-| Print do Teste | PENDENTE  |
-| Conclusão do teste | PENDENTE |
+| Print do Teste | ![Tela8](/docs/img/telaNotificarMedicamento.jpg)  |
+| Conclusão do teste | Teste realizado com sucesso, considerando que o usuário consegue incluir a notificação de medicamento em falta. |
 
 
