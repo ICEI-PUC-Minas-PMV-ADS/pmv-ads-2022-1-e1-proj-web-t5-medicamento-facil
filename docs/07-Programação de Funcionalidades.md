@@ -348,8 +348,7 @@ function notificar (){
 A Tela Notificar falta de medicamento é exibida após o usuário clicar em "Notificar falta de medicamento" nas telas "Buscar medicamento" e "Área do usuário".
 
 ## Tela Esqueceu sua senha (RF-10)
-
-Desenvolvedor(a): Tauan Gonçalves Silva
+### Desenvolvedor(a): Tauan Gonçalves Silva
 
 A Tela Esqueceu sua senha permite que o usuário preencha seu e-mail para fazer a recuperação de senha. A tela ainda conta com o itens "Sobre" e "Como funciona?", nos quais o usuário, ao passar o mouse acessa os balões com as informações correspondentes.
 
