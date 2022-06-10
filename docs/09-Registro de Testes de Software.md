@@ -46,8 +46,8 @@ Considerando requisitos do projeto e os casos listados no item [08. Plano de Tes
 | Objetivo do Teste | Verificar se o cadastramento de usuário está acontecendo corretamente. |
 | Passos | 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a página de área do usuário 4) Inserir todos os dados de cadastrado 5) Ser redirecionado para a tela de login do usuário |
 | Critérios de Êxito | - A tela de área do usuário deve abrir corretamente - Os dados cadastrados devem ser corretamente armazenados. |
-| Print do Teste | ![Tela6](/docs/img/telaAreaUsuario.jpg)   |
-| Conclusão do teste | Teste realizado sem sucesso, pois os botões de ação não direcionam o paciente para nenhuma outra página. |
+| Print do Teste | ![Tela6](/docs/img/teste-area-usuario.png)   |
+| Conclusão do teste | Teste realizado com sucesso e funcionalidade entregue conforme requisitos. |
 
 | Caso de Teste | CT-06 - Login do usuário |
 |---------------|--------------------------|
