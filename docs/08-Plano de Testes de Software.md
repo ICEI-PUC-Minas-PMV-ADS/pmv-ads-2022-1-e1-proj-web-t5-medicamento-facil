@@ -54,12 +54,12 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Passos | 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a página de login 4) Inserir o e-mail e senha cadastrados 5) Ser redirecionado para a tela de área do usuário |
 | Critérios de Êxito | - A tela de login deve abrir corretamente - O login e senha cadastrados devem direcionar o usuário para a tela de área do usuário - Login e senha não cadastrados devem exibir uma mensagem de login ou senha incorretos. |
 
-| Caso de Teste | CT-07 - Alterar o Cadastro do Usuário |
+| Caso de Teste | CT-07 - Alterar o Cadastro |
 |---------------|--------------------------|
-| Requisitos Associados | RF-06 - O site deve ter uma área personalizada, na qual o usuário deverá acessar com login e senha. Nesta área, o usuário irá cadastrar seu e-mail, celular e os medicamentos que utiliza, sendo notificado assim que os medicamentos estiverem disponíveis. |
-| Objetivo do Teste | Verificar se o usuário consegue fazer alterações em seus dados cadastrados. |
-| Passos | ) Informar o endereço do Site 3) Visualizar a página de login 4) Inserir o e-mail e senha cadastrados 5) Ser redirecionado para a tela de área do usuário 6) Realizar alterações nos dados. |
-| Critérios de Êxito | - A tela de login deve abrir corretamente - O login e senha cadastrados devem direcionar o usuário para a tela de área do usuário - O usuário deve conseguir alterar os dados cadastrados. |
+| Requisitos Associados | RF-10 - O site deve permitir que o usuário recupere sua senha em caso de esquecimento RF-14 - O site deve permitir que o usuário visualize e altere seus dados cadastrados |
+| Objetivo do Teste | Verificar se a alteração de cadastro está ocorrendo corretamente. |
+| Passos | 1) Acessar o Navegador 2) Informar o endereço do Site 3) Cadastrar um novo usuário 4) Acessar com o login do usuário cadastrado 5) Vizualizar a área do usuário 6) Alterar o cadastro 7) Acessar o login novamente com o cadastro alterado |
+| Critérios de Êxito | - A tela novo cadastro deve abrir corretamente - Ao alterar o cadastro, o usuário deverá conseguir realizar login com o novo cadastro |
 
 
 | Caso de Teste | CT-08 - Notificação de falta de medicamento |
