@@ -56,16 +56,16 @@ Considerando requisitos do projeto e os casos listados no item [08. Plano de Tes
 | Passos | 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a página de login 4) Inserir o e-mail e senha cadastrados 5) Ser redirecionado para a tela de área do usuário |
 | Critérios de Êxito | - A tela de login deve abrir corretamente - O login e senha cadastrados devem direcionar o usuário para a tela de área do usuário - Login e senha não cadastrados devem exibir uma mensagem de login ou senha incorretos. |
 | Print do Teste | ![Tela8](/docs/img/teste-login1.png)  ![Tela9](/docs/img/teste-login2.png) ![Tela10](/docs/img/teste-login3.png)|
-| Conclusão do teste | PENDENTE |
+| Conclusão do teste | Teste realizado com sucesso, uma vez que o login se deu corretamente. |
 
 | Caso de Teste | CT-07 - Alterar o Cadastro |
 |---------------|--------------------------|
-| Requisitos Associados | RF-15 - VERIFICAR O REQUISITO E ALTERAR TAMBEM PLANO DE TESTES |
-| Objetivo do Teste | Verificar se o resultado da busca de medicamentos está sendo corretamente compartilhado pelo WhatsApp. |
-| Passos | 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a página de busca de medicamentos 4) Inserir o medicamento a ser buscado 5) Vizualizar o resultado da busca 6) Clicar em compartilhar resultado da busca |
-| Critérios de Êxito | - A tela de resultado da busca deve abrir corretamente - Ao clicar em compartilhar o resultado da busca, o usuário deverá ser direcionado ao aplicativo WhatsApp, no qual indicará um número para compartilhar a tela de resultado - A tela de resultado da busca deve ser compartilhada corretamente no WhatsApp. |
-| Print do Teste | PENDENTE  |
-| Conclusão do teste | PENDENTE |
+| Requisitos Associados | RF-10 - O site deve permitir que o usuário recupere sua senha em caso de esquecimento RF-14 - O site deve permitir que o usuário visualize e altere seus dados cadastrados |
+| Objetivo do Teste | Verificar se a alteração de cadastro está ocorrendo corretamente. |
+| Passos | 1) Acessar o Navegador 2) Informar o endereço do Site 3) Cadastrar um novo usuário 4) Acessar com o login do usuário cadastrado 5) Vizualizar a área do usuário 6) Alterar o cadastro 7) Acessar o login novamente com o cadastro alterado |
+| Critérios de Êxito | - A tela novo cadastro deve abrir corretamente - Ao alterar o cadastro, o usuário deverá conseguir realizar login com o novo cadastro |
+| Print do Teste | ![Tela11](/docs/img/teste-alteracao-cadastro.png)  |
+| Conclusão do teste | Teste realizado com sucesso, uma vez que o usuário consegue alterar o seu cadastro. |
 
 
 
@@ -75,7 +75,7 @@ Considerando requisitos do projeto e os casos listados no item [08. Plano de Tes
 | Objetivo do Teste | Verificar se a notificação está acontecendo corretamente. |
 | Passos | 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a página de notificação de falta de medicamento 4) Inserir o medicamento em falta |
 | Critérios de Êxito | - A tela de notificação de falta de medicamento deve abrir corretamente - Após a inclusão do medicamento em falta, deve ser apresentada uma mensagem de envio com êxito. |
-| Print do Teste | ![Tela11](/docs/img/telaNotificarMedicamento.jpg)  |
+| Print do Teste | ![Tela12](/docs/img/telaNotificarMedicamento.jpg)  |
 | Conclusão do teste | Teste realizado com sucesso, considerando que o usuário consegue incluir a notificação de medicamento em falta. |
 
 
