@@ -60,7 +60,7 @@ Considerando requisitos do projeto e os casos listados no item [08. Plano de Tes
 
 | Caso de Teste | CT-07 - Alterar o Cadastro |
 |---------------|--------------------------|
-| Requisitos Associados | RF-10 - O site deve permitir que o usuário recupere sua senha em caso de esquecimento RF-14 - O site deve permitir que o usuário visualize e altere seus dados cadastrados |
+| Requisitos Associados | RF-10 - O site deve permitir que o usuário recupere sua senha em caso de esquecimento RF-13 - O site deve permitir que o usuário visualize e altere seus dados cadastrados |
 | Objetivo do Teste | Verificar se a alteração de cadastro está ocorrendo corretamente. |
 | Passos | 1) Acessar o Navegador 2) Informar o endereço do Site 3) Cadastrar um novo usuário 4) Acessar com o login do usuário cadastrado 5) Vizualizar a área do usuário 6) Alterar o cadastro 7) Acessar o login novamente com o cadastro alterado |
 | Critérios de Êxito | - A tela novo cadastro deve abrir corretamente - Ao alterar o cadastro, o usuário deverá conseguir realizar login com o novo cadastro |
