@@ -102,11 +102,10 @@ RF-02 -  O site deve confirmar a localização do usuário no mapa.
 A Tela confirma localização é exibida após o usuário pesquisar seu endereço na tela inicial. 
 
 ## Tela de Busca de Medicamentos (RF-03)
-### Desenvolvedor(a): Rider Cantuária.
-
+### Desenvolvedor(a): Fabiana Alkmim Avelar
 A Tela de Busca de Medicamentos do sistema apresenta apresenta um buscador centralizado, no qual o usuário deverá digitar os medicamentos de interesse. Esta tela ainda permite que o usuário notifique a falta de um medicamento. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil".
 
-![Busca Medicamento](img/busca_medicamento.png)
+![Buscar Medicamento](img/buscarmedicamento.png)
 
 ### Requisitos atendidos 
 
@@ -121,27 +120,25 @@ RF-03 -  O site deve apresentar uma página com um buscador no qual o usuário i
 ### Artefatos da funcionalidade 
 
 - buscar-medicamento.html
-- MedicamentoControlador.js
 - logo.png
 
 ### Estrutura de Dados 
-Acesse a pasta scr/app/entidades e veja Medicamento.js, depois vá em src/app/mocks e acesse medicamento.mock.js e medicamento.mock.min.js
 
-```
-export const medicamentos = [{
-        "principioAtivo": "ACEBROFILINA",
-        "laboratorioNome": "GERMED FARMACEUTICA LTDA",
-        "nome": "ACEBROFILINA",
-        "apresentacao": "10 MG/ML XPE CT FR PLAS AMB X 120 ML + COP",
-        "tarja": "TARJA VERMELHA"
-    }, {
-        "principioAtivo": "ACEBROFILINA",
-        "laboratorioNome": "GERMED FARMACEUTICA LTDA",
-        "nome": "ACEBROFILINA",
-        "apresentacao": "10 MG/ML XPE CT FR VD AMB X 120 ML + COP",
-        "tarja": "TARJA VERMELHA"
-    }...
-```
+    <script>
+        $(function() {
+          var remedios = [
+            "Dipirona",
+            "Bricanil",
+            "Enalapril",
+            "Lasix",
+            "Novalgina", 
+            "Paracetamol"
+          ];
+          $("#ac-medicamento" ).autocomplete({
+            source: remedios
+          });
+        });
+        </script>
 
 ### Instruções de acesso 
 
