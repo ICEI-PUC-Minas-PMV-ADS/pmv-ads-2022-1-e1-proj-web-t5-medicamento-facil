@@ -711,7 +711,7 @@ A Tela de Novo Cadastro é a exibida após o usuário acessar a área do usuári
 
 A Tela de Login do Farmacêutico apresenta os campos de login e senha, nos quais o farmacêutico deverá inserir seus dados. Esta tela ainda permite retornar à tela inicial. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil".
 
-![login-farmaceutico](img/login-farmaceutico.png)
+![login-farmaceutico](img/Loginfarmaceutico1.png)
 
 ### Requisitos atendidos 
 
