@@ -435,7 +435,7 @@ A Tela de Área do Usuário é a exibida após o usuário fazer login.
 
 A Tela de Visualizar Perfil apresenta os dados do usuário cadastrado. 
 
-![Usuario Cadastrado](img/tela-seu-perfil.png)
+![Usuario Cadastrado](img/tela-perfil.png)
 
 
 ### Requisitos atendidos
