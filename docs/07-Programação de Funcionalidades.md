@@ -170,6 +170,49 @@ RF- 12 - O site deve permitir visualizar as informações de contatos das Unidad
 - logo.png
 
 ### Estrutura de Dados 
+	 <script>
+        
+        function getMedicamento()
+        {
+            var url_string = window.location.href;
+            var url = new URL(url_string);
+            var c = url.searchParams.get("ac-medicamento");
+            var remedio=c;
+            document.getElementById("medicamento-pesquisado").value=c;
+            const timeElapsed = Date.now();
+            const today = new Date(timeElapsed);
+            var mes=today.getMonth()+1;
+            document.getElementById("data-disponivel").value=today.getDate()+"/"+ mes+ "/"+ today.getFullYear();
+
+            let labelRes = document.querySelector('#labelRes');
+            labelRes.setAttribute('style', 'color: red');
+            labelRes.innerHTML =  'Medicamento não encontrado!';
+            document.getElementById("dosagens").value="ND";
+            var achou=false;
+
+            for (i = 0; i < db.data.length; i++) {
+                
+                let medicamentos = db.data[i]; 
+             
+                if(medicamentos.nomeMedicamento.toUpperCase()==remedio.toString().toUpperCase()) {
+                   achou=true;
+                    if(medicamentos.disponibilidade.toUpperCase()=="SIM"){
+                        document.getElementById("dosagens").value=medicamentos.dosagem.toUpperCase();
+                    }else{
+                        document.getElementById("dosagens").value="ND";
+                        document.getElementById("data-disponivel").value="Indisponível";
+                        alert("Medicamento indisponível no momento.");
+                    }
+                } 
+            }
+            if(achou){
+                labelRes.setAttribute('style', 'color: green');
+                labelRes.innerHTML =  'Medicamento encontrado!';
+            }
+               
+        }
+    </script>
+
 
 	(function () {
     const itemMapa = document.getElementById("map-canvas");
