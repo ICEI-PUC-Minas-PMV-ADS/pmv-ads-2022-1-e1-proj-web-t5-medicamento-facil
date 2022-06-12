@@ -101,12 +101,58 @@ RF-02 -  O site deve confirmar a localização do usuário no mapa.
 
 A Tela confirma localização é exibida após o usuário pesquisar seu endereço na tela inicial. 
 
+## Tela de Busca de Medicamentos (RF-03)
+### Desenvolvedor(a): Rider Cantuária.
+
+A Tela de Busca de Medicamentos do sistema apresenta apresenta um buscador centralizado, no qual o usuário deverá digitar os medicamentos de interesse. Esta tela ainda permite que o usuário notifique a falta de um medicamento. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil".
+
+![Busca Medicamento](img/busca_medicamento.png)
+
+### Requisitos atendidos 
+
+RF-03 -  O site deve apresentar uma página com um buscador no qual o usuário irá digitar os medicamentos buscados.
+
+### Artefatos da funcionalidade 
+
+- buscar-medicamento.html
+- template.css
+- logo.png
+
+### Artefatos da funcionalidade 
+
+- buscar-medicamento.html
+- MedicamentoControlador.js
+- logo.png
+
+### Estrutura de Dados 
+Acesse a pasta scr/app/entidades e veja Medicamento.js, depois vá em src/app/mocks e acesse medicamento.mock.js e medicamento.mock.min.js
+
+```
+export const medicamentos = [{
+        "principioAtivo": "ACEBROFILINA",
+        "laboratorioNome": "GERMED FARMACEUTICA LTDA",
+        "nome": "ACEBROFILINA",
+        "apresentacao": "10 MG/ML XPE CT FR PLAS AMB X 120 ML + COP",
+        "tarja": "TARJA VERMELHA"
+    }, {
+        "principioAtivo": "ACEBROFILINA",
+        "laboratorioNome": "GERMED FARMACEUTICA LTDA",
+        "nome": "ACEBROFILINA",
+        "apresentacao": "10 MG/ML XPE CT FR VD AMB X 120 ML + COP",
+        "tarja": "TARJA VERMELHA"
+    }...
+```
+
+### Instruções de acesso 
+
+A Tela de Busca de Medicamentos é a exibida após a confirmação de endereço. 
+
 ## Tela de Resultado da Busca (RF-04, 07, 08, 11, 12)
 ### Desenvolvedor(a):  Fabiana Alkmim Avelar
 
 A Tela de resultado da busca indica se o medicamento pesquisado está disponível e sua dosagem. Também traz o responsável pelo fornecimento da medicação e o prazo de entrega. Além disso, apresenta um mapa com um marcador mostrando o local da UBS mais próxima da localização do usuário e o horário de funcionamento da UBS.  
 
-![Confima Localização](img/confirma-localizacao.png)
+![Confima Localização](img/tela-resultado-busca.png)
 
 ### Requisitos atendidos 
 
@@ -159,52 +205,6 @@ RF- 12 - O site deve permitir visualizar as informações de contatos das Unidad
 ### Instruções de acesso 
 
 A Tela de resultado da busca é exibida após o usuário pesquisar a disponibilidade do medicamento. 
-
-## Tela de Busca de Medicamentos (RF-03)
-### Desenvolvedor(a): Rider Cantuária.
-
-A Tela de Busca de Medicamentos do sistema apresenta apresenta um buscador centralizado, no qual o usuário deverá digitar os medicamentos de interesse. Esta tela ainda permite que o usuário notifique a falta de um medicamento. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil".
-
-![Busca Medicamento](img/busca_medicamento.png)
-
-### Requisitos atendidos 
-
-RF-03 -  O site deve apresentar uma página com um buscador no qual o usuário irá digitar os medicamentos buscados.
-
-### Artefatos da funcionalidade 
-
-- buscar-medicamento.html
-- template.css
-- logo.png
-
-### Artefatos da funcionalidade 
-
-- buscar-medicamento.html
-- MedicamentoControlador.js
-- logo.png
-
-### Estrutura de Dados 
-Acesse a pasta scr/app/entidades e veja Medicamento.js, depois vá em src/app/mocks e acesse medicamento.mock.js e medicamento.mock.min.js
-
-```
-export const medicamentos = [{
-        "principioAtivo": "ACEBROFILINA",
-        "laboratorioNome": "GERMED FARMACEUTICA LTDA",
-        "nome": "ACEBROFILINA",
-        "apresentacao": "10 MG/ML XPE CT FR PLAS AMB X 120 ML + COP",
-        "tarja": "TARJA VERMELHA"
-    }, {
-        "principioAtivo": "ACEBROFILINA",
-        "laboratorioNome": "GERMED FARMACEUTICA LTDA",
-        "nome": "ACEBROFILINA",
-        "apresentacao": "10 MG/ML XPE CT FR VD AMB X 120 ML + COP",
-        "tarja": "TARJA VERMELHA"
-    }...
-```
-
-### Instruções de acesso 
-
-A Tela de Busca de Medicamentos é a exibida após a confirmação de endereço. 
 
 ## Tela de Cadastro (RF-06)
 ### Desenvolvedor(a): Carolina Felipe Alves de Oliveira
