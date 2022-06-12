@@ -101,12 +101,71 @@ RF-02 -  O site deve confirmar a localização do usuário no mapa.
 
 A Tela confirma localização é exibida após o usuário pesquisar seu endereço na tela inicial. 
 
+## Tela de Resultado da Busca (RF-04, 07, 08, 11, 12)
+### Desenvolvedor(a):  Fabiana Alkmim Avelar
+
+A Tela de resultado da busca indica se o medicamento pesquisado está disponível e sua dosagem. Também traz o responsável pelo fornecimento da medicação e o prazo de entrega. Além disso, apresenta um mapa com um marcador mostrando o local da UBS mais próxima da localização do usuário e o horário de funcionamento da UBS.  
+
+![Confima Localização](img/confirma-localizacao.png)
+
+### Requisitos atendidos 
+
+RF-04 -  O site deve oferecer como resultado da busca o status de disponibilidade do(s) medicamento(s), além de um mapa localizando em qual Unidade Básica de Saúde mais próxima o(s) medicamento(s) está disponível, integrando a geolocalização do Google Maps.
+RF- 07 - O site deve fornecer o prazo de entrega dos medicamentos.
+RF- 08 - O site deve informar o(s) responsável(is) pelo fornecimento da medicação.
+RF- 11 - O site deve permitir ao usuário visualizar as dosagens disponíveis do(s) medicamento(s) buscado.
+RF- 12 - O site deve permitir visualizar as informações de contatos das Unidades Básicas de Saúde.
+
+### Artefatos da funcionalidade 
+
+- resultado-pesquisa.html
+- resultado-pesquisa.js
+- template.css
+- logo.png
+
+### Estrutura de Dados 
+
+	(function () {
+    const itemMapa = document.getElementById("map-canvas");
+    let mapa = null;
+    let BH = { lat: -19.9240, lng: -43.9920 };
+    let SP ={ lat: -23.5435, lng: -46.6691 };
+    let RJ = { lat: -22.9797, lng: -43.2375 };
+
+    function iniciarMapa() {
+        mapa = new google.maps.Map(itemMapa, {
+            center: BH,
+            zoom: 15,});
+        new google.maps.Marker({
+                position: BH,
+                map: mapa,
+                title: "UBS Belo Horizonte - Contato: Lucas",
+                              });
+        new google.maps.Marker({
+                position: SP,
+                map: mapa,
+                title: "UBS São Paulo - Contato: Tadeu ",
+                              });
+        new google.maps.Marker({
+                position: RJ,
+                map: mapa,
+                title: "UBS Rio de Janeiro - Contato: Paulo",
+                              });
+    }    
+    window.initMap = iniciarMapa;    
+})();
+
+
+### Instruções de acesso 
+
+A Tela de resultado da busca é exibida após o usuário pesquisar a disponibilidade do medicamento. 
+
 ## Tela de Busca de Medicamentos (RF-03)
-### Desenvolvedor(a): Fabiana Alkmim Avelar.
+### Desenvolvedor(a): Rider Cantuária.
 
 A Tela de Busca de Medicamentos do sistema apresenta apresenta um buscador centralizado, no qual o usuário deverá digitar os medicamentos de interesse. Esta tela ainda permite que o usuário notifique a falta de um medicamento. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil".
 
-![Busca Medicamento](img/buscarmedicamento.png)
+![Busca Medicamento](img/busca_medicamento.png)
 
 ### Requisitos atendidos 
 
@@ -125,23 +184,23 @@ RF-03 -  O site deve apresentar uma página com um buscador no qual o usuário i
 - logo.png
 
 ### Estrutura de Dados 
+Acesse a pasta scr/app/entidades e veja Medicamento.js, depois vá em src/app/mocks e acesse medicamento.mock.js e medicamento.mock.min.js
 
-
-    <script>
-        $(function() {
-          var remedios = [
-            "Dipirona",
-            "Bricanil",
-            "Enalapril",
-            "Lasix",
-            "Novalgina", 
-            "Paracetamol"
-          ];
-          $("#ac-medicamento" ).autocomplete({
-            source: remedios
-          });
-        });
-        </script>
+```
+export const medicamentos = [{
+        "principioAtivo": "ACEBROFILINA",
+        "laboratorioNome": "GERMED FARMACEUTICA LTDA",
+        "nome": "ACEBROFILINA",
+        "apresentacao": "10 MG/ML XPE CT FR PLAS AMB X 120 ML + COP",
+        "tarja": "TARJA VERMELHA"
+    }, {
+        "principioAtivo": "ACEBROFILINA",
+        "laboratorioNome": "GERMED FARMACEUTICA LTDA",
+        "nome": "ACEBROFILINA",
+        "apresentacao": "10 MG/ML XPE CT FR VD AMB X 120 ML + COP",
+        "tarja": "TARJA VERMELHA"
+    }...
+```
 
 ### Instruções de acesso 
 
