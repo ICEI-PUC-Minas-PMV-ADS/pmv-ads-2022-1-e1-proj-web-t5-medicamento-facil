@@ -404,7 +404,7 @@ A Tela de Login é a exibida após o usuário clicar em "Faça Login".
 
 A Tela de Área do usuário apresenta o nome do usuário logado e os botões "vizualizar meu perfil", "pesquisar medicamento" e "notificar a falta de medicamento". 
 
-![Area-do-usuario](img/tela-area-do-usuario.png)
+![Area-do-usuario](img/tela-area-usuario.png)
 
 
 ### Requisitos atendidos
