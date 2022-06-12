@@ -6,8 +6,9 @@ Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-p
 
 
 ## Tela Inicial (RF-01)
+### Desenvolvedor(a): Fagner Vieira Pereira
 
-A Tela Inicial do sistema apresenta apresenta um buscador centralizado, no qual o usuário deverá digitar seu endereço e a fim de direcionar a buscar de medicamentos à Unidade Básica de Saúde mais próxima. Esta tela ainda permite que o usuário faça cadastro ou login, bem como acesso à Área do Farmacêutico. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil". Para facilidade de acesso foi incorporado a função de autocompletar o endereço enquanto o usuário digita.
+A Tela Inicial do sistema apresenta apresenta um buscador centralizado, no qual o usuário deverá digitar seu endereço e a fim de direcionar a busca de medicamentos à Unidade Básica de Saúde mais próxima. Esta tela ainda permite que o usuário faça cadastro ou login, bem como acesso à Área do Farmacêutico. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil". Para facilidade de acesso foi incorporado a função de autocompletar o endereço enquanto o usuário digita.
 
 ![Inicial](img/principalautocomplete.png)
 
@@ -40,7 +41,68 @@ RF-01 -  O site deve apresentar na página principal um buscador no qual o usuá
 
 A Tela Inicial é a primeira funcionalidade exibida pelo aplicativo. 
 
+## Tela de confirmação de localização (RF-02)
+### Desenvolvedor(a): Fagner Vieira Pereira
+
+A Tela de confirmação de localização apresenta um mapa com um marcador mostrando o local pesquisado na tela anterior, o usuário deverá verificar se o seu endereço está correto e terá duas opções: 1ª - "Confirmar localização", o que irá direcionar o usuário para a página de busca de medicamentos - 2ª - "Tentar novamente", o que irá retornar o usuário à tela anterior. Para facilidade de acesso foi incorporado a função de tratamento de erro, que quando o valor inserido não encontra nenhum endereço válido emite um alerta e retorna o usuário a tela anterior para que ele tente novamente. Esta tela ainda permite que o usuário acesse à Área do Farmacêutico..
+
+![Confima Localização](img/confirma-localizacao.png)
+
+### Requisitos atendidos 
+
+RF-02 -  O site deve confirmar a localização do usuário no mapa.
+
+### Artefatos da funcionalidade 
+
+- mapa.html
+- mapa.js
+- mapa.css
+- template.css
+- logo.png
+
+### Estrutura de Dados 
+
+	(function () {
+	    const itemMapa = document.getElementById("map-canvas");
+	    let mapa = null;
+	    let marker = null;
+	    let geocoder =null;
+	    let coordenadas = {lat: -15.8154861, lng: -47.8941659};
+	    let urlAtual = window.location.href;
+	    let urlClass = new URL(urlAtual);
+	    let valor = urlClass.search;   
+	    function iniciarMapa() {
+		mapa = new google.maps.Map(itemMapa, {
+		    center: coordenadas,
+		    zoom: 4,});
+		    geocoder = new google.maps.Geocoder();
+		window.onload = geocodeAddress(geocoder);               
+	    }
+	    function geocodeAddress(geocoder) {
+		let seminterrogacao = valor.replace ("?","");
+		geocoder.geocode({'address': seminterrogacao}, function(results, status) 
+		{
+		  if (status === 'OK') {
+		      mapa.setCenter(results[0].geometry.location);
+		      mapa.setZoom(16);
+		      marker = new google.maps.Marker({
+		      map: mapa,
+		      position: results[0].geometry.location
+		    });
+		  } else {
+		    alert('Algo deu errado: ' + status + ' Tente Novamente!');
+		    window.location.href = "index.html";
+		  }
+		});
+	      }
+	    window.initMap = iniciarMapa;})();
+
+### Instruções de acesso 
+
+A Tela confirma localização é exibida após o usuário pesquisar seu endereço na tela inicial. 
+
 ## Tela de Busca de Medicamentos (RF-03)
+### Desenvolvedor(a): Rider Cantuária.
 
 A Tela de Busca de Medicamentos do sistema apresenta apresenta um buscador centralizado, no qual o usuário deverá digitar os medicamentos de interesse. Esta tela ainda permite que o usuário notifique a falta de um medicamento. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil".
 
