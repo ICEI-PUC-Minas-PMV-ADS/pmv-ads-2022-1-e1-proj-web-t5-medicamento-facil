@@ -33,26 +33,20 @@
         </div>
     </header>
     <main class="text-center">
-        <div id="mapa-medicamento" class="mapa" style="background-color: rgb(156, 156, 156);"></div>
+        <div id="map-canvas" class="mapa" style="background-color: rgb(156, 156, 156);"></div>
         <br>
         <a href="buscar-medicamento.html">
             <button class="btn botao-secundario">Confirmar Localização</button>
         </a>
+        <a href="index.html">
+            <button class="btn botao-principal">Tentar Novamente</button>
+        </a>
     </main>
-    <footer class="row">
-        <div class="col-md-12">
-            <nav>
-                <ul class="lista-horizontal">
-                    <li>Sobre</li>
-                    <li>Como funciona o Medicamento Fácil!</li>
-                </ul>
-            </nav>
-        </div>
-    </footer>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/mapa.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzAA6TeMnG_qi6_mu0KyMVD63tH05mtjw&callback=initMap"
-        defer></script>
+       async defer></script>
+     
 </body>
 
 </html>

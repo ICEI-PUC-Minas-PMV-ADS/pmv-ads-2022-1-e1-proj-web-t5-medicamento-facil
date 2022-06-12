@@ -15,7 +15,7 @@
     <title>Medicamento Fácil. Simples. Rápido.</title>
 </head>
 
-<body class="ativar-rolamento">
+<body class="ativar-rolamento"  onload="init();">
     <header>
         <br>
         <div class="row">
@@ -35,12 +35,12 @@
         <div class="row">
             <div class="col-sm-12">
                 <h1>Área do Farmacêutico</h1>
-                <br> <br><br><br><br>
+                <br> <br>
             </div>
         </div>
         <div class="row">
                 <div class="row">
-                    <div class="col-md-4" id="caixa1">
+                   <!--<div class="col-md-4" id="caixa1">
                         <label id = "titulo">Nome do Medicamento</label>
                         <br><br><br> 
                         <label>
@@ -60,63 +60,320 @@
                         </label>
                         <br><br>
                     </div>
-                    <div class="col-md-4" id="caixa2">
-                        <label id = "titulo">Dosagem</label>
-                        <br><br><br> 
-                        <label >
-                            <input type = "radio"  value = "500mg">500mg
-                        </label>
-                        <br><br>
-                        <label >
-                            <input type = "radio"  value = "25mg">25mg
-                        </label>
-                        <br><br>
-                        <label >
-                            <input type = "radio"  value = "75mcg">75mcg
-                        </label>
-                        <br><br>
-                        <label >
-                            <input type = "radio"  value = "25mcg">25mcg
-                        </label>
-                        <br><br>
-                            
-                    </div>
-                    <div class="col-md-4" id="caixa3">
-                        <label id = "titulo"> Está disponível?</label>
-                        <br><br><br>
-                        <label >
-                            <input type = "radio"   value = "sim">sim
-                        </label>
-                        <br><br>
-                        <label >
-                            <input type = "radio"  value = "nao">não
-                        </label>
-                        
+                    -->
+                   
+                    <div class="col-md-3"></div> 
+                    <div class="col-md-6">
+                        <label id = "titulo">Nome do Medicamento</label>
+                        <br>
+                            <form method="get" id="form-medicamento" action="resultado-pesquisa.html">
+                        <input type="hidden" class="form-control" id="inputId"  >
+                            <input type="text" id='inputNomeMedicamento'  class="form-control buscador"  > 
+                           
+                           
+                           <!--
+                             <div id="area-busca">  
+                             
+                                <select id='seletor-medicamento' class="form-control buscador select2" multiple="multiple"></select>   
+        
+                                <button id="buscar-medicamento" type="button" class="lupa">
+                                   <i class="fa-solid fa-magnifying-glass"></i>   
+                                </button>
 
+                            </form>
+                            </div>
+                            --> 
+                        
+                    </div>
+                    <div class="col-md-3"></div> 
+                </div>
+                <div class="row">
+                    <div class="col-md-3"></div> 
+                    <div class="col-md-6" >
+                        <label id = "titulo">Dosagem</label>
+                </div>
+                <div class="row">
+                    <div class="col-md-3"></div> 
+                    <div class="col-md-6" id="caixa2">                
+                        <br>
+                        <label >
+                            <select name="dosagem" id="inputDosagem">
+                                <option value="50MG">50MG</option>
+                                <option value="100MG">100MG</option>
+                                <option value="250MG">250MG</option>
+                                <option value="500MG">500MG</option>
+                              </select>
+
+                           
+                        </label>
+                        <br><br>
+                        <!--
+                        <label >
+                            <input type = "radio"  id="inputDosagem" name="dosagem" value = "50mg">50mg
+                            <input type = "radio"  id="inputDosagem" name="dosagem"  value = "100mg">100mg
+                        </label>
+                        <br><br>
+                        <label >
+                            <input type = "radio"  id="inputDosagem" name="dosagem"  value = "250mg">250mg
+                        </label>
+                        <br><br>
+                        <label >
+                            <input type = "radio"  id="inputDosagem" name="dosagem"  value = "500mg">500mg
+                        </label>
+                        <br><br>
+                        -->    
+                    </div>   
+                    <div class="col-md-3"></div>       
+                </div>
+                <div class="row"></div>
+                <div class="row">
+                   
+                        <br><br>
+                        <label id = "titulo"> Está disponível?</label>
+
+                        <br><br>
+                        <div class="col-md-3"></div> 
+                        <div class="col-md-6" id="caixa3">
+                        <label >
+                            <input id="inputDisponibilidade" type = "checkbox" name="disponivel" value="SIM" checked>
+                        </label>
+                        <br><br>
+                    </div> 
+                    <div class="col-md-3"></div>     
+                </div>
             </div>
             
             <div class="col-12">
                 <br><br>
-                
-                <button type="button" class="btn botao-secundario">Enviar</button>
+                <button type="button" class="btn botao-secundario" id="btnClear">Limpar</button>
+                <button type="button" class="btn botao-secundario" id="btnUpdate">Alterar</button>
+                <button type="button" class="btn botao-secundario" id="btnDelete">Excluir</button>
+                <button type="button" class="btn botao-secundario" id="btnOcultar">Ocultar</button>
+                <button type="button" class="btn botao-secundario" id="btnMostrar">Mostrar</button>
+                <button type="button" class="btn botao-secundario" id="btnView">Recarregar</button>
+                <button type="button" class="btn botao-secundario" id="btnInsert">Enviar</button>
             </div>
 
+        </div>
+
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-sm-6">
+                <table id="grid-medicamentos" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Nome Medicamento</th>
+                            <th scope="col">Dosagem</th>
+                            <th scope="col">Disponível</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-medicamentos">
+                        <tr>
+                            <td scope="row">1</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-3"></div>
         </div>
 
 
 
     </main>
-    <footer class="row">
-        <div class="col-md-12">
-            <nav>
-                <ul class="lista-horizontal">
-                    <li>Sobre</li>
-                    <li>Como funciona?</li>
-                </ul>
-            </nav>
-        </div>
-    </footer>
+   
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
     <script src="js/bootstrap.min.js" type="javascript"></script>
+    <script src="js/select2.full.min.js" type="text/javascript"></script>
+    <script src="app/paginas/busca.medicamento.js" type="module"></script>
+    <script src="js/medicamentos.js"></script>
+ 
+    <script>
+        function init() {
+            exibeMedicamentos();
+
+            // Adiciona funções para tratar os eventos 
+            $("#btnInsert").click(function () {
+                // Verfica se o formulário está preenchido corretamente
+                if (!$('#form-medicamento')[0].checkValidity()) {
+			
+                    displayMessage("Preencha o formulário corretamente.");
+                    return;
+                }
+
+                // Obtem os valores dos campos do formulário
+                let campoNomeMedicamento = $("#inputNomeMedicamento").val();
+                let campoDosagem = $("#inputDosagem").val();
+                let campoDisponibilidade = $("#inputDisponibilidade").val();
+                
+                let medicamento= { nomeMedicamento: campoNomeMedicamento, 
+                    dosagem: campoDosagem, 
+                    disponibilidade: campoDisponibilidade };
+				
+                insertMedicamento(medicamento);
+                alert("Medicamento armazenado com sucesso!");
+
+                // Reexibe os medicamentos
+                exibeMedicamentos();
+
+                // Limpa o formulario
+                $("#form-medicamento")[0].reset();
+            });
+
+
+            $("#btnView").click(function () {
+                document.location.reload(true);
+            });
+
+            $("#btnOcultar").click(function () {
+            $("#table-medicamentos").html("").hide();
+        });
+              
+
+
+
+        $("#btnMostrar").click(function () {
+            $("#table-medicamentos").html("").show();
+            exibeMedicamentos();
+        });
+
+
+
+            // Oculta a mensagem de aviso após alguns segundos
+            $('#msg').bind("DOMSubtreeModified", function () {
+                window.setTimeout(function () {
+                    $(".alert").fadeTo(500, 0).slideUp(500, function () {
+                        $(this).remove();
+                    });
+                }, 5000);
+            });
+
+        
+
+          // Intercepta o click do botão Alterar
+          $("#btnUpdate").click(function () {
+              
+                // Obtem os valores dos campos do formulário
+                let campoId = $("#inputId").val();
+				
+                if (campoId == "") {
+                    alert("Selecione um medicamento para ser alterado.");
+                    return;
+                }
+                // Obtem os valores dos campos do formulário
+                let campoNomeMedicamento = $("#inputNomeMedicamento").val();
+                let campoDosagem = $("#inputDosagem").val();
+
+                /*
+                if(campoDosagem.val=="50MG"){
+                    var dosradio = document.getElementsByName('dosagem1');
+              
+                    dosradio.checked;
+                }
+                if(campoDosagem.val=="100MG"){
+                    var dosradio = document.getElementsByName('dosagem2');
+                    dosradio.checked;
+                }
+                if(campoDosagem.val=="250MG"){
+                    var dosradio = document.getElementsByName('dosagem3');
+                    dosradio.checked;
+                }
+                if(campoDosagem.val=="500MG"){
+                    var dosradio = document.getElementsByName('dosagem4');
+                    dosradio.checked;
+                }
+                */
+                let campoDisponibilidade = $("#inputDisponibilidade").val();
+
+                var checkbox = document.getElementById('inputDisponibilidade');
+                if (checkbox.checked==true)
+                    campoDisponibilidade="SIM";
+                else
+                    campoDisponibilidade="NÃO";
+                
+                let medicamento= { nomeMedicamento: campoNomeMedicamento, 
+                    dosagem: campoDosagem, 
+                    disponibilidade: campoDisponibilidade };
+
+                updateMedicamento(parseInt(campoId), medicamento);
+
+                // Reexibe os medicamentos
+                exibeMedicamentos();
+
+                // Limpa o formulario
+                $("#form-medicamento")[0].reset();
+            });
+
+             // Intercepta o click do botão Listar Contatos
+             $("#btnClear").click(function () {
+                $("#form-medicamento")[0].reset();
+            });
+        
+ // Intercepta o click do botão Excluir
+ $("#btnDelete").click(function () {
+                let campoId = $("#inputId").val();
+                if (campoId == "") {
+                    alert("Selecione um medicamento a ser excluído.");
+                    return;
+                }
+                deleteMedicamento(parseInt(campoId));
+
+                // Reexibe os contatos
+                exibeMedicamentos();
+
+                // Limpa o formulario
+                $("#form-medicamento")[0].reset();
+            });
+
+
+ // Preenche o formulário quando o usuario clicar em uma linha da tabela 
+ $("#grid-medicamentos").on("click", "tr", function (e) {
+                let linhaContato = this;
+                colunas = linhaContato.querySelectorAll("td");
+
+                $("#inputId").val(colunas[0].innerText);
+                $("#inputNomeMedicamento").val(colunas[1].innerText);
+                $("#inputDosagem").val(colunas[2].innerText);
+                $("#inputDisponibilidade").val(colunas[3].innerText);
+
+                if(colunas[2].innerText=="100")
+                var dosradio = document.getElementsById('inputDosagem');
+                //$("#inputDosagem").
+
+                var checkbox = document.getElementById('inputDisponibilidade');
+                if(colunas[3].innerText=="SIM")
+                    checkbox.checked = true;
+                else
+                    checkbox.checked = false; 
+            
+            });
+}
+
+        function exibeMedicamentos() {
+            // Remove todas as linhas do corpo da tabela
+            $("#table-medicamentos").html("");
+
+            // Popula a tabela com os registros do banco de dados
+            for (i = 0; i < db.data.length; i++) {
+                let medicamentos = db.data[i];    
+                $("#table-medicamentos").append(`<tr>
+                                                <td>${medicamentos.id}</td>
+                                                <td>${medicamentos.nomeMedicamento.toUpperCase()}</td>
+                                                <td>${medicamentos.dosagem.toUpperCase()}</td>
+                                                <td>${medicamentos.disponibilidade.toUpperCase()}</td>
+                                            </tr>`);
+                    
+            }
+        }
+    </script>
+
+    
 
 </body>
 

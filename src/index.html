@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
-
     <link href="css/template.css" rel="stylesheet" />
 
     <meta charset="UTF-8">
@@ -55,8 +54,8 @@
             <div class="col-sm-3"></div>
             <div class="col-sm-6">
                 <div id="area-busca">
-                    <form method="get" action="mapa.html">
-                        <input id = "autocomplete" class='form-control buscador' type="text" placeholder="Digite seu endereço" />
+                    <form method="get" action="mapa.html" enctype="application/x-www-form-urlencoded">
+                        <input name = "address" id = "autocomplete" class='form-control buscador' type="text" placeholder="Digite seu endereço" />
                         <button type="submit" class="lupa">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </button>
@@ -70,8 +69,8 @@
         <div class="col-md-12">
             <nav>
                 <ul class="lista-horizontal">
-                    <li>Sobre</li>
-                    <li>Como funciona o Medicamento Fácil!</li>
+                    <li><a href="como-funciona.html">Sobre</a></li>
+                    <li><a href="como-funciona.html">Como funciona o Medicamento Fácil!</a></li>
                 </ul>
             </nav>
         </div>

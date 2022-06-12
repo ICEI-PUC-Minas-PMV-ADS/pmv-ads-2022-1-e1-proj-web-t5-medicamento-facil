@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html>
 
 <head>
@@ -19,9 +19,20 @@
             {
                 var login = document.getElementById('login').value;
                 var senha = document.getElementById('senha').value;
-                if (login == "farmaceutico@ubs.com" && senha == "1234"){
-                    location.href = "area-farmaceutico.html";
-                } else {
+                var validado=false;
+                if (login == "farmaceuticobh@ubs.com" && senha == "1234"){
+                    location.href = "area-farmaceutico.html?login="+login+"&nome=Lucas";
+                    validado=true;
+                }
+                if (login == "farmaceuticorj@ubs.com" && senha == "1234"){
+                    location.href = "area-farmaceutico.html?login="+login+"&nome=Tadeu";
+                    validado=true;
+                }
+                if (login == "farmaceuticosp@ubs.com" && senha == "1234"){
+                    location.href = "area-farmaceutico.html?login="+login+"&nome=Paulo";
+                    validado=true;
+                }
+                if(validado==false) {
                     alert ('Usuário ou senha incorretos! \nTente novamente.');
                 }
             }
@@ -81,16 +92,7 @@
 
 
     </main>
-    <footer class="row">
-        <div class="col-md-12">
-            <nav>
-                <ul class="lista-horizontal">
-                    <li>Sobre</li>
-                    <li>Como funciona?</li>
-                </ul>
-            </nav>
-        </div>
-    </footer>
+
     <script src="js/bootstrap.min.js" type="javascript"></script>
 
 </body>

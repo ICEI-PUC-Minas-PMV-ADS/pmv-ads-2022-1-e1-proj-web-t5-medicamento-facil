@@ -1,0 +1,11 @@
+/* validações */
+.error-validation {
+    color: red;
+    position: absolute;
+    top: 57px;
+    font-size: .8rem;
+}
+
+.template{
+    display: none;
+}

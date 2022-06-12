@@ -12,6 +12,7 @@ const buscaMedicamento = () => {
     const area = document.getElementById('area-busca');
     const input = area.getElementsByTagName('input')[0];
     const texto = input.value;
+    
     if (texto.length < 3) {
         return;
     }
@@ -21,9 +22,11 @@ const buscaMedicamento = () => {
     timer = setTimeout(() => {
         const controle = new MedicamentoControlador();
         const medicamentos = controle.buscarMedicamento(texto);
+       
         medicamentos.forEach((item, id) => {
             const opcao = new Option(item.nome, id.toString(), false, false);
             const seletor = document.getElementById('seletor-medicamento');
+            console.log (seletor)
             $(seletor).select2().append(opcao).trigger('change');
         });
     }, 1000);
@@ -31,3 +34,11 @@ const buscaMedicamento = () => {
 ///// EVENTOS
 $(document).ready(iniciaSelect2);
 $('body').on('keyup', '.select2-search__field', buscaMedicamento);
+
+let medicamento = input;
+let medBuscado = JSON.parse(localStorage.getItem('medBuscado') || '[]')
+medBuscado.push (
+    { medicamento : medicamento,
+    } )
+
+localStorage.setItem('medBuscado', JSON.stringify(medBuscado));

@@ -43,12 +43,12 @@
             <div class="col-sm-6">
                 <form class="row g-3" method="get" action="login.html">
                     <div class="col-6">
-                        <label for="inputAddress" class="form-label">Senha</label>
-                        <input type="password" class="form-control" id="inputAddress">
+                        <label for="inputPassword" id ="labelSenha" class="form-label">Nova senha</label>
+                        <input type="password" id ="senha" class="form-control"  required>
                     </div>
                     <div class="col-6">
-                        <label for="inputAddress2" class="form-label">Digite novamente sua senha</label>
-                        <input type="password" class="form-control" id="inputAddress2">
+                        <label for="inputPassword2" id ="labelConfirmarSenha" class="form-label">Confirmar senha</label>
+                        <input type="password" id ="confirmarSenha"  class="form-control"  required>
                     </div>
                     <div class="col-12">
                         <button type="submit" class="btn botao-secundario" onclick="alert('Senha alterada com sucesso!');">
@@ -61,19 +61,9 @@
 
         </div>
 
-
-
     </main>
-    <footer class="row">
-        <div class="col-md-12">
-            <nav>
-                <ul class="lista-horizontal">
-                    <li>Sobre</li>
-                    <li>Como funciona?</li>
-                </ul>
-            </nav>
-        </div>
-    </footer>
+
+    <script src="js/alterarSenha.js" type = "text/javascript"></script>
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
 
 </body>
