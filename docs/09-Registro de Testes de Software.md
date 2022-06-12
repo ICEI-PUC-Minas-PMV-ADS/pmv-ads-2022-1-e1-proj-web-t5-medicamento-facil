@@ -7,8 +7,8 @@ Considerando requisitos do projeto e os casos listados no item [08. Plano de Tes
 | Requisitos Associados | RF-01 - O site deve apresentar na página principal um buscador no qual o usuário irá digitar seu endereço RF-02 - O site deve confirmar a localização do usuário no mapa |
 | Objetivo do Teste | Verificar se a localização do usuário está corretamente indicada no mapa. |
 | Critérios de Êxito | - A tela inicial deve abrir corretamente - Ao digitar o endereço, o usuário deve ser direcionado à tela de confirmação do endereço - O endereço digitado deve ser corretamente indicado no mapa. |
-| Print do Teste | ![Tela1](/docs/img/telaTeste1.JPG)  ![Tela2](/docs/img/telaTeste2.JPG)  |
-| Conclusão do teste | Falha na funcionalidade, considerando que o endereço não é fixado no mapa para confirmação do usuário |
+| Print do Teste | ![Tela1](/docs/img/teste-busca-mapa1.png)  ![Tela2](/docs/img/teste-busca-mapa2.png)  |
+| Conclusão do teste | Teste realizado com sucesso. Após inserir os dados de endereço, o usuário é redirecionado para a página do mapa, para confirmar sua localização.|
 
 
 | Caso de Teste | CT-02 - Busca de medicamentos |
