@@ -294,7 +294,7 @@ A Tela de resultado da busca é exibida após o usuário pesquisar a disponibili
 
 A Tela de Cadastro do sistema apresenta campos nos quais o usuário deverá preencher seus dados para realizar o cadastro. 
 
-![Cadastro](img/cadastro.png)
+![Cadastro](img/cadastro1.png)
 
 
 ### Requisitos atendidos
@@ -676,7 +676,7 @@ A Tela Notificar falta de medicamento é exibida após o usuário clicar em "Not
 
 A Tela Esqueceu sua senha permite que o usuário preencha seu e-mail para fazer a recuperação de senha. A tela ainda conta com o itens "Sobre" e "Como funciona?", nos quais o usuário, ao passar o mouse acessa os balões com as informações correspondentes.
 
-![Esqueceu Senha](img/telaEsqueceuSenha.png)
+![Esqueceu Senha](img/telaEsqueceuSenha1.png)
 
 ### Requisitos atendidos 
 
