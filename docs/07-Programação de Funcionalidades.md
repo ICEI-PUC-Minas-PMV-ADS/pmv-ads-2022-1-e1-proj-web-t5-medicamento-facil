@@ -99,7 +99,7 @@ RF-02 -  O site deve confirmar a localização do usuário no mapa.
 
 ### Instruções de acesso 
 
-A Tela confirma localização é exibida após o usuário pesquisar seu endereço na tela inicial. 
+A Tela confirmar localização é exibida após o usuário pesquisar seu endereço na tela inicial. 
 
 ## Tela de Busca de Medicamentos (RF-03)
 ### Desenvolvedor(a): Fabiana Alkmim Avelar
@@ -461,7 +461,7 @@ A Tela de Cadastro é a exibida após o usuário clicar em "Crie sua conta".
 
 A Tela de Login do sistema apresenta campos nos quais o usuário deverá digitar e-mail e senha cadastrados para acessar a área do usuário. Esta tela também apresenta o botão “esqueceu sua senha?” para o caso em que o usuário necessite recuperar o acesso.
 
-![Login](img/login.png)
+![Login](img/login1.png)
 
 
 ### Requisitos atendidos
@@ -577,7 +577,7 @@ A Tela de Área do Usuário é a exibida após o usuário fazer login.
 
 A Tela de Visualizar Perfil apresenta os dados do usuário cadastrado. 
 
-![Usuario Cadastrado](img/tela-perfil.png)
+![Usuario Cadastrado](img/tela-perfil1.png)
 
 
 ### Requisitos atendidos
