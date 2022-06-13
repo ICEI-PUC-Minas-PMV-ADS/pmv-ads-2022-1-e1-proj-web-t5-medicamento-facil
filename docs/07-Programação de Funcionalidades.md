@@ -657,6 +657,7 @@ function notificar (){
     
     }
 
+
     dados.push(auxRegistro);
 
     localStorage.setItem("dadosMedicamento", JSON.stringify(dados));
