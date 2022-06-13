@@ -697,7 +697,7 @@ A Tela da esquecimento de senha é exibida após o usuário clicar em "esqueceu 
 
 A Tela Alterar senha apresenta dois campos:  "Senha" - onde o usuário preencherá com a nova senha e "Digite novamente sua senha" - onde deverá confirmar a senha escolhida e confirmar clicando no botão "Enviar" logo abaixo.
 
-![Alterar senha](img/Screenshot_2.jpg)
+![Alterar senha](img/Screenshot_1.jpg)
 
 ### Requisitos atendidos 
 
@@ -978,6 +978,7 @@ Artefatos da funcionalidade
 - medicamentos.js
 
 ### Estrutura de Dados
+````
 
         function init() {
             exibeMedicamentos();
@@ -1155,7 +1156,7 @@ Artefatos da funcionalidade
                     
             }
         }
-
+````
 ### Instruções de acesso
 
 A Tela de Área do Farmacêutico é exibida após o farmacêutico efetuar o login na pagina "login do farmacêutico", que é exibida ao clicar na "Área do Farmacêutico" na home page.
