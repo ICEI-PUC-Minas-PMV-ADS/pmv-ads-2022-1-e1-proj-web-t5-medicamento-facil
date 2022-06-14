@@ -102,7 +102,7 @@ RF-02 -  O site deve confirmar a localização do usuário no mapa.
 A Tela confirmar localização é exibida após o usuário pesquisar seu endereço na tela inicial. 
 
 ## Tela de Busca de Medicamentos (RF-03)
-### Desenvolvedor(a): Fabiana Alkmim Avelar
+### Desenvolvedor(a): Ríder Cantuária e Fabiana Alkmim Avelar
 A Tela de Busca de Medicamentos do sistema apresenta apresenta um buscador centralizado, no qual o usuário deverá digitar os medicamentos de interesse. Esta tela ainda permite que o usuário notifique a falta de um medicamento. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil".
 
 ![Buscar Medicamento](img/buscarmedicamento.png)
