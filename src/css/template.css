@@ -74,6 +74,12 @@ h2 {
     padding-right: 15px;
 }
 
+#sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /*///// ESTRUTURA //////*/
 
