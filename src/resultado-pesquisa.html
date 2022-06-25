@@ -11,69 +11,10 @@
     <link href="css/resultado-pesquisa.css" rel="stylesheet" />
     <meta charset="UTF-8">
     <title>Medicamento Fácil. Simples. Rápido.</title>
-    <script>
-        
-        function getMedicamento()
-        {
-            var url_string = window.location.href;
-            var url = new URL(url_string);
-            var c = url.searchParams.get("ac-medicamento");
-            //console.log(c);
-            var remedio=c;
-            document.getElementById("medicamento-pesquisado").value=c;
-
-            const timeElapsed = Date.now();
-            const today = new Date(timeElapsed);
-            //today.toLocaleDateString();
-            
-            //today.getDate();
-            //today.getFullYear().toString().slice(-2),
-           var mes=today.getMonth()+1;
-            document.getElementById("data-disponivel").value=today.getDate()+"/"+ mes+ "/"+ today.getFullYear();
-           //alert(remedio.innerHTML.toString());
-            let labelRes = document.querySelector('#labelRes');
-            labelRes.setAttribute('style', 'color: red');
-            labelRes.innerHTML =  'Medicamento não encontrado!';
-            document.getElementById("dosagens").value="ND";
-            var achou=false;
-
-            for (i = 0; i < db.data.length; i++) {
-                
-                let medicamentos = db.data[i]; 
-             
-                if(medicamentos.nomeMedicamento.toUpperCase()==remedio.toString().toUpperCase()) {
-                   achou=true;
-                  if(medicamentos.disponibilidade.toUpperCase()=="SIM"){
-                    document.getElementById("dosagens").value=medicamentos.dosagem.toUpperCase();
-                }else{
-                     
-                      document.getElementById("dosagens").value="ND";
-                      document.getElementById("data-disponivel").value="Indisponível";
-                      alert("Medicamento indisponível no momento.");
-                  }
-                } 
-               
-
-                
-                //$("#table-medicamentos").append(`<tr>
-                  //                              <td>${medicamentos.id}</td>
-                    //                            <td>${medicamentos.nomeMedicamento.toUpperCase()}</td>
-                     //                           <td>${medicamentos.dosagem.toUpperCase()}</td>
-                     //                           <td>${medicamentos.disponibilidade.toUpperCase()}</td>
-                      //                      </tr>`);
-                    
-            }
-            if(achou){
-                labelRes.setAttribute('style', 'color: green');
-                    labelRes.innerHTML =  'Medicamento encontrado!';
-            }
-            
-            
-        }
-    </script>
+    
 </head>
-
-<body onload="getMedicamento();">
+s
+<body>
     <header>
         <br>
         <div class="row">
@@ -119,19 +60,18 @@
                     <h2>Responsável pelo fornecimento da medicação:</h2>
                 </div>
                 <div class="col-md-3">
-                    <input type="text" readonly class="form-control-plaintext" value="Paulo Silva">
+                    <input type="text" id = "responsavel" readonly class="form-control-plaintext">
                 </div>
                 <div class=col-md-2>
                     <h2>Prazo de Entrega:</h2>
                 </div>
                 <div class="col-md-2">
-                    <input type="text"id="data-disponivel" readonly class="form-control-plaintext" value="01/01/0101">
+                    <input type="text"id="data-disponivel" readonly class="form-control-plaintext" >
                 </div>
             </div>
         </div>
         <div id="map-canvas" class="mapa" style="background-color: rgb(156, 156, 156);"></div>
-        <input type="text" id="informacao" readonly class="form-control-plaintext"
-            value="Horário de Funcionamento da UBS: de segunda a sexta, de 08:00h as 17:00h"> </div>
+        <input type="text" id="informacao" readonly class="form-control-plaintext"></div>
         </br>
         <button class="botao-padrao">Compartilhar resultado da busca</button>
         </div>
@@ -142,9 +82,8 @@
     
     <script src="js/bootstrap.min.js"></script>
     <script src="js/resultado-pesquisa.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzAA6TeMnG_qi6_mu0KyMVD63tH05mtjw&callback=initMap"
-        defer></script>
-        <script src="js/medicamentos.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzAA6TeMnG_qi6_mu0KyMVD63tH05mtjw&callback=initMap"></script>
+    <script src="js/medicamentos.js"></script>
 </body>
 
 </html>

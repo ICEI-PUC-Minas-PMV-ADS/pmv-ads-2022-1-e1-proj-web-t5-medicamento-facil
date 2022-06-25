@@ -2,7 +2,7 @@
     const itemMapa = document.getElementById("map-canvas");
     let mapa = null;
     let marker = null;
-    let geocoder =null;
+    let geocoder = null;
     let coordenadas = {lat: -15.8154861, lng: -47.8941659};
     let urlAtual = window.location.href;
     let urlClass = new URL(urlAtual);
@@ -29,10 +29,12 @@
               map: mapa,
               position: results[0].geometry.location
             });
+              
           } else {
             alert('Algo deu errado: ' + status + ' Tente Novamente!');
             window.location.href = "index.html";
           }
+          sessionStorage.setItem('localizacao-usuario', results[0].geometry.location);               
         });
       }
 
