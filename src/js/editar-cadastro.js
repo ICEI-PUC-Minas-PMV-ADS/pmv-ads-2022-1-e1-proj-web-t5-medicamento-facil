@@ -160,19 +160,38 @@ function editar() {
     if (podeEditar) {
 
         let userLogado = JSON.parse(localStorage.getItem("userLogado"));
-        userLogado.nome = document.querySelector('#nome').value;
+
+        let listaUser = JSON.parse(localStorage.getItem("listaUser"));
+        let cad = userLogado.nome;
+        let index;
+    
+        for  (var i = 0; i < listaUser.length; i++){
+            if (cad === listaUser[i].nomeCad){
+            index = listaUser[i].id; 
+            listaUser[i].nomeCad = nome.value,
+            listaUser[i].sobrenomeCad = sobrenome.value,
+            listaUser[i].celularCad = celular.value,
+            listaUser[i].emailCad = email.value,
+            listaUser[i].senhaCad = senha.value,
+            listaUser[i].medCad = medicamento.value
+            
+            listaUser.push;
+            }
+         } 
+
+         userLogado.nome = document.querySelector('#nome').value;
         userLogado.sobrenome = document.querySelector('#sobrenome').value;
         userLogado.celular = document.querySelector('#celular').value;
         userLogado.celular = document.querySelector('#celular').value;
         userLogado.email = document.querySelector('#email').value;
-
         userLogado.senha = document.querySelector('#senha').value;
         userLogado.senha = document.querySelector('#confirmarSenha').value;
-
         userLogado.medicamento = document.querySelector('#medicamento').value;
+    
 
         // Atualiza os dados no Local Storage
         localStorage.setItem('userLogado', JSON.stringify(userLogado));
+        localStorage.setItem('listaUser', JSON.stringify(listaUser));
         alert('Alteração de cadastro realizada com sucesso!')
         window.location.href = 'usuario-cadastrado.html'
 
