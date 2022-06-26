@@ -747,7 +747,7 @@ A Tela da alterar a senha é exibida após o usuário receber o código de recup
 
 A Tela de alterar cadastro apresenta os campos já preenchidos com os dados do usuário logado e permite a sua alteração.
 
-![Novo Cadastro](img/novo-cadastro1.png)
+![Novo Cadastro](img/atualizar-cadastro.png)
 
 ### Requisitos atendidos 
 
