@@ -20,7 +20,7 @@
         <br>
         <div class="row">
             <div class="col-sm-6">
-                <a href="area-usuario.html">
+                <a href="index.html">
                     <button id="button1" class="btn botao-padrao">Voltar</button>
                 </a>
             </div>
@@ -34,7 +34,8 @@
     <main class="text-center">
         <div class="row">
             <div class="col-sm-12">
-                <h1>Seu perfil</h1>              
+                <h1>Cadastre-se</h1>
+                <h2>É rápido e fácil</h2>                
             </div>
         </div>
         <br>
@@ -43,51 +44,46 @@
             <div class="col-sm-6">
                 <form class="row g-3">
                     <div class="col-md-12">
-                        <label for="inputName" id ="labelNome" class="form-label" ><b>Nome </b></label>
-                            <h2 id = "cadastradoNome"></h2>
+                        <label for="inputName" id ="labelNome" class="form-label">Nome</label>
+                        <input type="text" id ="nome" class="form-control" required >
                     </div>
                     <div class="col-md-12">
-                        <label for="inputLastname" id ="labelSobrenome" class="form-label"> <b>Sobrenome </b></label>
-                        <h2 id = "cadastradoSobrenome"></h2>
+                        <label for="inputLastname" id ="labelSobrenome" class="form-label">Sobrenome</label>
+                        <input type="text" id ="sobrenome" class="form-control"  required >
                     </div>
                     <div class="col-12">
-                        <label for="inputPhone" id ="labelCelular" class="form-label"><b>Celular </b></label>
-                        <h2 id = "cadastradoCelular"></h2>
+                        <label for="inputPhone" id ="labelCelular" class="form-label">Celular</label>
+                        <input type="number" id ="celular" class="form-control"  required>
                     </div>
                     <div class="col-md-12">
-                        <label for="inputEmail" id ="labelEmail" class="form-label" data-min-length="3"><b>E-mail</b></label>
-                        <h2 id = "cadastradoEmail"></h2>
+                        <label for="inputEmail" id ="labelEmail" class="form-label" data-min-length="3">E-mail</label>
+                        <input type="email" id ="email" class="form-control"  required>
                     </div>
                     <div class="col-md-12">
-                        <label for="inputPassword" id ="labelSenha" class="form-label"><b>Senha</b></label>
-                        <h2 id = "cadastradoSenha"></h2>
+                        <label for="inputPassword" id ="labelSenha" class="form-label">Senha</label>
+                        <input type="password" id ="senha" class="form-control"  required>
                     </div>
                     <div class="col-md-12">
-                        <label for="inputMed" class="form-label"><b>Medicamentos que utiliza</b></label>
-                        <h2 id = "cadastradoMed"></h2>
+                        <label for="inputPassword2" id ="labelConfirmarSenha" class="form-label">Digite novamente sua senha</label>
+                        <input type="password" id ="confirmarSenha"  class="form-control"  required>
                     </div>
                     <div class="col-md-12">
-                        <label for="inputMed" class="form-label"><b>Medicamentos em falta notificados</b></label>
-                        <h2 id = "cadastradoNotificacao"></h2>
+                        <label for="inputMed" id="labelMedicamento" class="form-label">Medicamentos que utiliza</label>
+                        <input type="text" id ="medicamento"  class="form-control"  required>
                     </div>
                     </div>
                     <div class="row"></div>
                     <br><br>
                     <div class="col-12">
-                        <a href="editar-cadastro.html">
-                        <button type="button" class="btn botao-secundario">Alterar meu Cadastro</button>
-                        </a>
+                        <button type="button" onclick='editar()' class="btn botao-secundario">Alterar meu Cadastro</button>
                     </div>
                 </form>
             </div>
             <div class="col-sm-3"></div>
-
         </div>
-
-
-
     </main>
-    <script src="js/usuario-cadastrado.js" type = "text/javascript"></script>
+    
+    <script src="js/editar-cadastro.js" type = "text/javascript"></script>
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
 
 </body>

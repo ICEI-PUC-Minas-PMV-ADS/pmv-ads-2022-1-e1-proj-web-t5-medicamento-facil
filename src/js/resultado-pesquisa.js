@@ -1,4 +1,3 @@
-//Quando escrevi esse código só eu e deus sabíamos como ele funcionava, agora só ele sabe
 (function () {
     const itemMapa = document.getElementById("map-canvas");
     let mapa = null;
