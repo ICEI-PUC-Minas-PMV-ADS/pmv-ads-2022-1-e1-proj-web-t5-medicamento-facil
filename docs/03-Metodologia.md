@@ -41,7 +41,7 @@ A equipe está organizada da seguinte maneira:
 Rafael, 
 Fagner, 
 Ríder, 
-Taua, 
+Tauan, 
 Carolina, 
 Fabiana 
 - Equipe de Design: 

@@ -27,9 +27,9 @@ A solução implementada conta com os seguintes módulos:
 
 - Editor gráfico de vetor e prototipagem de projetos de design: Figma.
 
-- Hospedagem da documentação e arquivos do projeto: Github.
+- Hospedagem da documentação e arquivos do projeto: Github Pages.
 
-- Plataforma de hospedagem em nuvem: AWS Amplify.
+- Plataforma de hospedagem em nuvem: Github.
 
 - Serviço de pesquisa e visualização de mapas e imagens de satélite para localização do usuário e da UBS: Google Mapas.
 

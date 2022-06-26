@@ -23,15 +23,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Passos | 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a página de busca de medicamentos 4) Inserir o medicamento a ser buscado 5) Vizualizar o resultado da busca |
 | Critérios de Êxito | - A tela de busca de medicamentos deve abrir corretamente - Ao digitar o medicamento, o usuário deve ser direcionado à tela de resultado da busca - A tela de resultado da busca deve indicar a disponibilidade do medicamento buscado, o responsável pela entrega, prazo de entrega e a UBS mais próxima da localização indicada, com suas informações de contato. |
 
-| Caso de Teste | CT-03 - Compartilhamento com o WhatsApp |
-|---------------|--------------------------|
-| Requisitos Associados | RF-13 - O site deve permitir salvar o resultado da busca RF-14 - O site deve permitir o compartilhamento da busca no WhatsApp |
-| Objetivo do Teste | Verificar se o resultado da busca de medicamentos está sendo corretamente compartilhado pelo WhatsApp. |
-| Passos | 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a página de busca de medicamentos 4) Inserir o medicamento a ser buscado 5) Vizualizar o resultado da busca 6) Clicar em compartilhar resultado da busca |
-| Critérios de Êxito | - A tela de resultado da busca deve abrir corretamente - Ao clicar em compartilhar o resultado da busca, o usuário deverá ser direcionado ao aplicativo WhatsApp, no qual indicará um número para compartilhar a tela de resultado - A tela de resultado da busca deve ser compartilhada corretamente no WhatsApp. |
-
-
-| Caso de Teste | CT-04 - Login do farmacêutico |
+| Caso de Teste | CT-03 - Login do farmacêutico |
 |---------------|--------------------------|
 | Requisitos Associados | RF-05 - O site deve ter uma área de login do farmacêutico, na qual ele irá atualizar o estoque de medicamentos disponíveis pela farmácia da UBS. |
 | Objetivo do Teste | Verificar se o login do farmacêutico está acontecendo corretamente. |
@@ -39,7 +31,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Critérios de Êxito | - A tela de login do farmacêutico deve abrir corretamente - O login e senha cadastrados devem direcionar o usuário para a tela de área do farmacêutico - Login e senha não cadastrados devem exibir uma mensagem de login ou senha incorretos. |
 
 
-| Caso de Teste | CT-05 - Área do farmacêutico |
+| Caso de Teste | CT-04 - Área do farmacêutico |
 |---------------|--------------------------|
 | Requisitos Associados | RF-05 - O site deve ter uma área de login do farmacêutico, na qual ele irá atualizar o estoque de medicamentos disponíveis pela farmácia da UBS. |
 | Objetivo do Teste | Verificar se a área do farmacêutico está permitindo a alteração de estoque corretamente. |
@@ -47,7 +39,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Critérios de Êxito | - A tela de área do farmacêutico deve abrir corretamente - A página deve permitir a inclusão de medicamentos tanto disponíveis quanto indisponíveis - A página deve permitir que o farmacêutico vizualize e altere a disponibilidade de medicamentos. |
 
 
-| Caso de Teste | CT-06 - Área do usuário |
+| Caso de Teste | CT-05 - Área do usuário |
 |---------------|--------------------------|
 | Requisitos Associados | RF-06 - O site deve ter uma área personalizada, na qual o usuário deverá acessar com login e senha. Nesta área, o usuário irá cadastrar seu e-mail, celular e os medicamentos que utiliza, sendo notificado assim que os medicamentos estiverem disponíveis. |
 | Objetivo do Teste | Verificar se o cadastramento de usuário está acontecendo corretamente. |
@@ -55,12 +47,19 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Critérios de Êxito | - A tela de área do usuário deve abrir corretamente - Os dados cadastrados devem ser corretamente armazenados. |
 
 
-| Caso de Teste | CT-07 - Login do usuário |
+| Caso de Teste | CT-06 - Login do usuário |
 |---------------|--------------------------|
 | Requisitos Associados | RF-06 - O site deve ter uma área personalizada, na qual o usuário deverá acessar com login e senha. Nesta área, o usuário irá cadastrar seu e-mail, celular e os medicamentos que utiliza, sendo notificado assim que os medicamentos estiverem disponíveis. |
 | Objetivo do Teste | Verificar se o login está acontecendo corretamente. |
 | Passos | 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a página de login 4) Inserir o e-mail e senha cadastrados 5) Ser redirecionado para a tela de área do usuário |
 | Critérios de Êxito | - A tela de login deve abrir corretamente - O login e senha cadastrados devem direcionar o usuário para a tela de área do usuário - Login e senha não cadastrados devem exibir uma mensagem de login ou senha incorretos. |
+
+| Caso de Teste | CT-07 - Alterar o Cadastro |
+|---------------|--------------------------|
+| Requisitos Associados | RF-10 - O site deve permitir que o usuário recupere sua senha em caso de esquecimento RF-13 - O site deve permitir que o usuário visualize e altere seus dados cadastrados |
+| Objetivo do Teste | Verificar se a alteração de cadastro está ocorrendo corretamente. |
+| Passos | 1) Acessar o Navegador 2) Informar o endereço do Site 3) Cadastrar um novo usuário 4) Acessar com o login do usuário cadastrado 5) Vizualizar a área do usuário 6) Alterar o cadastro 7) Acessar o login novamente com o cadastro alterado |
+| Critérios de Êxito | - A tela novo cadastro deve abrir corretamente - Ao alterar o cadastro, o usuário deverá conseguir realizar login com o novo cadastro |
 
 
 | Caso de Teste | CT-08 - Notificação de falta de medicamento |
@@ -69,12 +68,4 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Objetivo do Teste | Verificar se a notificação está acontecendo corretamente. |
 | Passos | 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a página de notificação de falta de medicamento 4) Inserir o medicamento em falta |
 | Critérios de Êxito | - A tela de notificação de falta de medicamento deve abrir corretamente - Após a inclusão do medicamento em falta, deve ser apresentada uma mensagem de envio com êxito. |
-
-
-| Caso de Teste | CT-09 - Recuperação de senha |
-|---------------|--------------------------|
-| Requisitos Associados | RF-10 - O site deve permitir que o usuário recupere sua senha em caso de esquecimento. |
-| Objetivo do Teste | Verificar se a recuperação de senha está acontecendo corretamente. |
-| Passos | 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a página de login do usuário 4) Clicar em "esqueceu sua senha" 5) Digitar o endereço de e-mail e clicar em "recuperar senha" 6) Acessar o e-mail digitado anteriormente e vizualizar o código enviado 7) Digitar o código enviado 8) Alterar a senha 9) Fazer login com a senha nova |
-| Critérios de Êxito | - A tela de esquecimento de senha deve abrir corretamente - O e-mail com o código deve ser enviado - O código deve permitir o acesso à tela de alteração de senha - O login com a senha nova deve ocorrer corretamente.|
 
