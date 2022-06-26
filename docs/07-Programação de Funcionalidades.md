@@ -755,9 +755,9 @@ RF-15 -  O site deve permitir que o usuário visualize e altere seus dados cadas
 
 ### Artefatos da funcionalidade 
 
-- novo-cadastro.html
+- editar-cadastro.html
 - template.css
-- novo-cadastro.js
+- editar-cadastro.js
 - logo.png
 
 ### Estrutura de Dados 
