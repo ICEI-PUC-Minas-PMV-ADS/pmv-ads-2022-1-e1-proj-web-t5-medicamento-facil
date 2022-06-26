@@ -154,12 +154,15 @@ function editar() {
     validarCelular();
     validarSenha();
     validarConfirmSenha();
-    
 
-    const podeEditar = validNome == true  && validSobrenome == true && validCelular == true && validEmail == true  && validSenha == true && validConfirmarSenha == true;
+
+    const podeEditar = validNome == true && validSobrenome == true && validCelular == true && validEmail == true && validSenha == true && validConfirmarSenha == true;
     if (podeEditar) {
 
         let userLogado = JSON.parse(localStorage.getItem("userLogado"));
+        let listaUser = JSON.parse(localStorage.getItem("listaUser"));
+        let nomeAntigo = userLogado.nome;
+        
         userLogado.nome = document.querySelector('#nome').value;
         userLogado.sobrenome = document.querySelector('#sobrenome').value;
         userLogado.celular = document.querySelector('#celular').value;
@@ -170,6 +173,21 @@ function editar() {
         userLogado.senha = document.querySelector('#confirmarSenha').value;
 
         userLogado.medicamento = document.querySelector('#medicamento').value;
+
+        for (var i = 0; i < listaUser.length; i++) {
+            if (nomeAntigo === listaUser[i].nomeCad) {
+                listaUser[i].nomeCad = userLogado.nome;
+                listaUser[i].sobrenomeCad = userLogado.sobrenome;
+                listaUser[i].celularCad = userLogado.celular;
+                listaUser[i].emailCad = userLogado.email;
+                listaUser[i].senhaCad = userLogado.senha;
+                listaUser[i].medCad = userLogado.medicamento;
+            }
+        }
+
+        // Atualiza os dados no Local Storage
+        localStorage.setItem('userLogado', JSON.stringify(userLogado));
+        localStorage.setItem('listaUser', JSON.stringify(listaUser));
 
         // Atualiza os dados no Local Storage
         localStorage.setItem('userLogado', JSON.stringify(userLogado));
