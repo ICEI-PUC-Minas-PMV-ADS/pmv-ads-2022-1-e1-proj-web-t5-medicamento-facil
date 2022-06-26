@@ -43,12 +43,12 @@
             <div class="col-sm-6">
                 <form class="row g-3" method="get" action="login.html">
                     <div class="col-6">
-                        <label for="inputAddress" class="form-label">Senha</label>
-                        <input type="password" class="form-control" id="inputAddress">
+                        <label for="inputPassword" id ="labelSenha" class="form-label">Nova senha</label>
+                        <input type="password" id ="senha" class="form-control"  required>
                     </div>
                     <div class="col-6">
-                        <label for="inputAddress2" class="form-label">Digite novamente sua senha</label>
-                        <input type="password" class="form-control" id="inputAddress2">
+                        <label for="inputPassword2" id ="labelConfirmarSenha" class="form-label">Confirmar senha</label>
+                        <input type="password" id ="confirmarSenha"  class="form-control"  required>
                     </div>
                     <div class="col-12">
                         <button type="submit" class="btn botao-secundario" onclick="alert('Senha alterada com sucesso!');">
@@ -61,19 +61,9 @@
 
         </div>
 
-
-
     </main>
-    <footer class="row">
-        <div class="col-md-12">
-            <nav>
-                <ul class="lista-horizontal">
-                    <li class="tipSobre" data-tooltip="O Medicamento Fácil é um projeto dos alunos do primeiro semestre do curso Análise e Desenvolvimento de Sistemas da PUC Minas (Turma 5012105 – Grupo 4) e tem como objetivo auxiliar os usuários do SUS – Sistema Único de Saúde no acesso às informações sobre a disponibilidade de medicamentos nas Unidades Básicas de Saúde mais próximas de sua residência.">Sobre</li>
-                    <li class="tipComo" data-tooltip="Fácil, rápido e simples! Esse é o nosso lema, por isso o funcionamento da página conta com poucos passos e assim, com alguns cliques o usuário consegue saber em qual Unidade Básica de Saúde o medicamento que ele busca está disponível. Informe seu endereço, o medicamento desejado e logo a página retornará com a informação sobre onde há estoque do item. Se fizer o cadastro no Medicamento Fácil você consegue receber notificações da disponibilidade, evitando deslocamentos desnecessários até a UBS. Todos os nossos dados são alimentados pelos farmacêuticos, que contam com uma área específica de acesso e manutenção da relação de medicamentos em estoque. ">Como funciona?</li>
-                </ul>
-            </nav>
-        </div>
-    </footer>
+
+    <script src="js/alterarSenha.js" type = "text/javascript"></script>
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
 
 </body>
