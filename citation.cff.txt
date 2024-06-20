@@ -1,0 +1,28 @@
+message: Please cite this software using these metadata.
+title: Medicamento Fácil
+authors:
+  - family-names: Felipe Alves de Oliveira
+    given-names: Carolina 
+  - family-names: Alkmim de Oliveira 
+    given-names: Fabiana
+  - family-names: Vieira Pereira
+    given-names: Fagner 
+  - family-names: Penido de Souza
+    given-names: Rafael 
+  - family-names: R. Cantuária
+    given-names: Ríder 
+  - family-names: Gonçalves Silva
+    given-names: Tauan 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Alves Nogueira
+    given-names: Simone 
+
+keywords:
+  - Gestão
+  - SUS
+  - Medicamentos
+  - Distribuição	
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t5-medicamento-facil
+version: 1.0.0
+date-released: 2022-06-26
